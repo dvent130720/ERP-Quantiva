@@ -1,0 +1,12 @@
+l
+cD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Context\BdSybase.csutf-8l
+cD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Context\DataBase.csutf-8s
+jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Context\SendSftpContext.csutf-8v
+mD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\Func\SelectRegistryBD.csutf-8s
+jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\Func\UpdateTableBD.csutf-8u
+lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.csutf-8y
+pD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileRegBitacoraExexSP.csutf-8q
+hD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\GetDatesSyb12.csutf-8í
+ÜD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\obj\Debug\net8.0\SendSPFT.DataAccess.GlobalUsings.g.csutf-8õ
+èD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.csutf-8ê
+ÑD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\obj\Debug\net8.0\SendSPFT.DataAccess.AssemblyInfo.csutf-8

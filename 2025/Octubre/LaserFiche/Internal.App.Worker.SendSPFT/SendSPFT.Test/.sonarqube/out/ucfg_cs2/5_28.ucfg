@@ -1,0 +1,45 @@
+
+pSendSPFT.CrossCutting.Config.HealthCheckConfig.AddRegistration(Microsoft.AspNetCore.Builder.IApplicationBuilder)e
+[D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Config\HealthCheckConfig.cs* (9"0*Ø
+0e
+[D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Config\HealthCheckConfig.cs ((ôñ
+e
+[D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Config\HealthCheckConfig.cs+ &(F
+%0@Microsoft.AspNetCore.Diagnostics.HealthChecks.HealthCheckOptions"@Microsoft.AspNetCore.Diagnostics.HealthChecks.HealthCheckOptions™
+–
+e
+[D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Config\HealthCheckConfig.cs/ (A
+
+%1void"UMicrosoft.AspNetCore.Diagnostics.HealthChecks.HealthCheckOptions.HealthCheckOptions()*JH
+F
+%0@Microsoft.AspNetCore.Diagnostics.HealthChecks.HealthCheckOptions¹
+¶
+e
+[D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Config\HealthCheckConfig.cs %("
+%2System.Func<T1, T2, TResult>"SMicrosoft.AspNetCore.Diagnostics.HealthChecks.HealthCheckOptions.ResponseWriter.set*JH
+F
+%0@Microsoft.AspNetCore.Diagnostics.HealthChecks.HealthCheckOptions*
+""÷
+ô
+e
+[D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Config\HealthCheckConfig.cs &(6
+%30Microsoft.AspNetCore.Builder.IApplicationBuilder"îMicrosoft.AspNetCore.Builder.HealthCheckApplicationBuilderExtensions.UseHealthChecks(Microsoft.AspNetCore.Builder.IApplicationBuilder, Microsoft.AspNetCore.Http.PathString, Microsoft.AspNetCore.Diagnostics.HealthChecks.HealthCheckOptions)*JH"F
+DMicrosoft.AspNetCore.Builder.HealthCheckApplicationBuilderExtensions*;9
+7
+app0Microsoft.AspNetCore.Builder.IApplicationBuilder*	
+/health*JH
+F
+%0@Microsoft.AspNetCore.Diagnostics.HealthChecks.HealthCheckOptions"¢
+e
+[D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Config\HealthCheckConfig.cs( ((9
+7
+app0Microsoft.AspNetCore.Builder.IApplicationBuilder*è
+1e
+[D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Config\HealthCheckConfig.cs*	 *(	"|
+e
+[D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Config\HealthCheckConfig.cs* *(	
+implicit return: 
+e
+[D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Config\HealthCheckConfig.cs: (V7
+app0Microsoft.AspNetCore.Builder.IApplicationBuilderB2"0
+.SendSPFT.CrossCutting.Config.HealthCheckConfig

@@ -1,0 +1,26 @@
+
+=SendSPFT.DataAccess.Context.SendSftpContext.ThrowIfDisposed()b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\SendSftpContext.csE E(&"0*Ð
+0b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\SendSftpContext.csG G(N|
+z
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\SendSftpContext.csG, G(5
+%0"__id*
+""ã
+à
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\SendSftpContext.csG G(O
+
+%1void"4System.ObjectDisposedException.ThrowIf(bool, object)*$"" 
+System.ObjectDisposedException*
+
+%0*
+""*
+1*â
+1b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\SendSftpContext.csH	 H(	"y
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\SendSftpContext.csH H(	
+implicit returnB/-
++SendSPFT.DataAccess.Context.SendSftpContext

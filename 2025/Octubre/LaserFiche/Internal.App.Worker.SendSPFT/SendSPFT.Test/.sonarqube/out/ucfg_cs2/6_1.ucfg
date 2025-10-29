@@ -1,0 +1,132 @@
+
+USendSPFT.Application.Clients.QueryCustomerDataClient.QueryCustomerDataClient()!statick
+aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\QueryCustomerDataClient.cs (("0*³(
+0k
+aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\QueryCustomerDataClient.csf f(ÆÃ
+k
+aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\QueryCustomerDataClient.cs (M,
+%0&System.Text.Json.JsonSerializerOptions"&System.Text.Json.JsonSerializerOptionsî
+ë
+k
+aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\QueryCustomerDataClient.cs (&
+
+%1void">System.Text.Json.JsonSerializerOptions.JsonSerializerOptions()*0.
+,
+%0&System.Text.Json.JsonSerializerOptions€
+ý
+k
+aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\QueryCustomerDataClient.cs) (K
+
+%2bool"FSystem.Text.Json.JsonSerializerOptions.PropertyNameCaseInsensitive.set*0.
+,
+%0&System.Text.Json.JsonSerializerOptions*
+""š
+—
+k
+aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\QueryCustomerDataClient.cs6 (Mp6
+4SendSPFT.Application.Clients.QueryCustomerDataClient"6
+_jsonOptions&System.Text.Json.JsonSerializerOptions"__id*0.
+,
+%0&System.Text.Json.JsonSerializerOptions†
+ƒ
+k
+aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\QueryCustomerDataClient.cs (
+%3"__id*
+""Â¿
+k
+aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\QueryCustomerDataClient.cs (:*
+%4$Microsoft.Extensions.Logging.EventId"$Microsoft.Extensions.Logging.EventIdû
+ø
+k
+aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\QueryCustomerDataClient.cs (
+
+%5void":Microsoft.Extensions.Logging.EventId.EventId(int, string?)*.,
+*
+%4$Microsoft.Extensions.Logging.EventId*2é*
+""³
+°
+k
+aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\QueryCustomerDataClient.cs (/
+%6System.Action<T1, T2, T3>"ŠMicrosoft.Extensions.Logging.LoggerMessage.Define<T1>(Microsoft.Extensions.Logging.LogLevel, Microsoft.Extensions.Logging.EventId, string)*0.",
+*Microsoft.Extensions.Logging.LoggerMessage*
+
+%3*.,
+*
+%4$Microsoft.Extensions.Logging.EventId*'%#
+!Received response: {ResponseJson}ˆ
+…
+k
+aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\QueryCustomerDataClient.csD (/k6
+4SendSPFT.Application.Clients.QueryCustomerDataClient"1
+_logResponseReceivedSystem.Action<T1, T2, T3>"__id*#!
+
+%6System.Action<T1, T2, T3>†
+ƒ
+k
+aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\QueryCustomerDataClient.cs! !(
+%7"__id*
+""Â¿
+k
+aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\QueryCustomerDataClient.cs" "(8*
+%8$Microsoft.Extensions.Logging.EventId"$Microsoft.Extensions.Logging.EventIdû
+ø
+k
+aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\QueryCustomerDataClient.cs" "(
+
+%9void":Microsoft.Extensions.Logging.EventId.EventId(int, string?)*.,
+*
+%8$Microsoft.Extensions.Logging.EventId*2Ñ*
+""Ó
+Ð
+k
+aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\QueryCustomerDataClient.cs  #(S 
+%10System.Action<T1, T2, T3>"ŠMicrosoft.Extensions.Logging.LoggerMessage.Define<T1>(Microsoft.Extensions.Logging.LogLevel, Microsoft.Extensions.Logging.EventId, string)*0.",
+*Microsoft.Extensions.Logging.LoggerMessage*
+
+%7*.,
+*
+%8$Microsoft.Extensions.Logging.EventId*FDB
+@HTTP request failed while fetching client data for ID {ClientId}‚
+ÿ
+k
+aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\QueryCustomerDataClient.csD #(Sd6
+4SendSPFT.Application.Clients.QueryCustomerDataClient"*
+_logHttpErrorSystem.Action<T1, T2, T3>"__id*$"
+ 
+%10System.Action<T1, T2, T3>‡
+„
+k
+aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\QueryCustomerDataClient.cs' '(
+%11"__id*
+""ÃÀ
+k
+aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\QueryCustomerDataClient.cs( ((>+
+%12$Microsoft.Extensions.Logging.EventId"$Microsoft.Extensions.Logging.EventIdý
+ú
+k
+aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\QueryCustomerDataClient.cs( ((
+%13void":Microsoft.Extensions.Logging.EventId.EventId(int, string?)*/-
++
+%12$Microsoft.Extensions.Logging.EventId*2Ò*
+""Ò
+Ï
+k
+aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\QueryCustomerDataClient.cs& )(P 
+%14System.Action<T1, T2, T3>"ŠMicrosoft.Extensions.Logging.LoggerMessage.Define<T1>(Microsoft.Extensions.Logging.LogLevel, Microsoft.Extensions.Logging.EventId, string)*0.",
+*Microsoft.Extensions.Logging.LoggerMessage*	
+
+%11*/-
++
+%12$Microsoft.Extensions.Logging.EventId*CA?
+=Unexpected error while fetching client data for ID {ClientId}ˆ
+…
+k
+aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\QueryCustomerDataClient.cs%D )(Pj6
+4SendSPFT.Application.Clients.QueryCustomerDataClient"0
+_logUnexpectedErrorSystem.Action<T1, T2, T3>"__id*$"
+ 
+%14System.Action<T1, T2, T3>"‚
+k
+aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\QueryCustomerDataClient.cs f(
+implicit returnB8"6
+4SendSPFT.Application.Clients.QueryCustomerDataClient

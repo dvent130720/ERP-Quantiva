@@ -1,0 +1,4 @@
+º
+-SendSPFT.DataAccess.Exec.SP.FileProcDigExecSPobject8SendSPFT.DataAccess.Contracts.Exec.SP.IFileProcDigExecSPç
+mFileProcDigExecSP(Microsoft.Extensions.Configuration.IConfiguration, Davivienda.Framework.Lib.Crypto.ICrypto)õSendSPFT.DataAccess.Exec.SP.FileProcDigExecSP.FileProcDigExecSP(Microsoft.Extensions.Configuration.IConfiguration, Davivienda.Framework.Lib.Crypto.ICrypto)∏
+CExecuteFileProcDigAsync(SendSPFT.Business.Models.BD.FileProcDigDto)qSendSPFT.DataAccess.Exec.SP.FileProcDigExecSP.ExecuteFileProcDigAsync(SendSPFT.Business.Models.BD.FileProcDigDto)

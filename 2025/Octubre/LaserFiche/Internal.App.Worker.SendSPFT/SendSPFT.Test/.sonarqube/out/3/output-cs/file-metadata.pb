@@ -1,0 +1,10 @@
+e
+\D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess.Contracts\Context\IBdSybase.csutf-8l
+cD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess.Contracts\Context\ISendSftpContext.csutf-8o
+fD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess.Contracts\Exec\Func\ISelectRegistryBD.csutf-8l
+cD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess.Contracts\Exec\Func\IUpdateTableBD.csutf-8n
+eD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess.Contracts\Exec\SP\IFileProcDigExecSP.csutf-8j
+aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess.Contracts\Exec\SP\IGetDatesSyb12.csutf-8”
+ˆD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess.Contracts\obj\Debug\net8.0\SendSPFT.DataAccess.Contracts.GlobalUsings.g.csutf-8“
+‡D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess.Contracts\obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.csutf-8’
+†D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess.Contracts\obj\Debug\net8.0\SendSPFT.DataAccess.Contracts.AssemblyInfo.csutf-8

@@ -1,0 +1,478 @@
+
+íSendSPFT.CrossCutting.Mapper.AttachmentMapper.MapToProcDig(Core.Customer.Web.Api.ConsultaDatosClientes.Business.Models.Cliente, SendSPFT.Business.Models.SFTP.SftpUploadResult, SendSPFT.Business.Models.BD.TdAttachmentDto, SendSPFT.Business.Models.BD.GetDatesSyb12ResponseDto)d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Mapper\AttachmentMapper.cs (*"0*˝
+0d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Mapper\AttachmentMapper.cs (<ÿ’
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Mapper\AttachmentMapper.cs (=>
+%38Microsoft.Extensions.Configuration.IConfigurationSection"DMicrosoft.Extensions.Configuration.IConfiguration.GetSection(string)*?=
+;
+config1Microsoft.Extensions.Configuration.IConfiguration*
+Operation_SP2GetSection(string)äá
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Mapper\AttachmentMapper.cs (C
+%4string"BMicrosoft.Extensions.Configuration.IConfigurationSection.Value.get*B@
+>
+%38Microsoft.Extensions.Configuration.IConfigurationSection2	Value.getè
+å
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Mapper\AttachmentMapper.cs (C
+%1string"__id*
+
+%4stringè
+å
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Mapper\AttachmentMapper.cs (C
+%0string"__id*
+
+%1string*
+1
+2*≥
+1d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Mapper\AttachmentMapper.csG (Sû
+õ
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Mapper\AttachmentMapper.csG (S
+%5string"__id**
+string"
+Emptystringè
+å
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Mapper\AttachmentMapper.csG (S
+%2string"__id*
+
+%5stringè
+å
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Mapper\AttachmentMapper.csG (S
+%0string"__id*
+
+%2string*
+2*úv
+2d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Mapper\AttachmentMapper.cs 5((ñ
+ì
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Mapper\AttachmentMapper.cs (S
+	operacionstring"__id*
+
+%0stringÖ
+Ç
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Mapper\AttachmentMapper.cs  (C	
+%6int"}Microsoft.Extensions.Configuration.ConfigurationBinder.GetValue<T>(Microsoft.Extensions.Configuration.IConfiguration, string)*<:"8
+6Microsoft.Extensions.Configuration.ConfigurationBinder*?=
+;
+config1Microsoft.Extensions.Configuration.IConfiguration*
+System_Codeî
+ë
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Mapper\AttachmentMapper.cs (C
+codigoSistemaint"__id*
+	
+%6int÷”
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Mapper\AttachmentMapper.cs (5=
+%77Davivienda.Framework.Lib.VoucherNumber.VoucherNumberDto"MDavivienda.Framework.Lib.VoucherNumber.IVoucherNumber.GenerateVoucherNumber()*DB
+@
+voucher5Davivienda.Framework.Lib.VoucherNumber.IVoucherNumber2GenerateVoucherNumber()Ú
+Ô
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Mapper\AttachmentMapper.cs (5>
+num7Davivienda.Framework.Lib.VoucherNumber.VoucherNumberDto"__id*A?
+=
+%77Davivienda.Framework.Lib.VoucherNumber.VoucherNumberDtoÿ’
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Mapper\AttachmentMapper.cs (?>
+%88Microsoft.Extensions.Configuration.IConfigurationSection"DMicrosoft.Extensions.Configuration.IConfiguration.GetSection(string)*?=
+;
+config1Microsoft.Extensions.Configuration.IConfiguration*
+Type_Product2GetSection(string)äá
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Mapper\AttachmentMapper.cs (E
+%9string"BMicrosoft.Extensions.Configuration.IConfigurationSection.Value.get*B@
+>
+%88Microsoft.Extensions.Configuration.IConfigurationSection2	Value.getò
+ï
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Mapper\AttachmentMapper.cs (E
+typeProductstring"__id*
+
+%9string»≈
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Mapper\AttachmentMapper.cs 6(1
+%10*SendSPFT.Business.Models.BD.FileProcDigDto"*SendSPFT.Business.Models.BD.FileProcDigDtoÍ
+Á
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Mapper\AttachmentMapper.cs (%
+%11void";SendSPFT.Business.Models.BD.FileProcDigDto.FileProcDigDto()*53
+1
+%10*SendSPFT.Business.Models.BD.FileProcDigDtoÇ
+ˇ
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Mapper\AttachmentMapper.cs (%
+%12string"8SendSPFT.Business.Models.BD.FileProcDigDto.Operacion.set*53
+1
+%10*SendSPFT.Business.Models.BD.FileProcDigDto*
+
+	operacionstringÑ
+Å
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Mapper\AttachmentMapper.cs (-
+
+%13int"<SendSPFT.Business.Models.BD.FileProcDigDto.CodigoSistema.set*53
+1
+%10*SendSPFT.Business.Models.BD.FileProcDigDto*
+
+codigoSistemaintã
+à
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Mapper\AttachmentMapper.cs (3
+%14string"MDavivienda.Framework.Lib.VoucherNumber.VoucherNumberDto.NumeroComprobante.get*B@
+>
+num7Davivienda.Framework.Lib.VoucherNumber.VoucherNumberDto˛
+˚
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Mapper\AttachmentMapper.cs (3
+%15string":SendSPFT.Business.Models.BD.FileProcDigDto.IdSolicitud.set*53
+1
+%10*SendSPFT.Business.Models.BD.FileProcDigDto*
+
+%14string©
+¶
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Mapper\AttachmentMapper.cs   (2
+%16string"VCore.Customer.Web.Api.ConsultaDatosClientes.Business.Models.Cliente.Identificacion.get*WU
+S
+datosclienteCCore.Customer.Web.Api.ConsultaDatosClientes.Business.Models.Cliente˜
+Ù
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Mapper\AttachmentMapper.cs   (2
+%17string"3SendSPFT.Business.Models.BD.FileProcDigDto.User.set*53
+1
+%10*SendSPFT.Business.Models.BD.FileProcDigDto*
+
+%16stringé
+ã
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Mapper\AttachmentMapper.cs!) !(;
+%18System.Nullable<T>"ESendSPFT.Business.Models.BD.GetDatesSyb12ResponseDto.FechaProceso.get*A?
+=
+dates4SendSPFT.Business.Models.BD.GetDatesSyb12ResponseDtoï
+í
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Mapper\AttachmentMapper.cs! !(;
+%19"__id*
+
+%18System.Nullable<T>Ä
+˝
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Mapper\AttachmentMapper.cs! !(;
+%20System.DateTime";SendSPFT.Business.Models.BD.FileProcDigDto.FechaProceso.set*53
+1
+%10*SendSPFT.Business.Models.BD.FileProcDigDto*	
+
+%19ã
+à
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Mapper\AttachmentMapper.cs"& "(5
+%21System.Nullable<T>"BSendSPFT.Business.Models.BD.GetDatesSyb12ResponseDto.FechaHora.get*A?
+=
+dates4SendSPFT.Business.Models.BD.GetDatesSyb12ResponseDtoï
+í
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Mapper\AttachmentMapper.cs" "(5
+%22"__id*
+
+%21System.Nullable<T>˝
+˙
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Mapper\AttachmentMapper.cs" "(5
+%23System.DateTime"8SendSPFT.Business.Models.BD.FileProcDigDto.FechaHora.set*53
+1
+%10*SendSPFT.Business.Models.BD.FileProcDigDto*	
+
+%22ä
+á
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Mapper\AttachmentMapper.cs#+ #(9
+%24System.Nullable<T>"ASendSPFT.Business.Models.BD.GetDatesSyb12ResponseDto.FechaDia.get*A?
+=
+dates4SendSPFT.Business.Models.BD.GetDatesSyb12ResponseDtoï
+í
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Mapper\AttachmentMapper.cs#! #(9
+%25"__id*
+
+%24System.Nullable<T>Ç
+ˇ
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Mapper\AttachmentMapper.cs# #(9
+%26System.DateTime"=SendSPFT.Business.Models.BD.FileProcDigDto.FechaEjecucion.set*53
+1
+%10*SendSPFT.Business.Models.BD.FileProcDigDto*	
+
+%25Ò
+Ó
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Mapper\AttachmentMapper.cs$ $(+
+%27string"<SendSPFT.Business.Models.BD.TdAttachmentDto.TdReportName.get*97
+5
+record+SendSPFT.Business.Models.BD.TdAttachmentDto¯
+ı
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Mapper\AttachmentMapper.cs$ $(+
+%28string"4SendSPFT.Business.Models.BD.FileProcDigDto.IdDoc.set*53
+1
+%10*SendSPFT.Business.Models.BD.FileProcDigDto*
+
+%27stringã
+à
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Mapper\AttachmentMapper.cs% %(0
+%29string"MDavivienda.Framework.Lib.VoucherNumber.VoucherNumberDto.NumeroComprobante.get*B@
+>
+num7Davivienda.Framework.Lib.VoucherNumber.VoucherNumberDto˚
+¯
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Mapper\AttachmentMapper.cs% %(0
+%30string"7SendSPFT.Business.Models.BD.FileProcDigDto.IdDocDef.set*53
+1
+%10*SendSPFT.Business.Models.BD.FileProcDigDto*
+
+%29stringß
+§
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Mapper\AttachmentMapper.cs&$ &(=
+%31string"TCore.Customer.Web.Api.ConsultaDatosClientes.Business.Models.Cliente.PrimerNombre.get*WU
+S
+datosclienteCCore.Customer.Web.Api.ConsultaDatosClientes.Business.Models.Cliente®
+•
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Mapper\AttachmentMapper.cs&@ &(Z
+%32string"UCore.Customer.Web.Api.ConsultaDatosClientes.Business.Models.Cliente.SegundoNombre.get*WU
+S
+datosclienteCCore.Customer.Web.Api.ConsultaDatosClientes.Business.Models.ClienteÍ
+Á
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Mapper\AttachmentMapper.cs&! &(\
+%33string"__concat*w
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Mapper\AttachmentMapper.cs&# &(>
+
+%31string*m
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Mapper\AttachmentMapper.cs&> &(?
+ é
+ã
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Mapper\AttachmentMapper.cs&! &(\
+%34string"__concat*
+
+%33string*w
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Mapper\AttachmentMapper.cs&? &([
+
+%32stringÅ
+˛
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Mapper\AttachmentMapper.cs& &(\
+%35string"=SendSPFT.Business.Models.BD.FileProcDigDto.NombreCompleto.set*53
+1
+%10*SendSPFT.Business.Models.BD.FileProcDigDto*
+
+%34string©
+¶
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Mapper\AttachmentMapper.cs' '(7
+%36string"VCore.Customer.Web.Api.ConsultaDatosClientes.Business.Models.Cliente.PrimerApellido.get*WU
+S
+datosclienteCCore.Customer.Web.Api.ConsultaDatosClientes.Business.Models.Cliente¸
+˘
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Mapper\AttachmentMapper.cs' '(7
+%37string"8SendSPFT.Business.Models.BD.FileProcDigDto.Apellido1.set*53
+1
+%10*SendSPFT.Business.Models.BD.FileProcDigDto*
+
+%36string™
+ß
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Mapper\AttachmentMapper.cs( ((8
+%38string"WCore.Customer.Web.Api.ConsultaDatosClientes.Business.Models.Cliente.SegundoApellido.get*WU
+S
+datosclienteCCore.Customer.Web.Api.ConsultaDatosClientes.Business.Models.Cliente¸
+˘
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Mapper\AttachmentMapper.cs( ((8
+%39string"8SendSPFT.Business.Models.BD.FileProcDigDto.Apellido2.set*53
+1
+%10*SendSPFT.Business.Models.BD.FileProcDigDto*
+
+%38stringı
+Ú
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Mapper\AttachmentMapper.cs) )("
+%40string":SendSPFT.Business.Models.BD.FileProcDigDto.RazonSocial.set*53
+1
+%10*SendSPFT.Business.Models.BD.FileProcDigDto*
+""
+Ì
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Mapper\AttachmentMapper.cs* *(.
+%41string";SendSPFT.Business.Models.BD.TdAttachmentDto.TdTipoIdent.get*97
+5
+record+SendSPFT.Business.Models.BD.TdAttachmentDto¸
+˘
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Mapper\AttachmentMapper.cs* *(.
+%42string"8SendSPFT.Business.Models.BD.FileProcDigDto.TipoIdent.set*53
+1
+%10*SendSPFT.Business.Models.BD.FileProcDigDto*
+
+%41stringÌ
+Í
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Mapper\AttachmentMapper.cs+ +(.
+%43string"8SendSPFT.Business.Models.BD.TdAttachmentDto.TdCedula.get*97
+5
+record+SendSPFT.Business.Models.BD.TdAttachmentDtoˇ
+¸
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Mapper\AttachmentMapper.cs+ +(.
+%44string";SendSPFT.Business.Models.BD.FileProcDigDto.NumeroCedula.set*53
+1
+%10*SendSPFT.Business.Models.BD.FileProcDigDto*
+
+%43string¶
+£
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Mapper\AttachmentMapper.cs, ,(6
+%45string"SCore.Customer.Web.Api.ConsultaDatosClientes.Business.Models.Cliente.TipoCliente.get*WU
+S
+datosclienteCCore.Customer.Web.Api.ConsultaDatosClientes.Business.Models.Cliente˛
+˚
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Mapper\AttachmentMapper.cs, ,(6
+%46string":SendSPFT.Business.Models.BD.FileProcDigDto.TipoPersona.set*53
+1
+%10*SendSPFT.Business.Models.BD.FileProcDigDto*
+
+%45stringá
+Ñ
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Mapper\AttachmentMapper.cs- -(*
+%47string";SendSPFT.Business.Models.BD.FileProcDigDto.TipoProducto.set*53
+1
+%10*SendSPFT.Business.Models.BD.FileProcDigDto*
+
+typeProductstringÚ
+Ô
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Mapper\AttachmentMapper.cs." .(6
+%48string"=SendSPFT.Business.Models.BD.TdAttachmentDto.TdIdOperation.get*97
+5
+record+SendSPFT.Business.Models.BD.TdAttachmentDtoÇ
+ˇ
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Mapper\AttachmentMapper.cs. .(6
+%49string">SendSPFT.Business.Models.BD.FileProcDigDto.NumeroOperacion.set*53
+1
+%10*SendSPFT.Business.Models.BD.FileProcDigDto*
+
+%48stringˆ
+Û
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Mapper\AttachmentMapper.cs/ /(#
+%50string";SendSPFT.Business.Models.BD.FileProcDigDto.AnioPolitica.set*53
+1
+%10*SendSPFT.Business.Models.BD.FileProcDigDto*
+""ü
+ú
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Mapper\AttachmentMapper.cs1' 1(8
+%51string"LCore.Customer.Web.Api.ConsultaDatosClientes.Business.Models.Cliente.Ente.get*WU
+S
+datosclienteCCore.Customer.Web.Api.ConsultaDatosClientes.Business.Models.ClienteÒ
+Ó
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Mapper\AttachmentMapper.cs1: 1(V'
+%52 System.Globalization.CultureInfo"5System.Globalization.CultureInfo.InvariantCulture.get*&$""
+ System.Globalization.CultureInfoÏ
+È
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Mapper\AttachmentMapper.cs1 1(W
+
+%53int"*int.Parse(string, System.IFormatProvider?)*	"
+int*
+
+%51string*+)
+'
+%52 System.Globalization.CultureInfo˜
+Ù
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Mapper\AttachmentMapper.cs1 1(W
+
+%54int"9SendSPFT.Business.Models.BD.FileProcDigDto.NumeroEnte.set*53
+1
+%10*SendSPFT.Business.Models.BD.FileProcDigDto*
+
+
+%53intÌ
+Í
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Mapper\AttachmentMapper.cs3  3(/
+%55string"8SendSPFT.Business.Models.BD.TdAttachmentDto.TdFormat.get*97
+5
+record+SendSPFT.Business.Models.BD.TdAttachmentDtoÄ
+˝
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Mapper\AttachmentMapper.cs3 3(/
+%56string"<SendSPFT.Business.Models.BD.FileProcDigDto.TipoDocumento.set*53
+1
+%10*SendSPFT.Business.Models.BD.FileProcDigDto*
+
+%55string
+Ì
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Mapper\AttachmentMapper.cs4 4(+
+%57string";SendSPFT.Business.Models.BD.TdAttachmentDto.TdOperacion.get*97
+5
+record+SendSPFT.Business.Models.BD.TdAttachmentDto˘
+ˆ
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Mapper\AttachmentMapper.cs4 4(+
+%58string"5SendSPFT.Business.Models.BD.FileProcDigDto.Estado.set*53
+1
+%10*SendSPFT.Business.Models.BD.FileProcDigDto*
+
+%57stringá
+Ñ
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Mapper\AttachmentMapper.cs5 5((
+%59System.Nullable<T>"@SendSPFT.Business.Models.BD.FileProcDigDto.FechaCreditoMovil.set*53
+1
+%10*SendSPFT.Business.Models.BD.FileProcDigDto*
+"""õ
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Mapper\AttachmentMapper.cs 6(3
+1
+%10*SendSPFT.Business.Models.BD.FileProcDigDto*Ê
+3d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Mapper\AttachmentMapper.cs7	 7(	"{
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Mapper\AttachmentMapper.cs7 7(	
+implicit return:ª
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Mapper\AttachmentMapper.cs+ (?S
+datosclienteCCore.Customer.Web.Api.ConsultaDatosClientes.Business.Models.Cliente:†
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Mapper\AttachmentMapper.csA (X8
+result.SendSPFT.Business.Models.SFTP.SftpUploadResult:ù
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Mapper\AttachmentMapper.csZ (p5
+record+SendSPFT.Business.Models.BD.TdAttachmentDto:¶
+e
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Mapper\AttachmentMapper.csr (ê=
+dates4SendSPFT.Business.Models.BD.GetDatesSyb12ResponseDtoB1/
+-SendSPFT.CrossCutting.Mapper.AttachmentMapper

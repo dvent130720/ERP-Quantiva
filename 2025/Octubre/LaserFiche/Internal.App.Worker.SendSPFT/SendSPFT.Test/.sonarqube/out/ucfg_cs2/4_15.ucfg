@@ -1,0 +1,25 @@
+
+5SendSPFT.DataAccess.Context.SendSftpContext.Dispose()t
+jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Context\SendSftpContext.csV V("0*ý
+0t
+jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Context\SendSftpContext.csX Y($Œ‰
+t
+jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Context\SendSftpContext.csX X($
+
+%0void"9SendSPFT.DataAccess.Context.SendSftpContext.Dispose(bool)*1/-
++SendSPFT.DataAccess.Context.SendSftpContext*
+""2Dispose(bool)í
+ê
+t
+jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Context\SendSftpContext.csY Y(%
+
+%1void""System.GC.SuppressFinalize(object)*"
+	System.GC*1/-
++SendSPFT.DataAccess.Context.SendSftpContext*
+1*‡
+1t
+jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Context\SendSftpContext.csZ	 Z(	"‹
+t
+jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Context\SendSftpContext.csZ Z(	
+implicit returnB/-
++SendSPFT.DataAccess.Context.SendSftpContext

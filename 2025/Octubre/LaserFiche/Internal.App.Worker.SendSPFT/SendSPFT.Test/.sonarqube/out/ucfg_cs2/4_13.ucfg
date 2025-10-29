@@ -1,0 +1,54 @@
+
+9SendSPFT.DataAccess.Context.SendSftpContext.Dispose(bool)t
+jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Context\SendSftpContext.csJ J(&"0*ì
+0t
+jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Context\SendSftpContext.csL L(è
+å
+t
+jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Context\SendSftpContext.csL L(
+%0"__id*
+""*
+1
+2*Å
+1t
+jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Context\SendSftpContext.csN N(*
+3
+4*˝
+3t
+jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Context\SendSftpContext.csP P(˘
+ˆ
+t
+jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Context\SendSftpContext.csP P(
+%1Npgsql.NpgsqlConnection"__id*YW*U-
++SendSPFT.DataAccess.Context.SendSftpContext"$
+	_conexionNpgsql.NpgsqlConnection*
+4
+5*‘
+5t
+jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Context\SendSftpContext.csP P(&”
+–
+t
+jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Context\SendSftpContext.csP P((
+
+%2void")System.ComponentModel.Component.Dispose()*!
+
+%1Npgsql.NpgsqlConnection*
+4*Œ
+4t
+jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Context\SendSftpContext.csR R( Õ
+ 
+t
+jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Context\SendSftpContext.csR R( B-
++SendSPFT.DataAccess.Context.SendSftpContext"
+	_disposedbool"__id*
+""*
+2*á
+2t
+jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Context\SendSftpContext.csT	 T(	"ã
+t
+jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Context\SendSftpContext.csT T(	
+implicit return:â
+t
+jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Context\SendSftpContext.csJ' J(5
+	disposingboolB/-
++SendSPFT.DataAccess.Context.SendSftpContext

@@ -1,0 +1,358 @@
+
+iSendSPFT.DataAccess.Exec.Func.UpdateTableBD.UpdateTableAsync(SendSPFT.Business.Models.BD.TdAttachmentDto)b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\UpdateTableBD.cs5 5(*"0*◊
+0b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\UpdateTableBD.cs7 <(&Ë
+Â
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\UpdateTableBD.cs7 <(&
+sqlstring"__id*ÈÊ„
+‡
+                UPDATE td_attachment
+                SET 
+                    td_operacion = @td_operacion,
+                    td_operacion_fecha_envio = @td_operacion_fecha_envio
+                WHERE td_id = @td_id;*
+1*∫
+1b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\UpdateTableBD.cs@  D(O¶
+£
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\UpdateTableBD.cs@- @(7<
+%36SendSPFT.DataAccess.Contracts.Context.ISendSftpContext"__id*yw*u-
++SendSPFT.DataAccess.Exec.Func.UpdateTableBD"D
+
+_pgContext6SendSPFT.DataAccess.Contracts.Context.ISendSftpContextæª
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\UpdateTableBD.cs@- @(O*
+%4$System.Threading.Tasks.Task<TResult>"NSendSPFT.DataAccess.Contracts.Context.ISendSftpContext.CreateConnectionAsync()*@>
+<
+%36SendSPFT.DataAccess.Contracts.Context.ISendSftpContext2CreateConnectionAsync()ò
+ï
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\UpdateTableBD.cs@  @(O
+connNpgsql.NpgsqlConnection"__id*
+""ôñ
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\UpdateTableBD.csA& A(B
+%5Npgsql.NpgsqlCommand"Npgsql.NpgsqlCommandí
+è
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\UpdateTableBD.csA* A(7
+
+%6void"ENpgsql.NpgsqlCommand.NpgsqlCommand(string?, Npgsql.NpgsqlConnection?)*
+
+%5Npgsql.NpgsqlCommand*
+
+sqlstring*#!
+
+connNpgsql.NpgsqlConnection™
+ß
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\UpdateTableBD.csA  A(B
+cmdNpgsql.NpgsqlCommand"__id*
+
+%5Npgsql.NpgsqlCommand’
+“
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\UpdateTableBD.csD D(&
+%7 Npgsql.NpgsqlParameterCollection"#Npgsql.NpgsqlCommand.Parameters.get*
+
+cmdNpgsql.NpgsqlCommandÌ
+Í
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\UpdateTableBD.csD= D(O
+%8string";SendSPFT.Business.Models.BD.TdAttachmentDto.TdOperacion.get*97
+5
+record+SendSPFT.Business.Models.BD.TdAttachmentDtoç
+ä
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\UpdateTableBD.csD= D(O
+%1object"__id*
+
+%8stringç
+ä
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\UpdateTableBD.csD= D(O
+%0object"__id*
+
+%1object*
+2
+3*…
+2b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\UpdateTableBD.csDS D(g±
+Æ
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\UpdateTableBD.csD[ D(g
+%9System.DBNull"__id*-+*)
+System.DBNull"
+ValueSystem.DBNullç
+ä
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\UpdateTableBD.csDS D(g
+%10"__id*
+
+%9System.DBNullÜ
+É
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\UpdateTableBD.csDS D(g
+%2object"__id*	
+
+%10ç
+ä
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\UpdateTableBD.csDS D(g
+%0object"__id*
+
+%2object*
+3*ö	
+3b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\UpdateTableBD.csD E(eò
+ï
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\UpdateTableBD.csD D(h
+%14Npgsql.NpgsqlParameter"=Npgsql.NpgsqlParameterCollection.AddWithValue(string, object)**(
+&
+%7 Npgsql.NpgsqlParameterCollection*
+@td_operacion*
+
+%0object÷
+”
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\UpdateTableBD.csE E('
+%15 Npgsql.NpgsqlParameterCollection"#Npgsql.NpgsqlCommand.Parameters.get*
+
+cmdNpgsql.NpgsqlCommandÑ
+Å
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\UpdateTableBD.csEI E(e
+%16System.Nullable<T>"ESendSPFT.Business.Models.BD.TdAttachmentDto.TdOperacionFechaEnvio.get*97
+5
+record+SendSPFT.Business.Models.BD.TdAttachmentDtoõ
+ò
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\UpdateTableBD.csEI E(e
+%12object"__id*
+
+%16System.Nullable<T>è
+å
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\UpdateTableBD.csEI E(e
+%11object"__id*
+
+%12object*
+4
+5*Œ
+4b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\UpdateTableBD.csEi E(}≤
+Ø
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\UpdateTableBD.csEq E(}
+%17System.DBNull"__id*-+*)
+System.DBNull"
+ValueSystem.DBNullé
+ã
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\UpdateTableBD.csEi E(}
+%18"__id*
+
+%17System.DBNullá
+Ñ
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\UpdateTableBD.csEi E(}
+%13object"__id*	
+
+%18è
+å
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\UpdateTableBD.csEi E(}
+%11object"__id*
+
+%13object*
+5*Á
+5b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\UpdateTableBD.csE J(%¶
+£
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\UpdateTableBD.csE E(~
+%19Npgsql.NpgsqlParameter"=Npgsql.NpgsqlParameterCollection.AddWithValue(string, object)*+)
+'
+%15 Npgsql.NpgsqlParameterCollection*
+@td_operacion_fecha_envio*
+
+%11object÷
+”
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\UpdateTableBD.csF F('
+%20 Npgsql.NpgsqlParameterCollection"#Npgsql.NpgsqlCommand.Parameters.get*
+
+cmdNpgsql.NpgsqlCommand‰
+·
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\UpdateTableBD.csF6 F(A
+
+%21int"4SendSPFT.Business.Models.BD.TdAttachmentDto.TdId.get*97
+5
+record+SendSPFT.Business.Models.BD.TdAttachmentDtoê
+ç
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\UpdateTableBD.csF F(B
+%22Npgsql.NpgsqlParameter"=Npgsql.NpgsqlParameterCollection.AddWithValue(string, object)*+)
+'
+%20 Npgsql.NpgsqlParameterCollection*
+
+@td_id*
+
+
+%21intÍ
+Á
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\UpdateTableBD.csH) H(C+
+%23$System.Threading.Tasks.Task<TResult>"3System.Data.Common.DbCommand.ExecuteNonQueryAsync()*
+
+cmdNpgsql.NpgsqlCommandå
+â
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\UpdateTableBD.csH H(C
+rowsAffectedint"__id*
+""*
+6
+7*à	
+6b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\UpdateTableBD.csL L(=Ù
+Ò
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\UpdateTableBD.csL L(% 
+%24System.Action<T1, T2, T3>"__id*ca*_-
++SendSPFT.DataAccess.Exec.Func.UpdateTableBD".
+_logNoRowsUpdatedSystem.Action<T1, T2, T3>õ
+ò
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\UpdateTableBD.csL& L(*:
+%253Microsoft.Extensions.Logging.ILogger<TCategoryName>"__id*pn*l-
++SendSPFT.DataAccess.Exec.Func.UpdateTableBD";
+_log3Microsoft.Extensions.Logging.ILogger<TCategoryName>‰
+·
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\UpdateTableBD.csL, L(7
+
+%26int"4SendSPFT.Business.Models.BD.TdAttachmentDto.TdId.get*97
+5
+record+SendSPFT.Business.Models.BD.TdAttachmentDtoù
+ö
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\UpdateTableBD.csL L(>
+%27void",System.Action<T1, T2, T3>.Invoke(T1, T2, T3)*
+System.Action<T1, T2, T3>*><
+:
+%253Microsoft.Extensions.Logging.ILogger<TCategoryName>*
+
+
+%26int*
+""*
+8*é	
+7b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\UpdateTableBD.csP P(C˙
+˜
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\UpdateTableBD.csP P(+ 
+%28System.Action<T1, T2, T3>"__id*ig*e-
++SendSPFT.DataAccess.Exec.Func.UpdateTableBD"4
+_logUpdatedSuccessfullySystem.Action<T1, T2, T3>õ
+ò
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\UpdateTableBD.csP, P(0:
+%293Microsoft.Extensions.Logging.ILogger<TCategoryName>"__id*pn*l-
++SendSPFT.DataAccess.Exec.Func.UpdateTableBD";
+_log3Microsoft.Extensions.Logging.ILogger<TCategoryName>‰
+·
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\UpdateTableBD.csP2 P(=
+
+%30int"4SendSPFT.Business.Models.BD.TdAttachmentDto.TdId.get*97
+5
+record+SendSPFT.Business.Models.BD.TdAttachmentDtoù
+ö
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\UpdateTableBD.csP P(D
+%31void",System.Action<T1, T2, T3>.Invoke(T1, T2, T3)*
+System.Action<T1, T2, T3>*><
+:
+%293Microsoft.Extensions.Logging.ILogger<TCategoryName>*
+
+
+%30int*
+""*
+8*t
+8b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\UpdateTableBD.cs]	 ](	*
+9
+10
+11*†	
+10b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\UpdateTableBD.csU U(5Ú
+Ô
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\UpdateTableBD.csU U( 
+%32System.Action<T1, T2, T3>"__id*a_*]-
++SendSPFT.DataAccess.Exec.Func.UpdateTableBD",
+_logNpgsqlErrorSystem.Action<T1, T2, T3>õ
+ò
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\UpdateTableBD.csU  U($:
+%333Microsoft.Extensions.Logging.ILogger<TCategoryName>"__id*pn*l-
++SendSPFT.DataAccess.Exec.Func.UpdateTableBD";
+_log3Microsoft.Extensions.Logging.ILogger<TCategoryName>‰
+·
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\UpdateTableBD.csU& U(1
+
+%34int"4SendSPFT.Business.Models.BD.TdAttachmentDto.TdId.get*97
+5
+record+SendSPFT.Business.Models.BD.TdAttachmentDtoµ
+≤
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\UpdateTableBD.csU U(6
+%35void",System.Action<T1, T2, T3>.Invoke(T1, T2, T3)*
+System.Action<T1, T2, T3>*><
+:
+%333Microsoft.Extensions.Logging.ILogger<TCategoryName>*
+
+
+%34int* 
+
+exNpgsql.NpgsqlException*
+11*í
+9b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\UpdateTableBD.csZ Z(,Ó
+Î
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\UpdateTableBD.csZ Z(#
+%36System.Action<T1, T2>"__id*a_*]-
++SendSPFT.DataAccess.Exec.Func.UpdateTableBD",
+_logUnexpectedErrorSystem.Action<T1, T2>õ
+ò
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\UpdateTableBD.csZ$ Z((:
+%373Microsoft.Extensions.Logging.ILogger<TCategoryName>"__id*pn*l-
++SendSPFT.DataAccess.Exec.Func.UpdateTableBD";
+_log3Microsoft.Extensions.Logging.ILogger<TCategoryName>ì
+ê
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\UpdateTableBD.csZ Z(-
+%38void"$System.Action<T1, T2>.Invoke(T1, T2)*
+System.Action<T1, T2>*><
+:
+%373Microsoft.Extensions.Logging.ILogger<TCategoryName>*
+
+exSystem.Exception*
+11*„
+11b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\UpdateTableBD.cs]	 ](	"y
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\UpdateTableBD.cs] ](	
+implicit return:õ
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\UpdateTableBD.cs5+ 5(A5
+record+SendSPFT.Business.Models.BD.TdAttachmentDtoB/-
++SendSPFT.DataAccess.Exec.Func.UpdateTableBD

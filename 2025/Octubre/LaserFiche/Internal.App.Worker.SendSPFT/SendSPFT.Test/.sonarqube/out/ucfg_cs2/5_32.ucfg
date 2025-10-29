@@ -1,0 +1,65 @@
+
+`SendSPFT.CrossCutting.Metrics.MetricCollector.RegisterResponseTime(int, string, System.TimeSpan)d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Metrics\MetricCollector.cs& &(("0*‘
+0e
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Metrics\MetricCollector.cs( ((ÅÚ
+Ô
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Metrics\MetricCollector.cs( (("
+%0Prometheus.Histogram"__id*ec*a/
+-SendSPFT.CrossCutting.Metrics.MetricCollector".
+_responseTimeHistogramPrometheus.Histogram
+Ì
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Metrics\MetricCollector.cs(> ((Z&
+%1 System.Globalization.CultureInfo"5System.Globalization.CultureInfo.InvariantCulture.get*&$""
+ System.Globalization.CultureInfo‘
+—
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Metrics\MetricCollector.cs(* (([
+%2string"%int.ToString(System.IFormatProvider?)*
+""**(
+&
+%1 System.Globalization.CultureInfoâ
+Ü
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Metrics\MetricCollector.cs( ((d 
+%3Prometheus.Histogram.Child"4Prometheus.Collector<TChild>.Labels(params string[])*
+
+%0Prometheus.Histogram*
+
+%2string*
+
+methodstring∫
+∑
+e
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Metrics\MetricCollector.cs(m ((Å
+%4double" System.TimeSpan.TotalSeconds.get*
+
+elapsedSystem.TimeSpan⁄
+◊
+e
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Metrics\MetricCollector.cs( ((Ç
+
+%5void"*Prometheus.Histogram.Child.Observe(double)*$"
+ 
+%3Prometheus.Histogram.Child*
+
+%4double*
+1*Ê
+1d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Metrics\MetricCollector.cs)	 )(	"{
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Metrics\MetricCollector.cs) )(	
+implicit return:y
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Metrics\MetricCollector.cs&) &(7
+
+statusCodeint:x
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Metrics\MetricCollector.cs&9 &(F
+methodstring:Ç
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Metrics\MetricCollector.cs&H &(X
+elapsedSystem.TimeSpanB1/
+-SendSPFT.CrossCutting.Metrics.MetricCollector

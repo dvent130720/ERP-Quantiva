@@ -1,0 +1,39 @@
+
+•SendSPFT.CrossCutting.Helpers.RequestLogger.LogRequest(object, SendSPFT.Bussiness.Models.RequestContextHeaders, Microsoft.Extensions.Logging.ILogger)b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\RequestLogger.cs ("0*§
+0b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\RequestLogger.cs (TÎ
+Ë
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\RequestLogger.cs" (UE
+%0?Davivienda.Framework.Lib.BitacoraLog.BitacoraLog.BitacoraLogDto"~SendSPFT.CrossCutting.Helpers.RequestLogger.CreateLog(SendSPFT.Bussiness.Models.RequestContextHeaders, string, string, string)*1/"-
++SendSPFT.CrossCutting.Helpers.RequestLogger*><
+:
+context/SendSPFT.Bussiness.Models.RequestContextHeaders*
+INICIANDO SERVICIO*
+0*
+00çä
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\RequestLogger.cs (V
+
+%1void"ˆDavivienda.Framework.Lib.BitacoraLog.BitacoraLog.IBitacoraLog.Registrar(Davivienda.Framework.Lib.BitacoraLog.BitacoraLog.BitacoraLogDto)*PN
+L
+bitacoraLog=Davivienda.Framework.Lib.BitacoraLog.BitacoraLog.IBitacoraLog*IG
+E
+%0?Davivienda.Framework.Lib.BitacoraLog.BitacoraLog.BitacoraLogDto2JRegistrar(Davivienda.Framework.Lib.BitacoraLog.BitacoraLog.BitacoraLogDto)*
+1*â
+1b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\RequestLogger.cs	 (	"y
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\RequestLogger.cs (	
+implicit return:t
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\RequestLogger.cs (*
+bodyobject: 
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\RequestLogger.cs, (I:
+context/SendSPFT.Bussiness.Models.RequestContextHeaders:”
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\RequestLogger.csK (Y.
+logger$Microsoft.Extensions.Logging.ILoggerB/-
++SendSPFT.CrossCutting.Helpers.RequestLogger

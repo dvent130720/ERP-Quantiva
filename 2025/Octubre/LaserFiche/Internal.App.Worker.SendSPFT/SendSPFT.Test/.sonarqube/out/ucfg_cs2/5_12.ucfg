@@ -1,0 +1,163 @@
+
+oSendSPFT.CrossCutting.Subservices.ProcessRecord.ProcessRecordAsync(SendSPFT.Business.Models.BD.TdAttachmentDto)f
+\D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Subservices\ProcessRecord.cs* *(,"0*¿
+0f
+\D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Subservices\ProcessRecord.cs. 1((ò
+ï
+f
+\D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Subservices\ProcessRecord.cs. .(
+%0System.Action<T1, T2, T3>"__id*^\*Z1
+/SendSPFT.CrossCutting.Subservices.ProcessRecord"%
+_logInfoSystem.Action<T1, T2, T3>ç
+ä
+f
+\D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Subservices\ProcessRecord.cs.8 .(C	
+%1int"4SendSPFT.Business.Models.BD.TdAttachmentDto.TdId.get*97
+5
+record+SendSPFT.Business.Models.BD.TdAttachmentDtoü
+ù
+f
+\D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Subservices\ProcessRecord.cs.! .(E	
+%2int"__concat*‚
+f
+\D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Subservices\ProcessRecord.cs.# .(7
+Processing file ID: *u
+f
+\D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Subservices\ProcessRecord.cs.7 .(D
+	
+%1int¢
+Ÿ
+f
+\D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Subservices\ProcessRecord.cs. .(L
+
+%3void",System.Action<T1, T2, T3>.Invoke(T1, T2, T3)*
+System.Action<T1, T2, T3>*A?
+=
+logger3Microsoft.Extensions.Logging.ILogger<TCategoryName>*
+	
+%2int*
+""äá
+f
+\D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Subservices\ProcessRecord.cs0) 0(P*
+%4$System.Threading.Tasks.Task<TResult>"zSendSPFT.Application.Contracts.Clients.IQueryCustomerDataClient.GetDataClient(SendSPFT.Business.Models.BD.TdAttachmentDto)*XV
+T
+queryCustomerData?SendSPFT.Application.Contracts.Clients.IQueryCustomerDataClient*97
+5
+record+SendSPFT.Business.Models.BD.TdAttachmentDto2:GetDataClient(SendSPFT.Business.Models.BD.TdAttachmentDto)Ð
+Í
+f
+\D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Subservices\ProcessRecord.cs0 0(PS
+customerDataCCore.Customer.Web.Api.ConsultaDatosClientes.Business.Models.Cliente"__id*
+""Œ
+‰
+f
+\D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Subservices\ProcessRecord.cs1 1((
+
+%5bool""object.operator ==(object, object)*
+"
+object*WU
+S
+customerDataCCore.Customer.Web.Api.ConsultaDatosClientes.Business.Models.Cliente*
+""*
+1
+2*š
+1f
+\D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Subservices\ProcessRecord.cs3 3(Wõ
+ò
+f
+\D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Subservices\ProcessRecord.cs3 3(
+%6System.Action<T1, T2, T3>"__id*a_*]1
+/SendSPFT.CrossCutting.Subservices.ProcessRecord"(
+_logWarningSystem.Action<T1, T2, T3>Â
+¿
+f
+\D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Subservices\ProcessRecord.cs3 3(X
+
+%7void",System.Action<T1, T2, T3>.Invoke(T1, T2, T3)*
+System.Action<T1, T2, T3>*A?
+=
+logger3Microsoft.Extensions.Logging.ILogger<TCategoryName>*-+)
+'Data API ConsultaDatosCliente is Empty.*
+"""p
+f
+\D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Subservices\ProcessRecord.cs4 4(
+""*»
+2f
+\D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Subservices\ProcessRecord.cs8 ;(1¬©
+f
+\D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Subservices\ProcessRecord.cs8 8(G!
+%8System.Threading.Tasks.Task"·SendSPFT.CrossCutting.Subservices.IFileProcessingService.ProcessAsync(SendSPFT.Business.Models.BD.TdAttachmentDto, Core.Customer.Web.Api.ConsultaDatosClientes.Business.Models.Cliente)*NL
+J
+fileProcessing8SendSPFT.CrossCutting.Subservices.IFileProcessingService*97
+5
+record+SendSPFT.Business.Models.BD.TdAttachmentDto*WU
+S
+customerDataCCore.Customer.Web.Api.ConsultaDatosClientes.Business.Models.Cliente2~ProcessAsync(SendSPFT.Business.Models.BD.TdAttachmentDto, Core.Customer.Web.Api.ConsultaDatosClientes.Business.Models.Cliente)ÜÙ
+f
+\D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Subservices\ProcessRecord.cs9% 9(H>
+%98Microsoft.Extensions.Configuration.IConfigurationSection"DMicrosoft.Extensions.Configuration.IConfiguration.GetSection(string)*?=
+;
+config1Microsoft.Extensions.Configuration.IConfiguration*
+Operation_sent2GetSection(string)Š
+f
+\D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Subservices\ProcessRecord.cs9% 9(N
+%10string"BMicrosoft.Extensions.Configuration.IConfigurationSection.Value.get*B@
+>
+%98Microsoft.Extensions.Configuration.IConfigurationSection2	Value.get…
+‚
+f
+\D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Subservices\ProcessRecord.cs9 9(N
+%11string";SendSPFT.Business.Models.BD.TdAttachmentDto.TdOperacion.set*97
+5
+record+SendSPFT.Business.Models.BD.TdAttachmentDto*
+
+%10string³
+°
+f
+\D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Subservices\ProcessRecord.cs:/ :(;
+%12System.DateTime"System.DateTime.Now.get*"
+System.DateTime¤
+¡
+f
+\D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Subservices\ProcessRecord.cs: :(;
+%13System.Nullable<T>"ESendSPFT.Business.Models.BD.TdAttachmentDto.TdOperacionFechaEnvio.set*97
+5
+record+SendSPFT.Business.Models.BD.TdAttachmentDto*
+
+%12System.DateTimeÂ¿
+f
+\D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Subservices\ProcessRecord.cs; ;(2"
+%14System.Threading.Tasks.Task"tSendSPFT.DataAccess.Contracts.Exec.Func.IUpdateTableBD.UpdateTableAsync(SendSPFT.Business.Models.BD.TdAttachmentDto)*A?
+=
+rds6SendSPFT.DataAccess.Contracts.Exec.Func.IUpdateTableBD*97
+5
+record+SendSPFT.Business.Models.BD.TdAttachmentDto2=UpdateTableAsync(SendSPFT.Business.Models.BD.TdAttachmentDto)*
+3
+4*ü
+3f
+\D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Subservices\ProcessRecord.cs? ?($ì
+é
+f
+\D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Subservices\ProcessRecord.cs? ?(
+%15System.Action<T1, T2>"__id*[Y*W1
+/SendSPFT.CrossCutting.Subservices.ProcessRecord""
+	_logErrorSystem.Action<T1, T2>š
+—
+f
+\D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Subservices\ProcessRecord.cs? ?(%
+%16void"$System.Action<T1, T2>.Invoke(T1, T2)*
+System.Action<T1, T2>*A?
+=
+logger3Microsoft.Extensions.Logging.ILogger<TCategoryName>*
+
+exSystem.Exception*
+4*ê
+4f
+\D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Subservices\ProcessRecord.csA	 A(	"}
+f
+\D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Subservices\ProcessRecord.csA A(	
+implicit return:Ÿ
+f
+\D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Subservices\ProcessRecord.cs*- *(C5
+record+SendSPFT.Business.Models.BD.TdAttachmentDtoB31
+/SendSPFT.CrossCutting.Subservices.ProcessRecord

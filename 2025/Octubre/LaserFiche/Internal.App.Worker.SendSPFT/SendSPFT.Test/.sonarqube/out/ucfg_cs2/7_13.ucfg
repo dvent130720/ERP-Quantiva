@@ -1,0 +1,54 @@
+
+9SendSPFT.DataAccess.Context.SendSftpContext.Dispose(bool)b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\SendSftpContext.csJ J(&"0*í
+0b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\SendSftpContext.csL L(|
+z
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\SendSftpContext.csL L(
+%0"__id*
+""*
+1
+2*o
+1b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\SendSftpContext.csN N(*
+3
+4*Ù
+3b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\SendSftpContext.csP P(ç
+ä
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\SendSftpContext.csP P(
+%1Npgsql.NpgsqlConnection"__id*YW*U-
++SendSPFT.DataAccess.Context.SendSftpContext"$
+	_conexionNpgsql.NpgsqlConnection*
+4
+5*°
+5b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\SendSftpContext.csP P(&Á
+¾
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\SendSftpContext.csP P((
+
+%2void")System.ComponentModel.Component.Dispose()*!
+
+%1Npgsql.NpgsqlConnection*
+4*ª
+4b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\SendSftpContext.csR R( »
+¸
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\SendSftpContext.csR R( B-
++SendSPFT.DataAccess.Context.SendSftpContext"
+	_disposedbool"__id*
+""*
+2*â
+2b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\SendSftpContext.csT	 T(	"y
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\SendSftpContext.csT T(	
+implicit return:w
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\SendSftpContext.csJ' J(5
+	disposingboolB/-
++SendSPFT.DataAccess.Context.SendSftpContext

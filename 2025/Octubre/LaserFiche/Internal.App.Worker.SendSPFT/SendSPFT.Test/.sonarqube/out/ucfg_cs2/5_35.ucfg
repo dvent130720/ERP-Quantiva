@@ -1,0 +1,113 @@
+
+}SendSPFT.CrossCutting.Helpers.ServiceResponseFactory.Fail<T>(string, string, SendSPFT.Bussiness.Models.RequestContextHeaders)k
+aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\ServiceResponseFactory.cs# ('"0*Ç 
+0k
+aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\ServiceResponseFactory.cs! ((@€ý
+k
+aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\ServiceResponseFactory.cs! *(I
+%0CDavivienda.Framework.Services.CanonicalSignature.ServiceResponse<T>"CDavivienda.Framework.Services.CanonicalSignature.ServiceResponse<T>¢
+Ÿ
+k
+aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\ServiceResponseFactory.cs! !()
+
+%1void"UDavivienda.Framework.Services.CanonicalSignature.ServiceResponse<T>.ServiceResponse()*MK
+I
+%0CDavivienda.Framework.Services.CanonicalSignature.ServiceResponse<T>¨
+¥
+k
+aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\ServiceResponseFactory.cs# #(!
+
+%2bool"QDavivienda.Framework.Services.CanonicalSignature.ServiceResponse<T>.Succeeded.set*MK
+I
+%0CDavivienda.Framework.Services.CanonicalSignature.ServiceResponse<T>*
+""ù
+ö
+k
+aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\ServiceResponseFactory.cs$ $()
+%3string"=SendSPFT.Bussiness.Models.RequestContextHeaders.SessionId.get*:8
+6
+ctx/SendSPFT.Bussiness.Models.RequestContextHeaders²
+¯
+k
+aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\ServiceResponseFactory.cs$ $()
+%4string"QDavivienda.Framework.Services.CanonicalSignature.ServiceResponse<T>.SessionId.set*MK
+I
+%0CDavivienda.Framework.Services.CanonicalSignature.ServiceResponse<T>*
+
+%3stringý
+ú
+k
+aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\ServiceResponseFactory.cs%  %(1
+%5string"ASendSPFT.Bussiness.Models.RequestContextHeaders.TransactionId.get*:8
+6
+ctx/SendSPFT.Bussiness.Models.RequestContextHeaders¶
+³
+k
+aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\ServiceResponseFactory.cs% %(1
+%6string"UDavivienda.Framework.Services.CanonicalSignature.ServiceResponse<T>.TransactionId.set*MK
+I
+%0CDavivienda.Framework.Services.CanonicalSignature.ServiceResponse<T>*
+
+%5string¾»
+k
+aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\ServiceResponseFactory.cs& )((
+%7"System.Collections.Generic.List<T>""System.Collections.Generic.List<T>Õ
+Ò
+k
+aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\ServiceResponseFactory.cs& &(.
+
+%8void")System.Collections.Generic.List<T>.List()*,*
+(
+%7"System.Collections.Generic.List<T>òï
+k
+aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\ServiceResponseFactory.cs( ((BB
+%9<Davivienda.Framework.Services.CanonicalSignature.ErrorDetail"<Davivienda.Framework.Services.CanonicalSignature.ErrorDetail‘
+Ž
+k
+aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\ServiceResponseFactory.cs( ((
+%10void"JDavivienda.Framework.Services.CanonicalSignature.ErrorDetail.ErrorDetail()*FD
+B
+%9<Davivienda.Framework.Services.CanonicalSignature.ErrorDetail¢
+Ÿ
+k
+aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\ServiceResponseFactory.cs(" ((-
+%11string"EDavivienda.Framework.Services.CanonicalSignature.ErrorDetail.Code.set*FD
+B
+%9<Davivienda.Framework.Services.CanonicalSignature.ErrorDetail*
+
+codestring¨
+¥
+k
+aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\ServiceResponseFactory.cs(/ ((@
+%12string"HDavivienda.Framework.Services.CanonicalSignature.ErrorDetail.Message.set*FD
+B
+%9<Davivienda.Framework.Services.CanonicalSignature.ErrorDetail*
+
+messagestringè
+å
+k
+aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\ServiceResponseFactory.cs& )()
+%13"System.Collections.Generic.List<T>"NDavivienda.Framework.Services.CanonicalSignature.ServiceResponse<T>.Errors.set*MK
+I
+%0CDavivienda.Framework.Services.CanonicalSignature.ServiceResponse<T>*,*
+(
+%7"System.Collections.Generic.List<T>"º
+k
+aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\ServiceResponseFactory.cs! *(K
+I
+%0CDavivienda.Framework.Services.CanonicalSignature.ServiceResponse<T>*õ
+1k
+aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\ServiceResponseFactory.cs+	 +(	"‚
+k
+aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\ServiceResponseFactory.cs+ +(	
+implicit return:}
+k
+aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\ServiceResponseFactory.cs+ (6
+codestring:€
+k
+aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\ServiceResponseFactory.cs8 (F
+messagestring:¥
+k
+aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\ServiceResponseFactory.csH (a6
+ctx/SendSPFT.Bussiness.Models.RequestContextHeadersB86
+4SendSPFT.CrossCutting.Helpers.ServiceResponseFactory

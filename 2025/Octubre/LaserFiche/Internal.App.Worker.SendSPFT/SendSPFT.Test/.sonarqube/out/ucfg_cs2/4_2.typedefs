@@ -1,0 +1,10 @@
+«
+$SendSPFT.DataAccess.Context.DataBaseobject=
+
+DataBase()/SendSPFT.DataAccess.Context.DataBase.DataBase()9
+Name.get-SendSPFT.DataAccess.Context.DataBase.Name.get9
+Name.set-SendSPFT.DataAccess.Context.DataBase.Name.setO
+StoredProcedure.get8SendSPFT.DataAccess.Context.DataBase.StoredProcedure.getO
+StoredProcedure.set8SendSPFT.DataAccess.Context.DataBase.StoredProcedure.setQ
+ConnectionString.get9SendSPFT.DataAccess.Context.DataBase.ConnectionString.getQ
+ConnectionString.set9SendSPFT.DataAccess.Context.DataBase.ConnectionString.set

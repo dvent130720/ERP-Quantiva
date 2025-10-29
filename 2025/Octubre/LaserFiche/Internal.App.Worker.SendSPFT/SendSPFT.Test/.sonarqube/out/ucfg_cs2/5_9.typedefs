@@ -1,0 +1,4 @@
+ß
+1SendSPFT.CrossCutting.Helpers.SwaggerHeaderFilterobject2Swashbuckle.AspNetCore.SwaggerGen.IOperationFilter‹
+jApply(Microsoft.OpenApi.Models.OpenApiOperation, Swashbuckle.AspNetCore.SwaggerGen.OperationFilterContext)œSendSPFT.CrossCutting.Helpers.SwaggerHeaderFilter.Apply(Microsoft.OpenApi.Models.OpenApiOperation, Swashbuckle.AspNetCore.SwaggerGen.OperationFilterContext)`
+SwaggerHeaderFilter()GSendSPFT.CrossCutting.Helpers.SwaggerHeaderFilter.SwaggerHeaderFilter()

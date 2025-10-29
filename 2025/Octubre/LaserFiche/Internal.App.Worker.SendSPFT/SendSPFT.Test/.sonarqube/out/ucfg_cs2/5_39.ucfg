@@ -1,0 +1,34 @@
+
+gSendSPFT.CrossCutting.Helpers.RequestLogger.LogSuccess(SendSPFT.Bussiness.Models.RequestContextHeaders)b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\RequestLogger.cs ("0*Ÿ
+0b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\RequestLogger.cs   (LÆ
+Ã
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\RequestLogger.cs "  (ME
+%0?Davivienda.Framework.Lib.BitacoraLog.BitacoraLog.BitacoraLogDto"~SendSPFT.CrossCutting.Helpers.RequestLogger.CreateLog(SendSPFT.Bussiness.Models.RequestContextHeaders, string, string, string)*1/"-
++SendSPFT.CrossCutting.Helpers.RequestLogger*><
+:
+context/SendSPFT.Bussiness.Models.RequestContextHeaders*
+
+FINALIZADO*
+0*
+00çä
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\RequestLogger.cs   (N
+
+%1void"ˆDavivienda.Framework.Lib.BitacoraLog.BitacoraLog.IBitacoraLog.Registrar(Davivienda.Framework.Lib.BitacoraLog.BitacoraLog.BitacoraLogDto)*PN
+L
+bitacoraLog=Davivienda.Framework.Lib.BitacoraLog.BitacoraLog.IBitacoraLog*IG
+E
+%0?Davivienda.Framework.Lib.BitacoraLog.BitacoraLog.BitacoraLogDto2JRegistrar(Davivienda.Framework.Lib.BitacoraLog.BitacoraLog.BitacoraLogDto)*
+1*â
+1b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\RequestLogger.cs!	 !(	"y
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\RequestLogger.cs! !(	
+implicit return: 
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\RequestLogger.cs (<:
+context/SendSPFT.Bussiness.Models.RequestContextHeadersB/-
++SendSPFT.CrossCutting.Helpers.RequestLogger

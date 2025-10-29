@@ -1,0 +1,4 @@
+ê
+-SendSPFT.CrossCutting.Mapper.AttachmentMapperobject.SendSPFT.CrossCutting.Mapper.IAttachmentMapperß
+zAttachmentMapper(Microsoft.Extensions.Configuration.IConfiguration, Davivienda.Framework.Lib.VoucherNumber.IVoucherNumber)®SendSPFT.CrossCutting.Mapper.AttachmentMapper.AttachmentMapper(Microsoft.Extensions.Configuration.IConfiguration, Davivienda.Framework.Lib.VoucherNumber.IVoucherNumber)¸
+‰MapToProcDig(Core.Customer.Web.Api.ConsultaDatosClientes.Business.Models.Cliente, SendSPFT.Business.Models.SFTP.SftpUploadResult, SendSPFT.Business.Models.BD.TdAttachmentDto, SendSPFT.Business.Models.BD.GetDatesSyb12ResponseDto)íSendSPFT.CrossCutting.Mapper.AttachmentMapper.MapToProcDig(Core.Customer.Web.Api.ConsultaDatosClientes.Business.Models.Cliente, SendSPFT.Business.Models.SFTP.SftpUploadResult, SendSPFT.Business.Models.BD.TdAttachmentDto, SendSPFT.Business.Models.BD.GetDatesSyb12ResponseDto)

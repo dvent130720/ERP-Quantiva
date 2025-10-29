@@ -1,0 +1,21 @@
+—
+4Business.Models.RequestResponse.GetVirtualKeyRequestobjecte
+GetVirtualKeyRequest()KBusiness.Models.RequestResponse.GetVirtualKeyRequest.GetVirtualKeyRequest()e
+TipoIdentificacion.getKBusiness.Models.RequestResponse.GetVirtualKeyRequest.TipoIdentificacion.gete
+TipoIdentificacion.setKBusiness.Models.RequestResponse.GetVirtualKeyRequest.TipoIdentificacion.seti
+NumeroIdentificacion.getMBusiness.Models.RequestResponse.GetVirtualKeyRequest.NumeroIdentificacion.geti
+NumeroIdentificacion.setMBusiness.Models.RequestResponse.GetVirtualKeyRequest.NumeroIdentificacion.setM
+
+Correo.get?Business.Models.RequestResponse.GetVirtualKeyRequest.Correo.getM
+
+Correo.set?Business.Models.RequestResponse.GetVirtualKeyRequest.Correo.setS
+Impresora.getBBusiness.Models.RequestResponse.GetVirtualKeyRequest.Impresora.getS
+Impresora.setBBusiness.Models.RequestResponse.GetVirtualKeyRequest.Impresora.setM
+
+Nombre.get?Business.Models.RequestResponse.GetVirtualKeyRequest.Nombre.getM
+
+Nombre.set?Business.Models.RequestResponse.GetVirtualKeyRequest.Nombre.setQ
+Apellido.getABusiness.Models.RequestResponse.GetVirtualKeyRequest.Apellido.getQ
+Apellido.setABusiness.Models.RequestResponse.GetVirtualKeyRequest.Apellido.set_
+ClaveDefinitiva.getHBusiness.Models.RequestResponse.GetVirtualKeyRequest.ClaveDefinitiva.get_
+ClaveDefinitiva.setHBusiness.Models.RequestResponse.GetVirtualKeyRequest.ClaveDefinitiva.set

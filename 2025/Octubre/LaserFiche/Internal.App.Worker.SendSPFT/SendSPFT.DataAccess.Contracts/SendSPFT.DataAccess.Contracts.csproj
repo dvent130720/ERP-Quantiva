@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Davivienda.Framework.Lib.VoucherNumber" Version="1.0.0" />
+    <PackageReference Include="Npgsql" Version="9.0.3" />
+      <PackageReference Include="CData.Sybase" Version="22.0.8389" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SendSPFT.Application.Contracts\SendSPFT.Application.Contracts.csproj" />
+    <ProjectReference Include="..\SendSPFT.Business\SendSPFT.Business.csproj" />
+  </ItemGroup>
+
+</Project>
+

@@ -1,0 +1,8 @@
+È
++SendSPFT.DataAccess.Context.SendSftpContextobject6SendSPFT.DataAccess.Contracts.Context.ISendSftpContextSystem.IDisposable®
+¾SendSftpContext(Microsoft.Extensions.Configuration.IConfiguration, Davivienda.Framework.Lib.Crypto.ICrypto, Microsoft.Extensions.Logging.ILogger<SendSPFT.DataAccess.Context.SendSftpContext>)êSendSPFT.DataAccess.Context.SendSftpContext.SendSftpContext(Microsoft.Extensions.Configuration.IConfiguration, Davivienda.Framework.Lib.Crypto.ICrypto, Microsoft.Extensions.Logging.ILogger<SendSPFT.DataAccess.Context.SendSftpContext>)^
+CreateConnectionAsync()CSendSPFT.DataAccess.Context.SendSftpContext.CreateConnectionAsync()P
+IsHealthyAsync()<SendSPFT.DataAccess.Context.SendSftpContext.IsHealthyAsync()R
+ThrowIfDisposed()=SendSPFT.DataAccess.Context.SendSftpContext.ThrowIfDisposed()J
+Dispose(bool)9SendSPFT.DataAccess.Context.SendSftpContext.Dispose(bool)B
+	Dispose()5SendSPFT.DataAccess.Context.SendSftpContext.Dispose()

@@ -1,0 +1,4 @@
+ñ
+4SendSPFT.Application.Clients.QueryCustomerDataClientobject?SendSPFT.Application.Contracts.Clients.IQueryCustomerDataClient¿
+ÂQueryCustomerDataClient(Microsoft.Extensions.Logging.ILogger<SendSPFT.Application.Clients.QueryCustomerDataClient>, Microsoft.Extensions.Configuration.IConfiguration, System.Net.Http.HttpClient)÷SendSPFT.Application.Clients.QueryCustomerDataClient.QueryCustomerDataClient(Microsoft.Extensions.Logging.ILogger<SendSPFT.Application.Clients.QueryCustomerDataClient>, Microsoft.Extensions.Configuration.IConfiguration, System.Net.Http.HttpClient)­
+:GetDataClient(SendSPFT.Business.Models.BD.TdAttachmentDto)oSendSPFT.Application.Clients.QueryCustomerDataClient.GetDataClient(SendSPFT.Business.Models.BD.TdAttachmentDto)

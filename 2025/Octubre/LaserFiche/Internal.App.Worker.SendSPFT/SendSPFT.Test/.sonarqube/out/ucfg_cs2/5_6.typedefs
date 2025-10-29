@@ -1,0 +1,4 @@
+ž
+<SendSPFT.CrossCutting.Helpers.RequestContextHeadersExtractorobjectGSendSPFT.CrossCutting.Helpers.Contracts.IRequestContextHeadersExtractorì
+URequestContextHeadersExtractor(Davivienda.Framework.Lib.VoucherNumber.IVoucherNumber)’SendSPFT.CrossCutting.Helpers.RequestContextHeadersExtractor.RequestContextHeadersExtractor(Davivienda.Framework.Lib.VoucherNumber.IVoucherNumber)
+.Extract(Microsoft.AspNetCore.Http.HttpContext)kSendSPFT.CrossCutting.Helpers.RequestContextHeadersExtractor.Extract(Microsoft.AspNetCore.Http.HttpContext)

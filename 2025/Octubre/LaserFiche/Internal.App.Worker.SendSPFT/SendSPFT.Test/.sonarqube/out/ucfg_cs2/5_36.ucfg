@@ -1,0 +1,143 @@
+
+kSendSPFT.CrossCutting.Helpers.RequestContextHeadersExtractor.Extract(Microsoft.AspNetCore.Http.HttpContext)l
+bD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\RequestContextExtractor.cs% (,"0*§
+0l
+bD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\RequestContextExtractor.cs (HÙÖ
+l
+bD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\RequestContextExtractor.cs (5
+%0/SendSPFT.Bussiness.Models.RequestContextHeaders"/SendSPFT.Bussiness.Models.RequestContextHeaders
+þ
+l
+bD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\RequestContextExtractor.cs (,
+
+%1void"GSendSPFT.Bussiness.Models.RequestContextHeaders.RequestContextHeaders()*97
+5
+%0/SendSPFT.Bussiness.Models.RequestContextHeadersé
+æ
+l
+bD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\RequestContextExtractor.cs (4
+%2string"GetHeader(string)*B@>
+<SendSPFT.CrossCutting.Helpers.RequestContextHeadersExtractor*
+x-SessionId‹
+ˆ
+l
+bD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\RequestContextExtractor.cs (4
+%3string"=SendSPFT.Bussiness.Models.RequestContextHeaders.SessionId.set*97
+5
+%0/SendSPFT.Bussiness.Models.RequestContextHeaders*
+
+%2stringí
+ê
+l
+bD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\RequestContextExtractor.cs  (<
+%4string"GetHeader(string)*B@>
+<SendSPFT.CrossCutting.Helpers.RequestContextHeadersExtractor*
+x-TransactionId
+Œ
+l
+bD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\RequestContextExtractor.cs (<
+%5string"ASendSPFT.Bussiness.Models.RequestContextHeaders.TransactionId.set*97
+5
+%0/SendSPFT.Bussiness.Models.RequestContextHeaders*
+
+%4stringé
+æ
+l
+bD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\RequestContextExtractor.cs (4
+%6string"GetHeader(string)*B@>
+<SendSPFT.CrossCutting.Helpers.RequestContextHeadersExtractor*
+x-ChannelId‹
+ˆ
+l
+bD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\RequestContextExtractor.cs (4
+%7string"=SendSPFT.Bussiness.Models.RequestContextHeaders.ChannelId.set*97
+5
+%0/SendSPFT.Bussiness.Models.RequestContextHeaders*
+
+%6stringä
+á
+l
+bD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\RequestContextExtractor.cs (*
+%8string"GetHeader(string)*B@>
+<SendSPFT.CrossCutting.Helpers.RequestContextHeadersExtractor*
+
+x-I18n†
+ƒ
+l
+bD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\RequestContextExtractor.cs (*
+%9string"8SendSPFT.Bussiness.Models.RequestContextHeaders.I18n.set*97
+5
+%0/SendSPFT.Bussiness.Models.RequestContextHeaders*
+
+%8stringê
+ç
+l
+bD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\RequestContextExtractor.cs (4
+%10string"GetHeader(string)*B@>
+<SendSPFT.CrossCutting.Helpers.RequestContextHeadersExtractor*
+x-ServiceId
+Š
+l
+bD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\RequestContextExtractor.cs (4
+%11string"=SendSPFT.Bussiness.Models.RequestContextHeaders.ServiceId.set*97
+5
+%0/SendSPFT.Bussiness.Models.RequestContextHeaders*
+
+%10stringèå
+l
+bD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\RequestContextExtractor.cs  (H>
+%127Davivienda.Framework.Lib.VoucherNumber.VoucherNumberDto"MDavivienda.Framework.Lib.VoucherNumber.IVoucherNumber.GenerateVoucherNumber()*MK
+I
+voucherGenerator5Davivienda.Framework.Lib.VoucherNumber.IVoucherNumber2GenerateVoucherNumber()*
+1
+2*Œ
+2l
+bD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\RequestContextExtractor.csI ([“
+
+l
+bD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\RequestContextExtractor.csJ ([
+%13string"MDavivienda.Framework.Lib.VoucherNumber.VoucherNumberDto.NumeroComprobante.get*B@
+>
+%127Davivienda.Framework.Lib.VoucherNumber.VoucherNumberDto*
+1*y
+1l
+bD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\RequestContextExtractor.cs	 (	*
+3
+4*¤
+3l
+bD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\RequestContextExtractor.cs_ (b
+Œ
+l
+bD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\RequestContextExtractor.cs_ (b
+%16string"__id*
+0™
+–
+l
+bD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\RequestContextExtractor.cs_ (b
+%14string"__id*
+
+%16string*
+4*¯
+4l
+bD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\RequestContextExtractor.cs (b‘
+Ž
+l
+bD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\RequestContextExtractor.cs (b
+%17string"ASendSPFT.Bussiness.Models.RequestContextHeaders.VoucherNumber.set*97
+5
+%0/SendSPFT.Bussiness.Models.RequestContextHeaders*
+
+%14string"§
+l
+bD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\RequestContextExtractor.cs (7
+5
+%0/SendSPFT.Bussiness.Models.RequestContextHeaders*÷
+5l
+bD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\RequestContextExtractor.cs	 (	"ƒ
+l
+bD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\RequestContextExtractor.cs (	
+implicit return:¤
+l
+bD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\RequestContextExtractor.cs- (D4
+httpContext%Microsoft.AspNetCore.Http.HttpContextB@>
+<SendSPFT.CrossCutting.Helpers.RequestContextHeadersExtractor

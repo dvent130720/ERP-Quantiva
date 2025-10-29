@@ -1,0 +1,10 @@
+Z
+QD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\BdSybase.csutf-8a
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\SendSftpContext.csutf-8d
+[D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\SelectRegistryBD.csutf-8a
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\UpdateTableBD.csutf-8c
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\SP\FileProcDigExecSP.csutf-8_
+VD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\SP\GetDatesSyb12.csutf-8
+tD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\obj\Debug\net8.0\SendSPFT.DataAccess.GlobalUsings.g.csutf-8ˆ
+}D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.csutf-8}
+rD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\obj\Debug\net8.0\SendSPFT.DataAccess.AssemblyInfo.csutf-8

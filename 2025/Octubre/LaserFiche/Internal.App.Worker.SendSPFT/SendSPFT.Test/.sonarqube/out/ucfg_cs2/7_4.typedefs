@@ -1,0 +1,4 @@
+ÿ
++SendSPFT.DataAccess.Exec.Func.UpdateTableBDobject6SendSPFT.DataAccess.Contracts.Exec.Func.IUpdateTableBDâ
+˜UpdateTableBD(SendSPFT.DataAccess.Contracts.Context.ISendSftpContext, Microsoft.Extensions.Logging.ILogger<SendSPFT.DataAccess.Exec.Func.UpdateTableBD>)ÄSendSPFT.DataAccess.Exec.Func.UpdateTableBD.UpdateTableBD(SendSPFT.DataAccess.Contracts.Context.ISendSftpContext, Microsoft.Extensions.Logging.ILogger<SendSPFT.DataAccess.Exec.Func.UpdateTableBD>)ª
+=UpdateTableAsync(SendSPFT.Business.Models.BD.TdAttachmentDto)iSendSPFT.DataAccess.Exec.Func.UpdateTableBD.UpdateTableAsync(SendSPFT.Business.Models.BD.TdAttachmentDto)

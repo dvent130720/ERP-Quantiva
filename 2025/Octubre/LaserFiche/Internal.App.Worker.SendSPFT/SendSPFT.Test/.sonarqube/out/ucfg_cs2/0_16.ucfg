@@ -1,0 +1,87 @@
+
+GSendSPFT.Bussiness.Models.RequestContextHeaders.RequestContextHeaders()e
+[D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Business\Models\RequestContextHeaders.cs	 	(&"0*Ì
+0e
+[D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Business\Models\RequestContextHeaders.cs (Ÿ
+œ
+e
+[D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Business\Models\RequestContextHeaders.cs0 (<
+%0string"__id**
+string"
+Emptystring€
+ý
+e
+[D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Business\Models\RequestContextHeaders.cs (=
+%1string"=SendSPFT.Bussiness.Models.RequestContextHeaders.SessionId.set*531
+/SendSPFT.Bussiness.Models.RequestContextHeaders*
+
+%0stringŸ
+œ
+e
+[D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Business\Models\RequestContextHeaders.cs4 (@
+%2string"__id**
+string"
+Emptystring„
+
+e
+[D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Business\Models\RequestContextHeaders.cs (A
+%3string"ASendSPFT.Bussiness.Models.RequestContextHeaders.TransactionId.set*531
+/SendSPFT.Bussiness.Models.RequestContextHeaders*
+
+%2stringŸ
+œ
+e
+[D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Business\Models\RequestContextHeaders.cs0 (<
+%4string"__id**
+string"
+Emptystring€
+ý
+e
+[D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Business\Models\RequestContextHeaders.cs (=
+%5string"=SendSPFT.Bussiness.Models.RequestContextHeaders.ChannelId.set*531
+/SendSPFT.Bussiness.Models.RequestContextHeaders*
+
+%4stringŸ
+œ
+e
+[D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Business\Models\RequestContextHeaders.cs+ (7
+%6string"__id**
+string"
+Emptystringû
+ø
+e
+[D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Business\Models\RequestContextHeaders.cs (8
+%7string"8SendSPFT.Bussiness.Models.RequestContextHeaders.I18n.set*531
+/SendSPFT.Bussiness.Models.RequestContextHeaders*
+
+%6stringŸ
+œ
+e
+[D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Business\Models\RequestContextHeaders.cs0 (<
+%8string"__id**
+string"
+Emptystring€
+ý
+e
+[D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Business\Models\RequestContextHeaders.cs (=
+%9string"=SendSPFT.Bussiness.Models.RequestContextHeaders.ServiceId.set*531
+/SendSPFT.Bussiness.Models.RequestContextHeaders*
+
+%8string 
+
+e
+[D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Business\Models\RequestContextHeaders.cs4 (@
+%10string"__id**
+string"
+Emptystring†
+ƒ
+e
+[D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Business\Models\RequestContextHeaders.cs (A
+%11string"ASendSPFT.Bussiness.Models.RequestContextHeaders.VoucherNumber.set*531
+/SendSPFT.Bussiness.Models.RequestContextHeaders*
+
+%10string"|
+e
+[D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Business\Models\RequestContextHeaders.cs	 (
+implicit returnB31
+/SendSPFT.Bussiness.Models.RequestContextHeaders

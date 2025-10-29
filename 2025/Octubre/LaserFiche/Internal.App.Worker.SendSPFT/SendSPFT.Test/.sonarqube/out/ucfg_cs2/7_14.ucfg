@@ -1,0 +1,25 @@
+
+5SendSPFT.DataAccess.Context.SendSftpContext.Dispose()b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\SendSftpContext.csV V("0*Ç
+0b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\SendSftpContext.csX Y($ú÷
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\SendSftpContext.csX X($
+
+%0void"9SendSPFT.DataAccess.Context.SendSftpContext.Dispose(bool)*1/-
++SendSPFT.DataAccess.Context.SendSftpContext*
+""2Dispose(bool)Û
+Ø
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\SendSftpContext.csY Y(%
+
+%1void""System.GC.SuppressFinalize(object)*"
+	System.GC*1/-
++SendSPFT.DataAccess.Context.SendSftpContext*
+1*â
+1b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\SendSftpContext.csZ	 Z(	"y
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\SendSftpContext.csZ Z(	
+implicit returnB/-
++SendSPFT.DataAccess.Context.SendSftpContext

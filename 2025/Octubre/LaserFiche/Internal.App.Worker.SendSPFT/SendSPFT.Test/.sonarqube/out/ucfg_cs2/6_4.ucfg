@@ -1,0 +1,126 @@
+
+eSendSPFT.Application.Services.SendSftpService.ExecuteServiceAsync(System.Threading.CancellationToken)d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Services\SendSftpService.cs. .(-"0*–
+0d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Services\SendSftpService.cs0 0(@î
+ë
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Services\SendSftpService.cs0 0(
+%0System.Action<T1, T2, T3>"__id*\Z*X/
+-SendSPFT.Application.Services.SendSftpService"%
+_logInfoSystem.Action<T1, T2, T3>´
+±
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Services\SendSftpService.cs0 0(A
+
+%1void",System.Action<T1, T2, T3>.Invoke(T1, T2, T3)*
+System.Action<T1, T2, T3>*A?
+=
+logger3Microsoft.Extensions.Logging.ILogger<TCategoryName>*!
+Searching records in RDS...*
+""*
+1*Î
+1d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Services\SendSftpService.cs4 6(#ÈÅ
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Services\SendSftpService.cs4$ 4(D*
+%2$System.Threading.Tasks.Task<TResult>"MSendSPFT.DataAccess.Contracts.Exec.Func.ISelectRegistryBD.SelectRecordAsync()*MK
+I
+selectRecord9SendSPFT.DataAccess.Contracts.Exec.Func.ISelectRegistryBD2SelectRecordAsync()¨
+¥
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Services\SendSftpService.cs4 4(D-
+Records"System.Collections.Generic.List<T>"__id*
+""ä
+á
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Services\SendSftpService.cs6 6(#
+
+%3bool""object.operator ==(object, object)*
+"
+object*1/
+-
+Records"System.Collections.Generic.List<T>*
+""*
+2
+3*É
+3d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Services\SendSftpService.cs6' 6(9Õ
+Ò
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Services\SendSftpService.cs6' 6(4	
+%4int",System.Collections.Generic.List<T>.Count.get*1/
+-
+Records"System.Collections.Generic.List<T>*
+2
+4*Ž
+2d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Services\SendSftpService.cs8 8(Uî
+ë
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Services\SendSftpService.cs8 8(
+%5System.Action<T1, T2, T3>"__id*\Z*X/
+-SendSPFT.Application.Services.SendSftpService"%
+_logInfoSystem.Action<T1, T2, T3>Á
+¾
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Services\SendSftpService.cs8 8(V
+
+%6void",System.Action<T1, T2, T3>.Invoke(T1, T2, T3)*
+System.Action<T1, T2, T3>*A?
+=
+logger3Microsoft.Extensions.Logging.ILogger<TCategoryName>*.,*
+(No Records found in 'Registered' status.*
+"""n
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Services\SendSftpService.cs9 9(
+""*n
+4d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Services\SendSftpService.cs<' <(.*
+5*q
+5d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Services\SendSftpService.csE	 E(	*
+6
+7*²
+6d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Services\SendSftpService.cs> >(AÁ¾
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Services\SendSftpService.cs> >(B!
+%7System.Threading.Tasks.Task"pSendSPFT.CrossCutting.Subservices.IProcessRecord.ProcessRecordAsync(SendSPFT.Business.Models.BD.TdAttachmentDto)*EC
+A
+processRecord0SendSPFT.CrossCutting.Subservices.IProcessRecord*97
+5
+record+SendSPFT.Business.Models.BD.TdAttachmentDto2?ProcessRecordAsync(SendSPFT.Business.Models.BD.TdAttachmentDto)*
+5*q
+7d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Services\SendSftpService.csE	 E(	*
+8
+9*ò
+8d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Services\SendSftpService.csC C($ç
+ä
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Services\SendSftpService.csC C(
+%8System.Action<T1, T2>"__id*YW*U/
+-SendSPFT.Application.Services.SendSftpService""
+	_logErrorSystem.Action<T1, T2>—
+”
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Services\SendSftpService.csC C(%
+
+%9void"$System.Action<T1, T2>.Invoke(T1, T2)*
+System.Action<T1, T2>*A?
+=
+logger3Microsoft.Extensions.Logging.ILogger<TCategoryName>*
+
+exSystem.Exception*
+9*æ
+9d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Services\SendSftpService.csE	 E(	"{
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Services\SendSftpService.csE E(	
+implicit return:›
+d
+ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Services\SendSftpService.cs.. .(M3
+stoppingToken"System.Threading.CancellationTokenB1/
+-SendSPFT.Application.Services.SendSftpService

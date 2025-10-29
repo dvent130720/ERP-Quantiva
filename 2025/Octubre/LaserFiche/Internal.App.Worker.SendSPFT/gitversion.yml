@@ -1,0 +1,190 @@
+# Esquemas de versionado para ensamblados y archivos (X.Y.Z)
+assembly-versioning-scheme: MajorMinorPatch
+assembly-file-versioning-scheme: MajorMinorPatch
+
+# Prefijo para las etiquetas de Git (opcional v o V)
+tag-prefix: '[vV]?'
+
+# Patrón para extraer la versión del nombre de la rama (si se usa esa estrategia)
+version-in-branch-pattern: (?<version>[vV]?\d+(\.\d+)?(\.\d+)?).*
+
+# Mensajes de confirmación para incrementos de versión (formato Conventional Commits proporcionado por el usuario)
+major-version-bump-message: "^(feat|fix|perf|refactor|revert)(\\([\\w\\s-]*\\))?(!:|:.*\\n\\n((.+\\n)+\\n)?BREAKING CHANGE:\\s.+)"
+minor-version-bump-message: "^(feat|style)(\\([\\w\\s-]*\\))?:"
+patch-version-bump-message: "^(fix|perf|refactor|revert|test)(\\([\\w\\s-]*\\))?:"
+no-bump-message: \+semver:\s?(none|skip)
+
+# Peso para tags de prelanzamiento
+tag-pre-release-weight: 60000
+
+# Formato de fecha de confirmación
+commit-date-format: 'yyyy-MM-dd'
+
+# Formatos de mensaje de merge (vacío, ya que usamos conventional commits para incrementos)
+merge-message-formats: {}
+
+# Actualizar el número de compilación
+update-build-number: false # Mantenido en false
+# Si es false, CommitsSinceVersionSource no se usará como número de compilación para algunas variables.
+
+# Formato de versión semántica
+semantic-version-format: Strict
+
+# Estrategias de versionado (orden proporcionado por el usuario)
+strategies:
+- Fallback
+- ConfiguredNextVersion
+- MergeMessage
+- TaggedCommit
+- TrackReleaseBranches
+- VersionInBranchName
+
+# Configuración específica por rama
+branches:
+  develop:
+    mode: ManualDeployment # Cambiado de ContinuousDelivery
+    label: '' 
+    increment: Minor
+    prevent-increment:
+      when-current-commit-tagged: false
+    track-merge-target: true
+    track-merge-message: true
+    regex: ^dev(?:elop|elopment)?$|^Int$|^INT$
+    source-branches:
+    - main
+    is-source-branch-for: []
+    tracks-release-branches: true
+    is-release-branch: false
+    is-main-branch: false
+    pre-release-weight: 0
+  main:
+    mode: ManualDeployment # Asegurando consistencia, aunque is-main-branch:true ya lo implica
+    label: '' 
+    increment: Patch
+    prevent-increment:
+      of-merged-branch: true
+    track-merge-target: false
+    track-merge-message: true
+    regex: ^master$|^main$
+    source-branches: []
+    is-source-branch-for: []
+    tracks-release-branches: false
+    is-release-branch: false
+    is-main-branch: true
+    pre-release-weight: 55000
+  release:
+    mode: ManualDeployment # Ya era ManualDeployment
+    label: '' 
+    increment: Minor
+    prevent-increment:
+      of-merged-branch: true
+      when-current-commit-tagged: false
+    track-merge-target: false
+    regex: ^releases?[\/-](?<BranchName>.+)|^UAT$|^QA$
+    source-branches:
+    - main
+    - support
+    is-source-branch-for: []
+    tracks-release-branches: false
+    is-release-branch: true
+    is-main-branch: false
+    pre-release-weight: 30000
+  feature:
+    mode: ManualDeployment # Cambiado de ContinuousDelivery
+    label: '' 
+    increment: Inherit
+    prevent-increment:
+      when-current-commit-tagged: false
+    track-merge-message: true
+    regex: ^(?:features?|Dev|DEV)[\/-](?<BranchName>.+)
+    source-branches:
+    - develop
+    is-source-branch-for: []
+    is-main-branch: false
+    pre-release-weight: 30000
+  pull-request:
+    mode: ManualDeployment # Cambiado de ContinuousDelivery
+    label: '' 
+    increment: Inherit
+    prevent-increment:
+      of-merged-branch: true
+      when-current-commit-tagged: false
+    track-merge-message: true
+    regex: ^(?:pull-requests|pull|pr)[\/-](?<Number>\d+)
+    source-branches:
+    - develop
+    - main
+    - release
+    - feature
+    - support
+    - hotfix
+    is-source-branch-for: []
+    pre-release-weight: 30000
+  hotfix:
+    mode: ManualDeployment # Ya era ManualDeployment
+    label: '' 
+    increment: Inherit
+    prevent-increment:
+      when-current-commit-tagged: false
+    regex: ^hotfix(es)?[\/-](?<BranchName>.+)
+    source-branches:
+    - main
+    - support
+    is-source-branch-for: []
+    is-release-branch: true
+    is-main-branch: false
+    pre-release-weight: 30000
+  support:
+    mode: ManualDeployment # Asegurando consistencia
+    label: '' 
+    increment: Patch
+    prevent-increment:
+      of-merged-branch: true
+    track-merge-target: false
+    regex: ^support[\/-](?<BranchName>.+)
+    source-branches:
+    - main
+    is-source-branch-for: []
+    tracks-release-branches: false
+    is-release-branch: false
+    is-main-branch: true
+    pre-release-weight: 55000
+  unknown:
+    mode: ManualDeployment # Ya era ManualDeployment
+    label: '' 
+    increment: Inherit
+    prevent-increment:
+      when-current-commit-tagged: true
+    regex: (?<BranchName>.+)
+    source-branches:
+    - main
+    - develop
+    - release
+    - feature
+    - pull-request
+    - hotfix
+    - support
+    is-source-branch-for: []
+    is-main-branch: false
+
+# Commits a ignorar
+ignore:
+  sha: []
+
+# Configuración global/por defecto
+mode: ManualDeployment # Cambiado de ContinuousDelivery
+label: '' 
+increment: Inherit
+prevent-increment:
+  of-merged-branch: false
+  when-branch-merged: false
+  when-current-commit-tagged: true
+track-merge-target: false
+track-merge-message: true
+commit-message-incrementing: Enabled
+regex: ''
+source-branches: []
+is-source-branch-for: []
+tracks-release-branches: false
+is-release-branch: false
+is-main-branch: false

@@ -1,0 +1,64 @@
+
+CSendSPFT.DataAccess.Context.SendSftpContext.CreateConnectionAsync()t
+jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Context\SendSftpContext.cs,, ,(A"0*ô
+0t
+jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Context\SendSftpContext.cs. 2(÷
+ô
+t
+jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Context\SendSftpContext.cs. .(
+
+%0void"=SendSPFT.DataAccess.Context.SendSftpContext.ThrowIfDisposed()*1/-
++SendSPFT.DataAccess.Context.SendSftpContextÝ
+Ú
+t
+jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Context\SendSftpContext.cs0- 0(<
+%1string"__id*NL*J-
++SendSPFT.DataAccess.Context.SendSftpContext"
+_cadenaConexionstring±®
+t
+jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Context\SendSftpContext.cs0 0(=
+%2Npgsql.NpgsqlConnection"Npgsql.NpgsqlConnectioní
+ê
+t
+jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Context\SendSftpContext.cs0 0(,
+
+%3void"1Npgsql.NpgsqlConnection.NpgsqlConnection(string?)*!
+
+%2Npgsql.NpgsqlConnection*
+
+%1stringù
+ö
+t
+jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Context\SendSftpContext.cs0 0(=U-
++SendSPFT.DataAccess.Context.SendSftpContext"$
+	_conexionNpgsql.NpgsqlConnection"__id*!
+
+%2Npgsql.NpgsqlConnectionù
+ö
+t
+jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Context\SendSftpContext.cs1 1(
+%4Npgsql.NpgsqlConnection"__id*YW*U-
++SendSPFT.DataAccess.Context.SendSftpContext"$
+	_conexionNpgsql.NpgsqlConnectionì
+é
+t
+jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Context\SendSftpContext.cs1 1('!
+%5System.Threading.Tasks.Task"+System.Data.Common.DbConnection.OpenAsync()*!
+
+%4Npgsql.NpgsqlConnectionù
+ö
+t
+jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Context\SendSftpContext.cs2 2(
+%6Npgsql.NpgsqlConnection"__id*YW*U-
++SendSPFT.DataAccess.Context.SendSftpContext"$
+	_conexionNpgsql.NpgsqlConnection"—
+t
+jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Context\SendSftpContext.cs2 2(
+
+%6Npgsql.NpgsqlConnection*‡
+1t
+jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Context\SendSftpContext.cs3	 3(	"‹
+t
+jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Context\SendSftpContext.cs3 3(	
+implicit returnB/-
++SendSPFT.DataAccess.Context.SendSftpContext

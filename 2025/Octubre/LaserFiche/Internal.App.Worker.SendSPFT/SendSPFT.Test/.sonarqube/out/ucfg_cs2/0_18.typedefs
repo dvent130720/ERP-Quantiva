@@ -1,0 +1,19 @@
+Ë	
+.SendSPFT.Business.Models.BD.FileRegBitacoraDtoobject[
+FileRegBitacoraDto()CSendSPFT.Business.Models.BD.FileRegBitacoraDto.FileRegBitacoraDto()M
+Operacion.get<SendSPFT.Business.Models.BD.FileRegBitacoraDto.Operacion.getM
+Operacion.set<SendSPFT.Business.Models.BD.FileRegBitacoraDto.Operacion.setI
+Proceso.get:SendSPFT.Business.Models.BD.FileRegBitacoraDto.Proceso.getI
+Proceso.set:SendSPFT.Business.Models.BD.FileRegBitacoraDto.Proceso.setG
+
+Estado.get9SendSPFT.Business.Models.BD.FileRegBitacoraDto.Estado.getG
+
+Estado.set9SendSPFT.Business.Models.BD.FileRegBitacoraDto.Estado.setM
+DescError.get<SendSPFT.Business.Models.BD.FileRegBitacoraDto.DescError.getM
+DescError.set<SendSPFT.Business.Models.BD.FileRegBitacoraDto.DescError.setS
+FechaProceso.get?SendSPFT.Business.Models.BD.FileRegBitacoraDto.FechaProceso.getS
+FechaProceso.set?SendSPFT.Business.Models.BD.FileRegBitacoraDto.FechaProceso.setE
+	Error.get8SendSPFT.Business.Models.BD.FileRegBitacoraDto.Error.getE
+	Error.set8SendSPFT.Business.Models.BD.FileRegBitacoraDto.Error.setK
+MsgError.get;SendSPFT.Business.Models.BD.FileRegBitacoraDto.MsgError.getK
+MsgError.set;SendSPFT.Business.Models.BD.FileRegBitacoraDto.MsgError.set

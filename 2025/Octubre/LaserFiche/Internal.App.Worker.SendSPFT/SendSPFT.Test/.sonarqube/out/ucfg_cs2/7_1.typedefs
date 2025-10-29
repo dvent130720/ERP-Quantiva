@@ -1,0 +1,7 @@
+§
+$SendSPFT.DataAccess.Context.BdSybaseobjectSystem.IDisposable/SendSPFT.DataAccess.Contracts.Context.IBdSybase‹
+°BdSybase(Microsoft.Extensions.Configuration.IConfiguration, Davivienda.Framework.Lib.Crypto.ICrypto, Microsoft.Extensions.Logging.ILogger<SendSPFT.DataAccess.Context.BdSybase>)ÕSendSPFT.DataAccess.Context.BdSybase.BdSybase(Microsoft.Extensions.Configuration.IConfiguration, Davivienda.Framework.Lib.Crypto.ICrypto, Microsoft.Extensions.Logging.ILogger<SendSPFT.DataAccess.Context.BdSybase>);
+	Dispose().SendSPFT.DataAccess.Context.BdSybase.Dispose()C
+Dispose(bool)2SendSPFT.DataAccess.Context.BdSybase.Dispose(bool)W
+CreateConnectionAsync()<SendSPFT.DataAccess.Context.BdSybase.CreateConnectionAsync()I
+IsHealthyAsync()5SendSPFT.DataAccess.Context.BdSybase.IsHealthyAsync()

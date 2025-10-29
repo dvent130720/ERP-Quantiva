@@ -1,0 +1,9 @@
+﻿D:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess.Contracts\Context\IBdSybase.cs
+D:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess.Contracts\Context\ISendSftpContext.cs
+D:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess.Contracts\Exec\Func\ISelectRegistryBD.cs
+D:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess.Contracts\Exec\Func\IUpdateTableBD.cs
+D:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess.Contracts\Exec\SP\IFileProcDigExecSP.cs
+D:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess.Contracts\Exec\SP\IFileRegBitacoraExexSP.cs
+D:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess.Contracts\Exec\SP\IGetDatesSyb12.cs
+D:\Users\60500258\.nuget\packages\davivienda.framework.services.canonicalsignature\1.2.0\contentFiles\any\net6.0\NM Leitmotiv Superior cono-1.ico
+D:\Users\60500258\.nuget\packages\davivienda.framework.services.headervalidatormiddleware\1.2.3\contentFiles\any\net6.0\NM Leitmotiv Superior cono-1.ico

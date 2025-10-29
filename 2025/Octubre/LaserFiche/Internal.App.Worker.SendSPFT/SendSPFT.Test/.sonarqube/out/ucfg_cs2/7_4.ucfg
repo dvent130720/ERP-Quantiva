@@ -1,0 +1,139 @@
+
+BSendSPFT.DataAccess.Exec.Func.UpdateTableBD.UpdateTableBD()!staticb
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\UpdateTableBD.cs ("0*ü(
+0b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\UpdateTableBD.cs^ ^(|
+z
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\UpdateTableBD.cs ( 
+%0"__id*
+""¹¶
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\UpdateTableBD.cs (;*
+%1$Microsoft.Extensions.Logging.EventId"$Microsoft.Extensions.Logging.EventIdò
+ï
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\UpdateTableBD.cs (
+
+%2void":Microsoft.Extensions.Logging.EventId.EventId(int, string?)*.,
+*
+%1$Microsoft.Extensions.Logging.EventId*2é*
+""»
+¸
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\UpdateTableBD.cs (C
+%3System.Action<T1, T2, T3>"ŠMicrosoft.Extensions.Logging.LoggerMessage.Define<T1>(Microsoft.Extensions.Logging.LogLevel, Microsoft.Extensions.Logging.EventId, string)*0.",
+*Microsoft.Extensions.Logging.LoggerMessage*
+
+%0*.,
+*
+%1$Microsoft.Extensions.Logging.EventId*864
+2No se actualizÃ³ ningÃºn record con td_id = {TdId}ó
+ð
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\UpdateTableBD.csA (C_-
++SendSPFT.DataAccess.Exec.Func.UpdateTableBD".
+_logNoRowsUpdatedSystem.Action<T1, T2, T3>"__id*#!
+
+%3System.Action<T1, T2, T3>|
+z
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\UpdateTableBD.cs ($
+%4"__id*
+""¹¶
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\UpdateTableBD.cs   (;*
+%5$Microsoft.Extensions.Logging.EventId"$Microsoft.Extensions.Logging.EventIdò
+ï
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\UpdateTableBD.cs   (
+
+%6void":Microsoft.Extensions.Logging.EventId.EventId(int, string?)*.,
+*
+%5$Microsoft.Extensions.Logging.EventId*2ê*
+""¹
+¶
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\UpdateTableBD.cs !(C
+%7System.Action<T1, T2, T3>"ŠMicrosoft.Extensions.Logging.LoggerMessage.Define<T1>(Microsoft.Extensions.Logging.LogLevel, Microsoft.Extensions.Logging.EventId, string)*0.",
+*Microsoft.Extensions.Logging.LoggerMessage*
+
+%4*.,
+*
+%5$Microsoft.Extensions.Logging.EventId*642
+0record actualizado correctamente. td_id = {TdId}ù
+ö
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\UpdateTableBD.csA !(Ce-
++SendSPFT.DataAccess.Exec.Func.UpdateTableBD"4
+_logUpdatedSuccessfullySystem.Action<T1, T2, T3>"__id*#!
+
+%7System.Action<T1, T2, T3>|
+z
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\UpdateTableBD.cs% %(
+%8"__id*
+""¹¶
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\UpdateTableBD.cs& &(;*
+%9$Microsoft.Extensions.Logging.EventId"$Microsoft.Extensions.Logging.EventIdó
+ð
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\UpdateTableBD.cs& &(
+%10void":Microsoft.Extensions.Logging.EventId.EventId(int, string?)*.,
+*
+%9$Microsoft.Extensions.Logging.EventId*2ë*
+""Ç
+Ä
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\UpdateTableBD.cs$ '(P 
+%11System.Action<T1, T2, T3>"ŠMicrosoft.Extensions.Logging.LoggerMessage.Define<T1>(Microsoft.Extensions.Logging.LogLevel, Microsoft.Extensions.Logging.EventId, string)*0.",
+*Microsoft.Extensions.Logging.LoggerMessage*
+
+%8*.,
+*
+%9$Microsoft.Extensions.Logging.EventId*CA?
+=Error al ejecutar UPDATE en td_attachment para td_id = {TdId}ò
+ï
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\UpdateTableBD.cs#@ '(P]-
++SendSPFT.DataAccess.Exec.Func.UpdateTableBD",
+_logNpgsqlErrorSystem.Action<T1, T2, T3>"__id*$"
+ 
+%11System.Action<T1, T2, T3>}
+{
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\UpdateTableBD.cs+ +(
+%12"__id*
+""º·
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\UpdateTableBD.cs, ,(;+
+%13$Microsoft.Extensions.Logging.EventId"$Microsoft.Extensions.Logging.EventIdô
+ñ
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\UpdateTableBD.cs, ,(
+%14void":Microsoft.Extensions.Logging.EventId.EventId(int, string?)*/-
++
+%13$Microsoft.Extensions.Logging.EventId*2ì*
+""º
+·
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\UpdateTableBD.cs* -(I
+%15System.Action<T1, T2>"†Microsoft.Extensions.Logging.LoggerMessage.Define(Microsoft.Extensions.Logging.LogLevel, Microsoft.Extensions.Logging.EventId, string)*0.",
+*Microsoft.Extensions.Logging.LoggerMessage*	
+
+%12*/-
++
+%13$Microsoft.Extensions.Logging.EventId*<:8
+6Error inesperado al actualizar record en td_attachmentî
+ë
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\UpdateTableBD.cs); -(I]-
++SendSPFT.DataAccess.Exec.Func.UpdateTableBD",
+_logUnexpectedErrorSystem.Action<T1, T2>"__id* 
+
+%15System.Action<T1, T2>"y
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\UpdateTableBD.cs ^(
+implicit returnB/"-
++SendSPFT.DataAccess.Exec.Func.UpdateTableBD

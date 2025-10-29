@@ -1,0 +1,91 @@
+
+KBusiness.Models.RequestResponse.GetVirtualKeyRequest.GetVirtualKeyRequest()x
+nD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Business\Models\EXT\RequestResponse\GetVirtualKeyRequest.cs (%"0*
+0x
+nD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Business\Models\EXT\RequestResponse\GetVirtualKeyRequest.cs (²
+¯
+x
+nD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Business\Models\EXT\RequestResponse\GetVirtualKeyRequest.cs9 (E
+%0string"__id**
+string"
+Emptystring¦
+£
+x
+nD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Business\Models\EXT\RequestResponse\GetVirtualKeyRequest.cs (F
+%1string"KBusiness.Models.RequestResponse.GetVirtualKeyRequest.TipoIdentificacion.set*:86
+4Business.Models.RequestResponse.GetVirtualKeyRequest*
+
+%0string²
+¯
+x
+nD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Business\Models\EXT\RequestResponse\GetVirtualKeyRequest.cs; (G
+%2string"__id**
+string"
+Emptystring¨
+¥
+x
+nD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Business\Models\EXT\RequestResponse\GetVirtualKeyRequest.cs (H
+%3string"MBusiness.Models.RequestResponse.GetVirtualKeyRequest.NumeroIdentificacion.set*:86
+4Business.Models.RequestResponse.GetVirtualKeyRequest*
+
+%2string²
+¯
+x
+nD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Business\Models\EXT\RequestResponse\GetVirtualKeyRequest.cs	- 	(9
+%4string"__id**
+string"
+Emptystringš
+—
+x
+nD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Business\Models\EXT\RequestResponse\GetVirtualKeyRequest.cs	 	(:
+%5string"?Business.Models.RequestResponse.GetVirtualKeyRequest.Correo.set*:86
+4Business.Models.RequestResponse.GetVirtualKeyRequest*
+
+%4string²
+¯
+x
+nD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Business\Models\EXT\RequestResponse\GetVirtualKeyRequest.cs
+1 
+(=
+%6string"__id**
+string"
+Emptystring
+š
+x
+nD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Business\Models\EXT\RequestResponse\GetVirtualKeyRequest.cs
+ 
+(>
+%7string"BBusiness.Models.RequestResponse.GetVirtualKeyRequest.Impresora.set*:86
+4Business.Models.RequestResponse.GetVirtualKeyRequest*
+
+%6string²
+¯
+x
+nD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Business\Models\EXT\RequestResponse\GetVirtualKeyRequest.cs- (9
+%8string"__id**
+string"
+Emptystringš
+—
+x
+nD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Business\Models\EXT\RequestResponse\GetVirtualKeyRequest.cs (:
+%9string"?Business.Models.RequestResponse.GetVirtualKeyRequest.Nombre.set*:86
+4Business.Models.RequestResponse.GetVirtualKeyRequest*
+
+%8string³
+°
+x
+nD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Business\Models\EXT\RequestResponse\GetVirtualKeyRequest.cs/ (;
+%10string"__id**
+string"
+Emptystringž
+›
+x
+nD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Business\Models\EXT\RequestResponse\GetVirtualKeyRequest.cs (<
+%11string"ABusiness.Models.RequestResponse.GetVirtualKeyRequest.Apellido.set*:86
+4Business.Models.RequestResponse.GetVirtualKeyRequest*
+
+%10string"
+x
+nD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Business\Models\EXT\RequestResponse\GetVirtualKeyRequest.cs (
+implicit returnB86
+4Business.Models.RequestResponse.GetVirtualKeyRequest

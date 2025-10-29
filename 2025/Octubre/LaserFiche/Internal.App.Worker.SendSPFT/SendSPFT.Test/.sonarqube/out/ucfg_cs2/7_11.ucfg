@@ -1,0 +1,95 @@
+
+<SendSPFT.DataAccess.Context.SendSftpContext.IsHealthyAsync()b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\SendSftpContext.cs5  5(."0*Ô
+0b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\SendSftpContext.cs7 7(å
+â
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\SendSftpContext.cs7 7(
+
+%0void"=SendSPFT.DataAccess.Context.SendSftpContext.ThrowIfDisposed()*1/-
++SendSPFT.DataAccess.Context.SendSftpContext*
+1*o
+1b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\SendSftpContext.csC	 C(	*
+2
+3*†
+2b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\SendSftpContext.cs;  <( ‹
+ˆ
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\SendSftpContext.cs;1 ;(H*
+%1$System.Threading.Tasks.Task<TResult>"CSendSPFT.DataAccess.Context.SendSftpContext.CreateConnectionAsync()*1/-
++SendSPFT.DataAccess.Context.SendSftpContextœ
+™
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\SendSftpContext.cs;  ;(H#
+conexionNpgsql.NpgsqlConnection"__id*
+""ç
+ä
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\SendSftpContext.cs< <( 
+%2Npgsql.NpgsqlConnection"__id*YW*U-
++SendSPFT.DataAccess.Context.SendSftpContext"$
+	_conexionNpgsql.NpgsqlConnection*
+4
+5*¿
+5b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\SendSftpContext.cs<! <('Ð
+Í
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\SendSftpContext.cs<" <('!
+%3System.Data.ConnectionState"!Npgsql.NpgsqlConnection.State.get*!
+
+%2Npgsql.NpgsqlConnection*
+4*Ó
+4b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\SendSftpContext.cs< <(?|
+z
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\SendSftpContext.cs<+ <(?
+%4"__id*
+"""l
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\SendSftpContext.cs< <(@
+""*ç	
+3b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\SendSftpContext.cs@ A(õ
+ò
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\SendSftpContext.cs@ @(#
+%5System.Action<T1, T2, T3>"__id*ec*a-
++SendSPFT.DataAccess.Context.SendSftpContext"0
+_logErrorConnectionSystem.Action<T1, T2, T3>š
+—
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\SendSftpContext.cs@$ @((9
+%63Microsoft.Extensions.Logging.ILogger<TCategoryName>"__id*pn*l-
++SendSPFT.DataAccess.Context.SendSftpContext";
+_log3Microsoft.Extensions.Logging.ILogger<TCategoryName>Â¿
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\SendSftpContext.cs@* @(4
+%7string"System.Exception.Message.get* 
+
+exNpgsql.NpgsqlException2Message.getµ
+²
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\SendSftpContext.cs@ @(9
+
+%8void",System.Action<T1, T2, T3>.Invoke(T1, T2, T3)*
+System.Action<T1, T2, T3>*=;
+9
+%63Microsoft.Extensions.Logging.ILogger<TCategoryName>*
+
+%7string* 
+
+exNpgsql.NpgsqlException"l
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\SendSftpContext.csA A(
+""*â
+6b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\SendSftpContext.csC	 C(	"y
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\SendSftpContext.csC C(	
+implicit returnB/-
++SendSPFT.DataAccess.Context.SendSftpContext

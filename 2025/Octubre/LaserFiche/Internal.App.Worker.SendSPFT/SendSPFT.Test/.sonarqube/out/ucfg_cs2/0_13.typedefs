@@ -1,0 +1,13 @@
+ó
+6Business.Models.RequestResponse.PasswordChangeResponseobjectk
+PasswordChangeResponse()OBusiness.Models.RequestResponse.PasswordChangeResponse.PasswordChangeResponse()M
+	Login.get@Business.Models.RequestResponse.PasswordChangeResponse.Login.getM
+	Login.set@Business.Models.RequestResponse.PasswordChangeResponse.Login.setc
+ValNombreUsuario.getKBusiness.Models.RequestResponse.PasswordChangeResponse.ValNombreUsuario.getc
+ValNombreUsuario.setKBusiness.Models.RequestResponse.PasswordChangeResponse.ValNombreUsuario.seta
+CodigoRespuesta.getJBusiness.Models.RequestResponse.PasswordChangeResponse.CodigoRespuesta.geta
+CodigoRespuesta.setJBusiness.Models.RequestResponse.PasswordChangeResponse.CodigoRespuesta.setk
+DescripcionRespuesta.getOBusiness.Models.RequestResponse.PasswordChangeResponse.DescripcionRespuesta.getk
+DescripcionRespuesta.setOBusiness.Models.RequestResponse.PasswordChangeResponse.DescripcionRespuesta.set]
+CorrelationId.getHBusiness.Models.RequestResponse.PasswordChangeResponse.CorrelationId.get]
+CorrelationId.setHBusiness.Models.RequestResponse.PasswordChangeResponse.CorrelationId.set

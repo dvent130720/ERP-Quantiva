@@ -1,0 +1,64 @@
+
+CSendSPFT.DataAccess.Context.SendSftpContext.CreateConnectionAsync()b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\SendSftpContext.cs,, ,(A"0*À
+0b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\SendSftpContext.cs. 2(å
+â
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\SendSftpContext.cs. .(
+
+%0void"=SendSPFT.DataAccess.Context.SendSftpContext.ThrowIfDisposed()*1/-
++SendSPFT.DataAccess.Context.SendSftpContextË
+È
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\SendSftpContext.cs0- 0(<
+%1string"__id*NL*J-
++SendSPFT.DataAccess.Context.SendSftpContext"
+_cadenaConexionstringŸœ
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\SendSftpContext.cs0 0(=
+%2Npgsql.NpgsqlConnection"Npgsql.NpgsqlConnectionÛ
+Ø
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\SendSftpContext.cs0 0(,
+
+%3void"1Npgsql.NpgsqlConnection.NpgsqlConnection(string?)*!
+
+%2Npgsql.NpgsqlConnection*
+
+%1stringç
+ä
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\SendSftpContext.cs0 0(=U-
++SendSPFT.DataAccess.Context.SendSftpContext"$
+	_conexionNpgsql.NpgsqlConnection"__id*!
+
+%2Npgsql.NpgsqlConnectionç
+ä
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\SendSftpContext.cs1 1(
+%4Npgsql.NpgsqlConnection"__id*YW*U-
++SendSPFT.DataAccess.Context.SendSftpContext"$
+	_conexionNpgsql.NpgsqlConnectionÚ
+×
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\SendSftpContext.cs1 1('!
+%5System.Threading.Tasks.Task"+System.Data.Common.DbConnection.OpenAsync()*!
+
+%4Npgsql.NpgsqlConnectionç
+ä
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\SendSftpContext.cs2 2(
+%6Npgsql.NpgsqlConnection"__id*YW*U-
++SendSPFT.DataAccess.Context.SendSftpContext"$
+	_conexionNpgsql.NpgsqlConnection"…
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\SendSftpContext.cs2 2(
+
+%6Npgsql.NpgsqlConnection*â
+1b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\SendSftpContext.cs3	 3(	"y
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\SendSftpContext.cs3 3(	
+implicit returnB/-
++SendSPFT.DataAccess.Context.SendSftpContext

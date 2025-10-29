@@ -1,0 +1,5 @@
+î
+4SendSPFT.CrossCutting.Helpers.ServiceResponseFactoryobject?SendSPFT.CrossCutting.Helpers.Contracts.IServiceResponseFactoryµ
+>Success<T>(T, SendSPFT.Bussiness.Models.RequestContextHeaders)sSendSPFT.CrossCutting.Helpers.ServiceResponseFactory.Success<T>(T, SendSPFT.Bussiness.Models.RequestContextHeaders)É
+HFail<T>(string, string, SendSPFT.Bussiness.Models.RequestContextHeaders)}SendSPFT.CrossCutting.Helpers.ServiceResponseFactory.Fail<T>(string, string, SendSPFT.Bussiness.Models.RequestContextHeaders)i
+ServiceResponseFactory()MSendSPFT.CrossCutting.Helpers.ServiceResponseFactory.ServiceResponseFactory()

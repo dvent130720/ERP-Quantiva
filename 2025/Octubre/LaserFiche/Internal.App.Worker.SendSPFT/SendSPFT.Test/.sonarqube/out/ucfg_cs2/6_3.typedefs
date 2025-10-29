@@ -1,0 +1,4 @@
+í
+-SendSPFT.Application.Services.SendSftpServiceobject8SendSPFT.Application.Contracts.Services.ISendSftpServiceÖ
+ÑSendSftpService(Microsoft.Extensions.Logging.ILogger<SendSPFT.Application.Services.SendSftpService>, SendSPFT.DataAccess.Contracts.Exec.Func.ISelectRegistryBD, SendSPFT.CrossCutting.Subservices.IProcessRecord)ÿSendSPFT.Application.Services.SendSftpService.SendSftpService(Microsoft.Extensions.Logging.ILogger<SendSPFT.Application.Services.SendSftpService>, SendSPFT.DataAccess.Contracts.Exec.Func.ISelectRegistryBD, SendSPFT.CrossCutting.Subservices.IProcessRecord) 
+7ExecuteServiceAsync(System.Threading.CancellationToken)eSendSPFT.Application.Services.SendSftpService.ExecuteServiceAsync(System.Threading.CancellationToken)

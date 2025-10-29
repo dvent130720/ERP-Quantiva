@@ -1,0 +1,108 @@
+
+@SendSPFT.DataAccess.Exec.SP.GetDatesSyb12.GetDatesSyb12()!staticr
+hD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\GetDatesSyb12.cs ("0*é!
+0r
+hD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\GetDatesSyb12.cs` `(ç
+ä
+r
+hD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\GetDatesSyb12.cs) (=
+%0"__id*
+""…∆
+r
+hD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\GetDatesSyb12.cs? (g*
+%1$Microsoft.Extensions.Logging.EventId"$Microsoft.Extensions.Logging.EventIdÇ
+ˇ
+r
+hD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\GetDatesSyb12.csC (J
+
+%2void":Microsoft.Extensions.Logging.EventId.EventId(int, string?)*.,
+*
+%1$Microsoft.Extensions.Logging.EventId*2Í*
+""¡
+æ
+r
+hD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\GetDatesSyb12.cs (;
+%3System.Action<T1, T2, T3>"äMicrosoft.Extensions.Logging.LoggerMessage.Define<T1>(Microsoft.Extensions.Logging.LogLevel, Microsoft.Extensions.Logging.EventId, string)*0.",
+*Microsoft.Extensions.Logging.LoggerMessage*
+
+%0*.,
+*
+%1$Microsoft.Extensions.Logging.EventId*.,*
+(Data mapping successful for {DataOrigin}à
+Ö
+r
+hD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\GetDatesSyb12.csC (;d+
+)SendSPFT.DataAccess.Exec.SP.GetDatesSyb12"5
+LogDataMappingSuccessfulSystem.Action<T1, T2, T3>"__id*#!
+
+%3System.Action<T1, T2, T3>ç
+ä
+r
+hD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\GetDatesSyb12.cs) (7
+%4"__id*
+""…∆
+r
+hD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\GetDatesSyb12.cs9 (a*
+%5$Microsoft.Extensions.Logging.EventId"$Microsoft.Extensions.Logging.EventIdÇ
+ˇ
+r
+hD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\GetDatesSyb12.cs= (D
+
+%6void":Microsoft.Extensions.Logging.EventId.EventId(int, string?)*.,
+*
+%5$Microsoft.Extensions.Logging.EventId*2“*
+""«
+ƒ
+r
+hD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\GetDatesSyb12.cs (A
+%7System.Action<T1, T2, T3>"äMicrosoft.Extensions.Logging.LoggerMessage.Define<T1>(Microsoft.Extensions.Logging.LogLevel, Microsoft.Extensions.Logging.EventId, string)*0.",
+*Microsoft.Extensions.Logging.LoggerMessage*
+
+%4*.,
+*
+%5$Microsoft.Extensions.Logging.EventId*420
+.Error while mapping SP result for {DataOrigin}ˇ
+¸
+r
+hD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\GetDatesSyb12.csC (A[+
+)SendSPFT.DataAccess.Exec.SP.GetDatesSyb12",
+LogMappingErrorSystem.Action<T1, T2, T3>"__id*#!
+
+%7System.Action<T1, T2, T3>ç
+ä
+r
+hD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\GetDatesSyb12.cs )  (7
+%8"__id*
+""…∆
+r
+hD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\GetDatesSyb12.cs 9  (a*
+%9$Microsoft.Extensions.Logging.EventId"$Microsoft.Extensions.Logging.EventIdÉ
+Ä
+r
+hD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\GetDatesSyb12.cs =  (D
+%10void":Microsoft.Extensions.Logging.EventId.EventId(int, string?)*.,
+*
+%9$Microsoft.Extensions.Logging.EventId*2”*
+""À
+»
+r
+hD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\GetDatesSyb12.cs  !(D 
+%11System.Action<T1, T2, T3>"äMicrosoft.Extensions.Logging.LoggerMessage.Define<T1>(Microsoft.Extensions.Logging.LogLevel, Microsoft.Extensions.Logging.EventId, string)*0.",
+*Microsoft.Extensions.Logging.LoggerMessage*
+
+%8*.,
+*
+%9$Microsoft.Extensions.Logging.EventId*753
+1Error executing stored procedure for {DataOrigin}˚
+¯
+r
+hD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\GetDatesSyb12.csC !(DV+
+)SendSPFT.DataAccess.Exec.SP.GetDatesSyb12"'
+
+LogSpErrorSystem.Action<T1, T2, T3>"__id*$"
+ 
+%11System.Action<T1, T2, T3>"â
+r
+hD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\GetDatesSyb12.cs `(
+implicit returnB-"+
+)SendSPFT.DataAccess.Exec.SP.GetDatesSyb12

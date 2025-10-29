@@ -1,0 +1,6 @@
+﻿D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\BdSybase.cs
+D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\SendSftpContext.cs
+D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\SelectRegistryBD.cs
+D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\UpdateTableBD.cs
+D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\SP\FileProcDigExecSP.cs
+D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\SP\GetDatesSyb12.cs

@@ -1,0 +1,42 @@
+
+DSendSPFT.DataAccess.Context.SendSftpContext.SendSftpContext()!staticb
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\SendSftpContext.cs ( "0*É
+0b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\SendSftpContext.cs[ [(|
+z
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\SendSftpContext.cs (
+%0"__id*
+""¹¶
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\SendSftpContext.cs (;*
+%1$Microsoft.Extensions.Logging.EventId"$Microsoft.Extensions.Logging.EventIdñ
+î
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\SendSftpContext.cs (
+
+%2void":Microsoft.Extensions.Logging.EventId.EventId(int, string?)*.,
+*
+%1$Microsoft.Extensions.Logging.EventId*2*
+""¾
+»
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\SendSftpContext.cs (
+%3System.Action<T1, T2, T3>"ŠMicrosoft.Extensions.Logging.LoggerMessage.Define<T1>(Microsoft.Extensions.Logging.LogLevel, Microsoft.Extensions.Logging.EventId, string)*0.",
+*Microsoft.Extensions.Logging.LoggerMessage*
+
+%0*.,
+*
+%1$Microsoft.Extensions.Logging.EventId*;97
+5Data Access Error: Connection not Healthy - {Message}õ
+ò
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\SendSftpContext.csD (a-
++SendSPFT.DataAccess.Context.SendSftpContext"0
+_logErrorConnectionSystem.Action<T1, T2, T3>"__id*#!
+
+%3System.Action<T1, T2, T3>"y
+b
+XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\SendSftpContext.cs [(
+implicit returnB/"-
++SendSPFT.DataAccess.Context.SendSftpContext

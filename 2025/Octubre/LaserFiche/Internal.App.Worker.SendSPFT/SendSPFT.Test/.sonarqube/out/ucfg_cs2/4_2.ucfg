@@ -1,0 +1,43 @@
+
+HSendSPFT.DataAccess.Exec.Func.SelectRegistryBD.SelectRegistryBD()!staticw
+mD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\Func\SelectRegistryBD.cs (!"0*‡
+0w
+mD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\Func\SelectRegistryBD.csd d(í
+è
+w
+mD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\Func\SelectRegistryBD.cs (
+%0"__id*
+""ŒÀ
+w
+mD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\Func\SelectRegistryBD.cs (5*
+%1$Microsoft.Extensions.Logging.EventId"$Microsoft.Extensions.Logging.EventIdÜ
+É
+w
+mD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\Func\SelectRegistryBD.cs (
+
+%2void":Microsoft.Extensions.Logging.EventId.EventId(int, string?)*.,
+*
+%1$Microsoft.Extensions.Logging.EventId*2*
+""’
+“
+w
+mD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\Func\SelectRegistryBD.cs
+ (
+%3System.Action<T1, T2, T3>"äMicrosoft.Extensions.Logging.LoggerMessage.Define<T1>(Microsoft.Extensions.Logging.LogLevel, Microsoft.Extensions.Logging.EventId, string)*0.",
+*Microsoft.Extensions.Logging.LoggerMessage*
+
+%0*.,
+*
+%1$Microsoft.Extensions.Logging.EventId*=;9
+7Error executing SELECT on td_attachment: {ErrorMessage}â
+Ü
+w
+mD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\Func\SelectRegistryBD.csC (`0
+.SendSPFT.DataAccess.Exec.Func.SelectRegistryBD",
+_logErrorSelectSystem.Action<T1, T2, T3>"__id*#!
+
+%3System.Action<T1, T2, T3>"é
+w
+mD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\Func\SelectRegistryBD.cs d(
+implicit returnB2"0
+.SendSPFT.DataAccess.Exec.Func.SelectRegistryBD

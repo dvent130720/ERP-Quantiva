@@ -1,0 +1,25 @@
+
+.SendSPFT.DataAccess.Context.BdSybase.Dispose()[
+QD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\BdSybase.cs2 2("0*ù
+0[
+QD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\BdSybase.cs4 5($Â‚
+[
+QD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\BdSybase.cs4 4($
+
+%0void"2SendSPFT.DataAccess.Context.BdSybase.Dispose(bool)**(&
+$SendSPFT.DataAccess.Context.BdSybase*
+""2Dispose(bool)Õ
+ 
+[
+QD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\BdSybase.cs5 5(%
+
+%1void""System.GC.SuppressFinalize(object)*"
+	System.GC**(&
+$SendSPFT.DataAccess.Context.BdSybase*
+1*‘
+1[
+QD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\BdSybase.cs6	 6(	"r
+[
+QD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\BdSybase.cs6 6(	
+implicit returnB(&
+$SendSPFT.DataAccess.Context.BdSybase

@@ -1,0 +1,4 @@
+﻿D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\QueryCustomerDataClient.cs
+D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\SftpFileUploaderClient.cs
+D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Services\SendSftpService.cs
+D:\Users\60500258\.nuget\packages\davivienda.framework.services.exceptionhandlermiddleware\1.2.0\contentFiles\any\net6.0\NM Leitmotiv Superior cono-1.ico
