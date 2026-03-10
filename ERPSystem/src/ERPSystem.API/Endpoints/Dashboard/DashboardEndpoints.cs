@@ -21,12 +21,11 @@ public class DashboardEndpoints : ICarterModule
                     p.Code,
                     p.Name,
                     p.StockQuantity,
-                    stockStatus = p.StockQuantity switch
-                    {
-                        <= 0 => "SIN_STOCK",
-                        <= 5 => "BAJO",
-                        _ => "OK"
-                    }
+                    stockStatus = p.StockQuantity <= 0
+                        ? "SIN_STOCK"
+                        : p.StockQuantity <= 5
+                            ? "BAJO"
+                            : "OK"
                 })
                 .ToListAsync();
 
