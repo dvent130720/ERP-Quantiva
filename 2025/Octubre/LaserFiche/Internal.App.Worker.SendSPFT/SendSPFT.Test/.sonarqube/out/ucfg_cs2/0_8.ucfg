@@ -1,223 +1,0 @@
-
-;SendSPFT.Business.Models.BD.FileProcDigDto.FileProcDigDto()a
-WD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Business\Models\BD\FileProcDigDto.cs	 	("0*¯6
-0a
-WD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Business\Models\BD\FileProcDigDto.cs" "(é
-æ
-a
-WD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Business\Models\BD\FileProcDigDto.cs (4
-%0string"8SendSPFT.Business.Models.BD.FileProcDigDto.Operacion.set*0.,
-*SendSPFT.Business.Models.BD.FileProcDigDto*
-I›
-˜
-a
-WD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Business\Models\BD\FileProcDigDto.cs2 (>
-%1string"__id**
-string"
-Emptystringô
-ñ
-a
-WD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Business\Models\BD\FileProcDigDto.cs (?
-%2string":SendSPFT.Business.Models.BD.FileProcDigDto.IdSolicitud.set*0.,
-*SendSPFT.Business.Models.BD.FileProcDigDto*
-
-%1string›
-˜
-a
-WD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Business\Models\BD\FileProcDigDto.cs+ (7
-%3string"__id**
-string"
-Emptystringí
-ê
-a
-WD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Business\Models\BD\FileProcDigDto.cs (8
-%4string"3SendSPFT.Business.Models.BD.FileProcDigDto.User.set*0.,
-*SendSPFT.Business.Models.BD.FileProcDigDto*
-
-%3string›
-˜
-a
-WD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Business\Models\BD\FileProcDigDto.cs, (8
-%5string"__id**
-string"
-Emptystringî
-ë
-a
-WD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Business\Models\BD\FileProcDigDto.cs (9
-%6string"4SendSPFT.Business.Models.BD.FileProcDigDto.IdDoc.set*0.,
-*SendSPFT.Business.Models.BD.FileProcDigDto*
-
-%5string›
-˜
-a
-WD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Business\Models\BD\FileProcDigDto.cs/ (;
-%7string"__id**
-string"
-Emptystringñ
-î
-a
-WD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Business\Models\BD\FileProcDigDto.cs (<
-%8string"7SendSPFT.Business.Models.BD.FileProcDigDto.IdDocDef.set*0.,
-*SendSPFT.Business.Models.BD.FileProcDigDto*
-
-%7string›
-˜
-a
-WD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Business\Models\BD\FileProcDigDto.cs5 (A
-%9string"__id**
-string"
-Emptystringø
-õ
-a
-WD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Business\Models\BD\FileProcDigDto.cs (B
-%10string"=SendSPFT.Business.Models.BD.FileProcDigDto.NombreCompleto.set*0.,
-*SendSPFT.Business.Models.BD.FileProcDigDto*
-
-%9stringœ
-™
-a
-WD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Business\Models\BD\FileProcDigDto.cs0 (<
-%11string"__id**
-string"
-Emptystringô
-ñ
-a
-WD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Business\Models\BD\FileProcDigDto.cs (=
-%12string"8SendSPFT.Business.Models.BD.FileProcDigDto.Apellido1.set*0.,
-*SendSPFT.Business.Models.BD.FileProcDigDto*
-
-%11stringœ
-™
-a
-WD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Business\Models\BD\FileProcDigDto.cs0 (<
-%13string"__id**
-string"
-Emptystringô
-ñ
-a
-WD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Business\Models\BD\FileProcDigDto.cs (=
-%14string"8SendSPFT.Business.Models.BD.FileProcDigDto.Apellido2.set*0.,
-*SendSPFT.Business.Models.BD.FileProcDigDto*
-
-%13stringœ
-™
-a
-WD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Business\Models\BD\FileProcDigDto.cs2 (>
-%15string"__id**
-string"
-Emptystringö
-ó
-a
-WD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Business\Models\BD\FileProcDigDto.cs (?
-%16string":SendSPFT.Business.Models.BD.FileProcDigDto.RazonSocial.set*0.,
-*SendSPFT.Business.Models.BD.FileProcDigDto*
-
-%15stringœ
-™
-a
-WD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Business\Models\BD\FileProcDigDto.cs0 (<
-%17string"__id**
-string"
-Emptystringô
-ñ
-a
-WD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Business\Models\BD\FileProcDigDto.cs (=
-%18string"8SendSPFT.Business.Models.BD.FileProcDigDto.TipoIdent.set*0.,
-*SendSPFT.Business.Models.BD.FileProcDigDto*
-
-%17stringœ
-™
-a
-WD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Business\Models\BD\FileProcDigDto.cs3 (?
-%19string"__id**
-string"
-Emptystring÷
-ô
-a
-WD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Business\Models\BD\FileProcDigDto.cs (@
-%20string";SendSPFT.Business.Models.BD.FileProcDigDto.NumeroCedula.set*0.,
-*SendSPFT.Business.Models.BD.FileProcDigDto*
-
-%19stringœ
-™
-a
-WD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Business\Models\BD\FileProcDigDto.cs2 (>
-%21string"__id**
-string"
-Emptystringö
-ó
-a
-WD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Business\Models\BD\FileProcDigDto.cs (?
-%22string":SendSPFT.Business.Models.BD.FileProcDigDto.TipoPersona.set*0.,
-*SendSPFT.Business.Models.BD.FileProcDigDto*
-
-%21stringœ
-™
-a
-WD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Business\Models\BD\FileProcDigDto.cs3 (?
-%23string"__id**
-string"
-Emptystring÷
-ô
-a
-WD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Business\Models\BD\FileProcDigDto.cs (@
-%24string";SendSPFT.Business.Models.BD.FileProcDigDto.TipoProducto.set*0.,
-*SendSPFT.Business.Models.BD.FileProcDigDto*
-
-%23stringœ
-™
-a
-WD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Business\Models\BD\FileProcDigDto.cs6 (B
-%25string"__id**
-string"
-Emptystringú
-÷
-a
-WD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Business\Models\BD\FileProcDigDto.cs (C
-%26string">SendSPFT.Business.Models.BD.FileProcDigDto.NumeroOperacion.set*0.,
-*SendSPFT.Business.Models.BD.FileProcDigDto*
-
-%25stringœ
-™
-a
-WD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Business\Models\BD\FileProcDigDto.cs3 (?
-%27string"__id**
-string"
-Emptystring÷
-ô
-a
-WD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Business\Models\BD\FileProcDigDto.cs (@
-%28string";SendSPFT.Business.Models.BD.FileProcDigDto.AnioPolitica.set*0.,
-*SendSPFT.Business.Models.BD.FileProcDigDto*
-
-%27stringœ
-™
-a
-WD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Business\Models\BD\FileProcDigDto.cs4 (@
-%29string"__id**
-string"
-Emptystringø
-õ
-a
-WD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Business\Models\BD\FileProcDigDto.cs (A
-%30string"<SendSPFT.Business.Models.BD.FileProcDigDto.TipoDocumento.set*0.,
-*SendSPFT.Business.Models.BD.FileProcDigDto*
-
-%29stringœ
-™
-a
-WD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Business\Models\BD\FileProcDigDto.cs -  (9
-%31string"__id**
-string"
-Emptystringñ
-î
-a
-WD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Business\Models\BD\FileProcDigDto.cs   (:
-%32string"5SendSPFT.Business.Models.BD.FileProcDigDto.Estado.set*0.,
-*SendSPFT.Business.Models.BD.FileProcDigDto*
-
-%31string"x
-a
-WD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Business\Models\BD\FileProcDigDto.cs	 "(
-implicit returnB.,
-*SendSPFT.Business.Models.BD.FileProcDigDto

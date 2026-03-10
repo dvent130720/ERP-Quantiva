@@ -1,15 +1,0 @@
-Ë
-
-DCore.Customer.Web.Api.ConsultaDatosClientes.Business.Models.Ingresosobject]
-
-Ingresos()OCore.Customer.Web.Api.ConsultaDatosClientes.Business.Models.Ingresos.Ingresos()u
-TipoIngresoMensual.get[Core.Customer.Web.Api.ConsultaDatosClientes.Business.Models.Ingresos.TipoIngresoMensual.getu
-TipoIngresoMensual.set[Core.Customer.Web.Api.ConsultaDatosClientes.Business.Models.Ingresos.TipoIngresoMensual.set{
-DetalleIngresoMensual.get^Core.Customer.Web.Api.ConsultaDatosClientes.Business.Models.Ingresos.DetalleIngresoMensual.get{
-DetalleIngresoMensual.set^Core.Customer.Web.Api.ConsultaDatosClientes.Business.Models.Ingresos.DetalleIngresoMensual.sety
-OtrosIngresosMensual.get]Core.Customer.Web.Api.ConsultaDatosClientes.Business.Models.Ingresos.OtrosIngresosMensual.gety
-OtrosIngresosMensual.set]Core.Customer.Web.Api.ConsultaDatosClientes.Business.Models.Ingresos.OtrosIngresosMensual.sety
-DetalleOtrosIngresos.get]Core.Customer.Web.Api.ConsultaDatosClientes.Business.Models.Ingresos.DetalleOtrosIngresos.gety
-DetalleOtrosIngresos.set]Core.Customer.Web.Api.ConsultaDatosClientes.Business.Models.Ingresos.DetalleOtrosIngresos.setc
-CodMoneda.getRCore.Customer.Web.Api.ConsultaDatosClientes.Business.Models.Ingresos.CodMoneda.getc
-CodMoneda.setRCore.Customer.Web.Api.ConsultaDatosClientes.Business.Models.Ingresos.CodMoneda.set

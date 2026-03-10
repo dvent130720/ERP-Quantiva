@@ -1,107 +1,0 @@
-
-ÿSendSPFT.Application.Clients.SftpFileUploaderClient.SftpFileUploaderClient(Microsoft.Extensions.Logging.ILogger<SendSPFT.Application.Clients.SftpFileUploaderClient>, Microsoft.Extensions.Configuration.IConfiguration)j
-`D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\SftpFileUploaderClient.cs (%"1*t
-1j
-`D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\SftpFileUploaderClient.cs"	 "(	*
-0*ﬂ
-0j
-`D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\SftpFileUploaderClient.cs (Û
-
-j
-`D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\SftpFileUploaderClient.cs (9
-%13Microsoft.Extensions.Logging.ILogger<TCategoryName>"__id*A?
-=
-logger3Microsoft.Extensions.Logging.ILogger<TCategoryName>Ô
-Ï
-j
-`D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\SftpFileUploaderClient.cs (9
-%03Microsoft.Extensions.Logging.ILogger<TCategoryName>"__id*=;
-9
-%13Microsoft.Extensions.Logging.ILogger<TCategoryName>*
-2
-3*ï
-2j
-`D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\SftpFileUploaderClient.cs& (N±Æ
-j
-`D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\SftpFileUploaderClient.cs& (O"
-%3System.ArgumentNullException"System.ArgumentNullExceptionÍ
-Á
-j
-`D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\SftpFileUploaderClient.cs* (?
-
-%4void";System.ArgumentNullException.ArgumentNullException(string?)*&$
-"
-%3System.ArgumentNullException*
-""*
-4*Á
-3j
-`D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\SftpFileUploaderClient.cs  (?≠
-™
-j
-`D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\SftpFileUploaderClient.cs (Ow5
-3SendSPFT.Application.Clients.SftpFileUploaderClient">
-_logger3Microsoft.Extensions.Logging.ILogger<TCategoryName>"__id*=;
-9
-%03Microsoft.Extensions.Logging.ILogger<TCategoryName>Â‚
-j
-`D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\SftpFileUploaderClient.cs   (@>
-%88Microsoft.Extensions.Configuration.IConfigurationSection"DMicrosoft.Extensions.Configuration.IConfiguration.GetSection(string)*FD
-B
-configuration1Microsoft.Extensions.Configuration.IConfiguration*
-SftpSettings2GetSection(string)ï
-í
-j
-`D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\SftpFileUploaderClient.cs   (T0
-%9*SendSPFT.Business.Models.SFTP.SftpSettings"pMicrosoft.Extensions.Configuration.ConfigurationBinder.Get<T>(Microsoft.Extensions.Configuration.IConfiguration)*<:"8
-6Microsoft.Extensions.Configuration.ConfigurationBinder*B@
->
-%88Microsoft.Extensions.Configuration.IConfigurationSection›
-⁄
-j
-`D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\SftpFileUploaderClient.cs   (T0
-%6*SendSPFT.Business.Models.SFTP.SftpSettings"__id*42
-0
-%9*SendSPFT.Business.Models.SFTP.SftpSettings›
-⁄
-j
-`D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\SftpFileUploaderClient.cs   (T0
-%5*SendSPFT.Business.Models.SFTP.SftpSettings"__id*42
-0
-%6*SendSPFT.Business.Models.SFTP.SftpSettings*
-5
-6*™
-5j
-`D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\SftpFileUploaderClient.cs!! !(a™ß
-j
-`D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\SftpFileUploaderClient.cs!! !(b
-%10System.ArgumentException"System.ArgumentExceptionÜ
-É
-j
-`D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\SftpFileUploaderClient.cs!% !(6
-%11void"3System.ArgumentException.ArgumentException(string?)*#!
-
-%10System.ArgumentException*.,*
-(SFTP settings not found in configuration*
-4*î
-6j
-`D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\SftpFileUploaderClient.cs  !(bù
-ö
-j
-`D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\SftpFileUploaderClient.cs  !(bp5
-3SendSPFT.Application.Clients.SftpFileUploaderClient"7
-	_settings*SendSPFT.Business.Models.SFTP.SftpSettings"__id*42
-0
-%5*SendSPFT.Business.Models.SFTP.SftpSettings*
-4*Û
-4j
-`D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\SftpFileUploaderClient.cs"	 "(	"Å
-j
-`D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\SftpFileUploaderClient.cs" "(	
-implicit return:´
-j
-`D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\SftpFileUploaderClient.cs& (L=
-logger3Microsoft.Extensions.Logging.ILogger<TCategoryName>:∞
-j
-`D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\SftpFileUploaderClient.csN (jB
-configuration1Microsoft.Extensions.Configuration.IConfigurationB75
-3SendSPFT.Application.Clients.SftpFileUploaderClient

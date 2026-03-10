@@ -1,42 +1,0 @@
-
-DSendSPFT.DataAccess.Context.SendSftpContext.SendSftpContext()!statict
-jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Context\SendSftpContext.cs ( "0* 
-0t
-jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Context\SendSftpContext.cs[ [(è
-å
-t
-jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Context\SendSftpContext.cs (
-%0"__id*
-""À»
-t
-jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Context\SendSftpContext.cs (;*
-%1$Microsoft.Extensions.Logging.EventId"$Microsoft.Extensions.Logging.EventIdÉ
-Ä
-t
-jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Context\SendSftpContext.cs (
-
-%2void":Microsoft.Extensions.Logging.EventId.EventId(int, string?)*.,
-*
-%1$Microsoft.Extensions.Logging.EventId*2*
-""–
-Õ
-t
-jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Context\SendSftpContext.cs (
-%3System.Action<T1, T2, T3>"äMicrosoft.Extensions.Logging.LoggerMessage.Define<T1>(Microsoft.Extensions.Logging.LogLevel, Microsoft.Extensions.Logging.EventId, string)*0.",
-*Microsoft.Extensions.Logging.LoggerMessage*
-
-%0*.,
-*
-%1$Microsoft.Extensions.Logging.EventId*;97
-5Data Access Error: Connection not Healthy - {Message}á
-Ñ
-t
-jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Context\SendSftpContext.csC (a-
-+SendSPFT.DataAccess.Context.SendSftpContext"0
-_logErrorConnectionSystem.Action<T1, T2, T3>"__id*#!
-
-%3System.Action<T1, T2, T3>"ã
-t
-jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Context\SendSftpContext.cs [(
-implicit returnB/"-
-+SendSPFT.DataAccess.Context.SendSftpContext

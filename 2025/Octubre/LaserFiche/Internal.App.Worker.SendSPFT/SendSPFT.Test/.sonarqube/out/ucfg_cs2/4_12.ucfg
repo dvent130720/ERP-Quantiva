@@ -1,96 +1,0 @@
-
-<SendSPFT.DataAccess.Context.SendSftpContext.IsHealthyAsync()t
-jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Context\SendSftpContext.cs5  5(."0*ø
-0t
-jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Context\SendSftpContext.cs7 7(÷
-ô
-t
-jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Context\SendSftpContext.cs7 7(
-
-%0void"=SendSPFT.DataAccess.Context.SendSftpContext.ThrowIfDisposed()*1/-
-+SendSPFT.DataAccess.Context.SendSftpContext*
-1*
-1t
-jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Context\SendSftpContext.csC	 C(	*
-2
-3*Î
-2t
-jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Context\SendSftpContext.cs;  <( 
-š
-t
-jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Context\SendSftpContext.cs;1 ;(H*
-%1$System.Threading.Tasks.Task<TResult>"CSendSPFT.DataAccess.Context.SendSftpContext.CreateConnectionAsync()*1/-
-+SendSPFT.DataAccess.Context.SendSftpContext®
-«
-t
-jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Context\SendSftpContext.cs;  ;(H#
-conexionNpgsql.NpgsqlConnection"__id*
-""ù
-ö
-t
-jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Context\SendSftpContext.cs< <( 
-%2Npgsql.NpgsqlConnection"__id*YW*U-
-+SendSPFT.DataAccess.Context.SendSftpContext"$
-	_conexionNpgsql.NpgsqlConnection*
-4
-5*ã
-5t
-jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Context\SendSftpContext.cs<! <('â
-ß
-t
-jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Context\SendSftpContext.cs<" <('!
-%3System.Data.ConnectionState"!Npgsql.NpgsqlConnection.State.get*!
-
-%2Npgsql.NpgsqlConnection*
-4*‹
-4t
-jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Context\SendSftpContext.cs< <(?
-Œ
-t
-jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Context\SendSftpContext.cs<+ <(?
-%4"__id*
-"""~
-t
-jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Context\SendSftpContext.cs< <(@
-""*Ó
-
-3t
-jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Context\SendSftpContext.cs@ A(‡
-„
-t
-jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Context\SendSftpContext.cs@ @(#
-%5System.Action<T1, T2, T3>"__id*ec*a-
-+SendSPFT.DataAccess.Context.SendSftpContext"0
-_logErrorConnectionSystem.Action<T1, T2, T3>¬
-©
-t
-jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Context\SendSftpContext.cs@$ @((9
-%63Microsoft.Extensions.Logging.ILogger<TCategoryName>"__id*pn*l-
-+SendSPFT.DataAccess.Context.SendSftpContext";
-_log3Microsoft.Extensions.Logging.ILogger<TCategoryName>ÔÑ
-t
-jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Context\SendSftpContext.cs@* @(4
-%7string"System.Exception.Message.get* 
-
-exNpgsql.NpgsqlException2Message.getÇ
-Ä
-t
-jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Context\SendSftpContext.cs@ @(9
-
-%8void",System.Action<T1, T2, T3>.Invoke(T1, T2, T3)*
-System.Action<T1, T2, T3>*=;
-9
-%63Microsoft.Extensions.Logging.ILogger<TCategoryName>*
-
-%7string* 
-
-exNpgsql.NpgsqlException"~
-t
-jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Context\SendSftpContext.csA A(
-""*‡
-6t
-jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Context\SendSftpContext.csC	 C(	"‹
-t
-jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Context\SendSftpContext.csC C(	
-implicit returnB/-
-+SendSPFT.DataAccess.Context.SendSftpContext

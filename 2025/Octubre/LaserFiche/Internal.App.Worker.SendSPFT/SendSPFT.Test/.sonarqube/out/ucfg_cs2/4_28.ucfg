@@ -1,1193 +1,0 @@
-
-qSendSPFT.DataAccess.Exec.SP.FileProcDigExecSP.ExecuteFileProcDigAsync(SendSPFT.Business.Models.BD.FileProcDigDto)v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs  (7"0*ﬁa
-0v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs *(B„
-‡
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs; (L
-%3string"__id*RP*N/
--SendSPFT.DataAccess.Exec.SP.FileProcDigExecSP"
-_connectionStringstring—Œ
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs) (M,
-%4&Microsoft.Data.SqlClient.SqlConnection"&Microsoft.Data.SqlClient.SqlConnectionâ
-Ü
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs- (:
-
-%5void"<Microsoft.Data.SqlClient.SqlConnection.SqlConnection(string)*0.
-,
-%4&Microsoft.Data.SqlClient.SqlConnection*
-
-%3stringÈ
-Ê
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs (M4
-
-connection&Microsoft.Data.SqlClient.SqlConnection"__id*0.
-,
-%4&Microsoft.Data.SqlClient.SqlConnectionÀ»
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs& ()
-%6#Microsoft.Data.SqlClient.SqlCommand"#Microsoft.Data.SqlClient.SqlCommandÔ
-Ï
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs* (4
-
-%7void"^Microsoft.Data.SqlClient.SqlCommand.SqlCommand(string, Microsoft.Data.SqlClient.SqlConnection)*-+
-)
-%6#Microsoft.Data.SqlClient.SqlCommand*
-dbo.sp_mb_file_proc_dig*86
-4
-
-connection&Microsoft.Data.SqlClient.SqlConnectionë
-é
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs (9
-%8"__id*
-""à
-Ö
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs (9
-%9System.Data.CommandType"3Microsoft.Data.SqlClient.SqlCommand.CommandType.set*-+
-)
-%6#Microsoft.Data.SqlClient.SqlCommand*
-
-%8‡
-›
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs (.
-command#Microsoft.Data.SqlClient.SqlCommand"__id*-+
-)
-%6#Microsoft.Data.SqlClient.SqlCommandõ
-ò
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs (6
-%10/Microsoft.Data.SqlClient.SqlParameterCollection"2Microsoft.Data.SqlClient.SqlCommand.Parameters.get*20
-.
-command#Microsoft.Data.SqlClient.SqlCommand˚
-¯
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs< (I
-%11string"8SendSPFT.Business.Models.BD.FileProcDigDto.Operacion.get*53
-1
-dto*SendSPFT.Business.Models.BD.FileProcDigDto⁄
-◊
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs (J,
-%12%Microsoft.Data.SqlClient.SqlParameter"LMicrosoft.Data.SqlClient.SqlParameterCollection.AddWithValue(string, object)*:8
-6
-%10/Microsoft.Data.SqlClient.SqlParameterCollection*
-@i_operacion*
-
-%11stringõ
-ò
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs (6
-%13/Microsoft.Data.SqlClient.SqlParameterCollection"2Microsoft.Data.SqlClient.SqlCommand.Parameters.get*20
-.
-command#Microsoft.Data.SqlClient.SqlCommand¸
-˘
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.csA (R
-
-%14int"<SendSPFT.Business.Models.BD.FileProcDigDto.CodigoSistema.get*53
-1
-dto*SendSPFT.Business.Models.BD.FileProcDigDto‹
-Ÿ
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs (S,
-%15%Microsoft.Data.SqlClient.SqlParameter"LMicrosoft.Data.SqlClient.SqlParameterCollection.AddWithValue(string, object)*:8
-6
-%13/Microsoft.Data.SqlClient.SqlParameterCollection*
-@i_codigo_sistema*
-
-
-%14intõ
-ò
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs (6
-%16/Microsoft.Data.SqlClient.SqlParameterCollection"2Microsoft.Data.SqlClient.SqlCommand.Parameters.get*20
-.
-command#Microsoft.Data.SqlClient.SqlCommand˝
-˙
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs? (N
-%17string":SendSPFT.Business.Models.BD.FileProcDigDto.IdSolicitud.get*53
-1
-dto*SendSPFT.Business.Models.BD.FileProcDigDto›
-⁄
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs (O,
-%18%Microsoft.Data.SqlClient.SqlParameter"LMicrosoft.Data.SqlClient.SqlParameterCollection.AddWithValue(string, object)*:8
-6
-%16/Microsoft.Data.SqlClient.SqlParameterCollection*
-@i_id_solicitud*
-
-%17stringõ
-ò
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs   (6
-%19/Microsoft.Data.SqlClient.SqlParameterCollection"2Microsoft.Data.SqlClient.SqlCommand.Parameters.get*20
-.
-command#Microsoft.Data.SqlClient.SqlCommandˆ
-Û
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs 7  (?
-%20string"3SendSPFT.Business.Models.BD.FileProcDigDto.User.get*53
-1
-dto*SendSPFT.Business.Models.BD.FileProcDigDto’
-“
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs   (@,
-%21%Microsoft.Data.SqlClient.SqlParameter"LMicrosoft.Data.SqlClient.SqlParameterCollection.AddWithValue(string, object)*:8
-6
-%19/Microsoft.Data.SqlClient.SqlParameterCollection*	
-@i_user*
-
-%20stringõ
-ò
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs! !(6
-%22/Microsoft.Data.SqlClient.SqlParameterCollection"2Microsoft.Data.SqlClient.SqlCommand.Parameters.get*20
-.
-command#Microsoft.Data.SqlClient.SqlCommand˛
-˚
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs!@ !(P
-%23string";SendSPFT.Business.Models.BD.FileProcDigDto.NumeroCedula.get*53
-1
-dto*SendSPFT.Business.Models.BD.FileProcDigDtoﬁ
-€
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs! !(Q,
-%24%Microsoft.Data.SqlClient.SqlParameter"LMicrosoft.Data.SqlClient.SqlParameterCollection.AddWithValue(string, object)*:8
-6
-%22/Microsoft.Data.SqlClient.SqlParameterCollection*
-@i_numero_cedula*
-
-%23stringõ
-ò
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs$ $(6
-%25/Microsoft.Data.SqlClient.SqlParameterCollection"2Microsoft.Data.SqlClient.SqlCommand.Parameters.get*20
-.
-command#Microsoft.Data.SqlClient.SqlCommandá
-Ñ
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs$@ $(P
-%26System.DateTime";SendSPFT.Business.Models.BD.FileProcDigDto.FechaProceso.get*53
-1
-dto*SendSPFT.Business.Models.BD.FileProcDigDtoπ
-∂
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs$@ $(f
-%27object"WSendSPFT.DataAccess.Exec.SP.SqlParameterExtensions.ToSqlDateTimeOrNull(System.DateTime)*86"4
-2SendSPFT.DataAccess.Exec.SP.SqlParameterExtensions*
-
-%26System.DateTimeﬁ
-€
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs$ $(g,
-%28%Microsoft.Data.SqlClient.SqlParameter"LMicrosoft.Data.SqlClient.SqlParameterCollection.AddWithValue(string, object)*:8
-6
-%25/Microsoft.Data.SqlClient.SqlParameterCollection*
-@i_fecha_proceso*
-
-%27objectõ
-ò
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs% %(6
-%29/Microsoft.Data.SqlClient.SqlParameterCollection"2Microsoft.Data.SqlClient.SqlCommand.Parameters.get*20
-.
-command#Microsoft.Data.SqlClient.SqlCommandÑ
-Å
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs%= %(J
-%30System.DateTime"8SendSPFT.Business.Models.BD.FileProcDigDto.FechaHora.get*53
-1
-dto*SendSPFT.Business.Models.BD.FileProcDigDtoπ
-∂
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs%= %(`
-%31object"WSendSPFT.DataAccess.Exec.SP.SqlParameterExtensions.ToSqlDateTimeOrNull(System.DateTime)*86"4
-2SendSPFT.DataAccess.Exec.SP.SqlParameterExtensions*
-
-%30System.DateTime€
-ÿ
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs% %(a,
-%32%Microsoft.Data.SqlClient.SqlParameter"LMicrosoft.Data.SqlClient.SqlParameterCollection.AddWithValue(string, object)*:8
-6
-%29/Microsoft.Data.SqlClient.SqlParameterCollection*
-@i_fecha_hora*
-
-%31objectõ
-ò
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs& &(6
-%33/Microsoft.Data.SqlClient.SqlParameterCollection"2Microsoft.Data.SqlClient.SqlCommand.Parameters.get*20
-.
-command#Microsoft.Data.SqlClient.SqlCommandâ
-Ü
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs&B &(T
-%34System.DateTime"=SendSPFT.Business.Models.BD.FileProcDigDto.FechaEjecucion.get*53
-1
-dto*SendSPFT.Business.Models.BD.FileProcDigDtoπ
-∂
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs&B &(j
-%35object"WSendSPFT.DataAccess.Exec.SP.SqlParameterExtensions.ToSqlDateTimeOrNull(System.DateTime)*86"4
-2SendSPFT.DataAccess.Exec.SP.SqlParameterExtensions*
-
-%34System.DateTime‡
-›
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs& &(k,
-%36%Microsoft.Data.SqlClient.SqlParameter"LMicrosoft.Data.SqlClient.SqlParameterCollection.AddWithValue(string, object)*:8
-6
-%33/Microsoft.Data.SqlClient.SqlParameterCollection*
-@i_fecha_ejecucion*
-
-%35objectõ
-ò
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs' '(6
-%37/Microsoft.Data.SqlClient.SqlParameterCollection"2Microsoft.Data.SqlClient.SqlCommand.Parameters.get*20
-.
-command#Microsoft.Data.SqlClient.SqlCommandè
-å
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs'F '([
-%38System.Nullable<T>"@SendSPFT.Business.Models.BD.FileProcDigDto.FechaCreditoMovil.get*53
-1
-dto*SendSPFT.Business.Models.BD.FileProcDigDtoΩ
-∫
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs'F '(q
-%39object"XSendSPFT.DataAccess.Exec.SP.SqlParameterExtensions.ToSqlDateTimeOrNull(System.DateTime?)*86"4
-2SendSPFT.DataAccess.Exec.SP.SqlParameterExtensions*
-
-%38System.Nullable<T>‰
-·
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs' '(r,
-%40%Microsoft.Data.SqlClient.SqlParameter"LMicrosoft.Data.SqlClient.SqlParameterCollection.AddWithValue(string, object)*:8
-6
-%37/Microsoft.Data.SqlClient.SqlParameterCollection*
-@i_fecha_credito_movil*
-
-%39objectõ
-ò
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs* *(6
-%41/Microsoft.Data.SqlClient.SqlParameterCollection"2Microsoft.Data.SqlClient.SqlCommand.Parameters.get*20
-.
-command#Microsoft.Data.SqlClient.SqlCommand˜
-Ù
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs*9 *(B
-%42string"4SendSPFT.Business.Models.BD.FileProcDigDto.IdDoc.get*53
-1
-dto*SendSPFT.Business.Models.BD.FileProcDigDto¢
-ü
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs*9 *(B
-%1object"__id*
-
-%42string°
-û
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs*9 *(B
-%0object"__id*
-
-%1object*
-1
-2*Ø
-1v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs*F *(Z∆
-√
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs*N *(Z
-%43System.DBNull"__id*-+*)
-System.DBNull"
-ValueSystem.DBNull¢
-ü
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs*F *(Z
-%44"__id*
-
-%43System.DBNullö
-ó
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs*F *(Z
-%2object"__id*	
-
-%44°
-û
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs*F *(Z
-%0object"__id*
-
-%2object*
-2*√
-
-2v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs* +(I÷
-”
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs* *([,
-%48%Microsoft.Data.SqlClient.SqlParameter"LMicrosoft.Data.SqlClient.SqlParameterCollection.AddWithValue(string, object)*:8
-6
-%41/Microsoft.Data.SqlClient.SqlParameterCollection*
-	@i_id_doc*
-
-%0objectõ
-ò
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs+ +(6
-%49/Microsoft.Data.SqlClient.SqlParameterCollection"2Microsoft.Data.SqlClient.SqlCommand.Parameters.get*20
-.
-command#Microsoft.Data.SqlClient.SqlCommand˙
-˜
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs+= +(I
-%50string"7SendSPFT.Business.Models.BD.FileProcDigDto.IdDocDef.get*53
-1
-dto*SendSPFT.Business.Models.BD.FileProcDigDto£
-†
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs+= +(I
-%46object"__id*
-
-%50string£
-†
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs+= +(I
-%45object"__id*
-
-%46object*
-3
-4*≤
-3v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs+M +(a∆
-√
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs+U +(a
-%51System.DBNull"__id*-+*)
-System.DBNull"
-ValueSystem.DBNull¢
-ü
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs+M +(a
-%52"__id*
-
-%51System.DBNullõ
-ò
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs+M +(a
-%47object"__id*	
-
-%52£
-†
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs+M +(a
-%45object"__id*
-
-%47object*
-4*Œ
-
-4v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs+ ,(T€
-ÿ
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs+ +(b,
-%56%Microsoft.Data.SqlClient.SqlParameter"LMicrosoft.Data.SqlClient.SqlParameterCollection.AddWithValue(string, object)*:8
-6
-%49/Microsoft.Data.SqlClient.SqlParameterCollection*
-@i_id_doc_def*
-
-%45objectõ
-ò
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs, ,(6
-%57/Microsoft.Data.SqlClient.SqlParameterCollection"2Microsoft.Data.SqlClient.SqlCommand.Parameters.get*20
-.
-command#Microsoft.Data.SqlClient.SqlCommandÄ
-˝
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs,B ,(T
-%58string"=SendSPFT.Business.Models.BD.FileProcDigDto.NombreCompleto.get*53
-1
-dto*SendSPFT.Business.Models.BD.FileProcDigDto£
-†
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs,B ,(T
-%54object"__id*
-
-%58string£
-†
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs,B ,(T
-%53object"__id*
-
-%54object*
-5
-6*≤
-5v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs,X ,(l∆
-√
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs,` ,(l
-%59System.DBNull"__id*-+*)
-System.DBNull"
-ValueSystem.DBNull¢
-ü
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs,X ,(l
-%60"__id*
-
-%59System.DBNullõ
-ò
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs,X ,(l
-%55object"__id*	
-
-%60£
-†
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs,X ,(l
-%53object"__id*
-
-%55object*
-6*Œ
-
-6v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs, -(I‡
-›
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs, ,(m,
-%64%Microsoft.Data.SqlClient.SqlParameter"LMicrosoft.Data.SqlClient.SqlParameterCollection.AddWithValue(string, object)*:8
-6
-%57/Microsoft.Data.SqlClient.SqlParameterCollection*
-@i_nombre_completo*
-
-%53objectõ
-ò
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs- -(6
-%65/Microsoft.Data.SqlClient.SqlParameterCollection"2Microsoft.Data.SqlClient.SqlCommand.Parameters.get*20
-.
-command#Microsoft.Data.SqlClient.SqlCommand˚
-¯
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs-< -(I
-%66string"8SendSPFT.Business.Models.BD.FileProcDigDto.Apellido1.get*53
-1
-dto*SendSPFT.Business.Models.BD.FileProcDigDto£
-†
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs-< -(I
-%62object"__id*
-
-%66string£
-†
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs-< -(I
-%61object"__id*
-
-%62object*
-7
-8*≤
-7v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs-M -(a∆
-√
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs-U -(a
-%67System.DBNull"__id*-+*)
-System.DBNull"
-ValueSystem.DBNull¢
-ü
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs-M -(a
-%68"__id*
-
-%67System.DBNullõ
-ò
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs-M -(a
-%63object"__id*	
-
-%68£
-†
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs-M -(a
-%61object"__id*
-
-%63object*
-8*…
-
-8v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs- .(I⁄
-◊
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs- -(b,
-%72%Microsoft.Data.SqlClient.SqlParameter"LMicrosoft.Data.SqlClient.SqlParameterCollection.AddWithValue(string, object)*:8
-6
-%65/Microsoft.Data.SqlClient.SqlParameterCollection*
-@i_apellido1*
-
-%61objectõ
-ò
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs. .(6
-%73/Microsoft.Data.SqlClient.SqlParameterCollection"2Microsoft.Data.SqlClient.SqlCommand.Parameters.get*20
-.
-command#Microsoft.Data.SqlClient.SqlCommand˚
-¯
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs.< .(I
-%74string"8SendSPFT.Business.Models.BD.FileProcDigDto.Apellido2.get*53
-1
-dto*SendSPFT.Business.Models.BD.FileProcDigDto£
-†
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs.< .(I
-%70object"__id*
-
-%74string£
-†
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs.< .(I
-%69object"__id*
-
-%70object*
-9
-10*≥
-9v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs.M .(a∆
-√
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs.U .(a
-%75System.DBNull"__id*-+*)
-System.DBNull"
-ValueSystem.DBNull¢
-ü
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs.M .(a
-%76"__id*
-
-%75System.DBNullõ
-ò
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs.M .(a
-%71object"__id*	
-
-%76£
-†
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs.M .(a
-%69object"__id*
-
-%71object*
-10*Õ
-
-10v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs. /(N⁄
-◊
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs. .(b,
-%80%Microsoft.Data.SqlClient.SqlParameter"LMicrosoft.Data.SqlClient.SqlParameterCollection.AddWithValue(string, object)*:8
-6
-%73/Microsoft.Data.SqlClient.SqlParameterCollection*
-@i_apellido2*
-
-%69objectõ
-ò
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs/ /(6
-%81/Microsoft.Data.SqlClient.SqlParameterCollection"2Microsoft.Data.SqlClient.SqlCommand.Parameters.get*20
-.
-command#Microsoft.Data.SqlClient.SqlCommand˝
-˙
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs/? /(N
-%82string":SendSPFT.Business.Models.BD.FileProcDigDto.RazonSocial.get*53
-1
-dto*SendSPFT.Business.Models.BD.FileProcDigDto£
-†
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs/? /(N
-%78object"__id*
-
-%82string£
-†
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs/? /(N
-%77object"__id*
-
-%78object*
-11
-12*¥
-11v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs/R /(f∆
-√
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs/Z /(f
-%83System.DBNull"__id*-+*)
-System.DBNull"
-ValueSystem.DBNull¢
-ü
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs/R /(f
-%84"__id*
-
-%83System.DBNullõ
-ò
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs/R /(f
-%79object"__id*	
-
-%84£
-†
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs/R /(f
-%77object"__id*
-
-%79object*
-12*Œ
-
-12v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs/ 0(J›
-⁄
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs/ /(g,
-%88%Microsoft.Data.SqlClient.SqlParameter"LMicrosoft.Data.SqlClient.SqlParameterCollection.AddWithValue(string, object)*:8
-6
-%81/Microsoft.Data.SqlClient.SqlParameterCollection*
-@i_razon_social*
-
-%77objectõ
-ò
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs0 0(6
-%89/Microsoft.Data.SqlClient.SqlParameterCollection"2Microsoft.Data.SqlClient.SqlCommand.Parameters.get*20
-.
-command#Microsoft.Data.SqlClient.SqlCommand˚
-¯
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs0= 0(J
-%90string"8SendSPFT.Business.Models.BD.FileProcDigDto.TipoIdent.get*53
-1
-dto*SendSPFT.Business.Models.BD.FileProcDigDto£
-†
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs0= 0(J
-%86object"__id*
-
-%90string£
-†
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs0= 0(J
-%85object"__id*
-
-%86object*
-13
-14*¥
-13v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs0N 0(b∆
-√
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs0V 0(b
-%91System.DBNull"__id*-+*)
-System.DBNull"
-ValueSystem.DBNull¢
-ü
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs0N 0(b
-%92"__id*
-
-%91System.DBNullõ
-ò
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs0N 0(b
-%87object"__id*	
-
-%92£
-†
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs0N 0(b
-%85object"__id*
-
-%87object*
-14*Œ
-
-14v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs0 1(N€
-ÿ
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs0 0(c,
-%96%Microsoft.Data.SqlClient.SqlParameter"LMicrosoft.Data.SqlClient.SqlParameterCollection.AddWithValue(string, object)*:8
-6
-%89/Microsoft.Data.SqlClient.SqlParameterCollection*
-@i_tipo_ident*
-
-%85objectõ
-ò
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs1 1(6
-%97/Microsoft.Data.SqlClient.SqlParameterCollection"2Microsoft.Data.SqlClient.SqlCommand.Parameters.get*20
-.
-command#Microsoft.Data.SqlClient.SqlCommand˝
-˙
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs1? 1(N
-%98string":SendSPFT.Business.Models.BD.FileProcDigDto.TipoPersona.get*53
-1
-dto*SendSPFT.Business.Models.BD.FileProcDigDto£
-†
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs1? 1(N
-%94object"__id*
-
-%98string£
-†
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs1? 1(N
-%93object"__id*
-
-%94object*
-15
-16*∂
-15v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs1R 1(f∆
-√
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs1Z 1(f
-%99System.DBNull"__id*-+*)
-System.DBNull"
-ValueSystem.DBNull£
-†
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs1R 1(f
-%100"__id*
-
-%99System.DBNullú
-ô
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs1R 1(f
-%95object"__id*
-
-
-%100£
-†
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs1R 1(f
-%93object"__id*
-
-%95object*
-16*ÿ
-
-16v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs1 2(Pﬁ
-€
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs1 1(g-
-%104%Microsoft.Data.SqlClient.SqlParameter"LMicrosoft.Data.SqlClient.SqlParameterCollection.AddWithValue(string, object)*:8
-6
-%97/Microsoft.Data.SqlClient.SqlParameterCollection*
-@i_tipo_persona*
-
-%93objectú
-ô
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs2 2(7
-%105/Microsoft.Data.SqlClient.SqlParameterCollection"2Microsoft.Data.SqlClient.SqlCommand.Parameters.get*20
-.
-command#Microsoft.Data.SqlClient.SqlCommandˇ
-¸
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs2@ 2(P
-%106string";SendSPFT.Business.Models.BD.FileProcDigDto.TipoProducto.get*53
-1
-dto*SendSPFT.Business.Models.BD.FileProcDigDto•
-¢
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs2@ 2(P
-%102object"__id*
-
-%106string•
-¢
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs2@ 2(P
-%101object"__id*
-
-%102object*
-17
-18*ª
-17v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs2T 2(h«
-ƒ
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs2\ 2(h
-%107System.DBNull"__id*-+*)
-System.DBNull"
-ValueSystem.DBNull§
-°
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs2T 2(h
-%108"__id*
-
-%107System.DBNullù
-ö
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs2T 2(h
-%103object"__id*
-
-
-%108•
-¢
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs2T 2(h
-%101object"__id*
-
-%103object*
-18*ﬁ
-
-18v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs2 3(V·
-ﬁ
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs2 2(i-
-%112%Microsoft.Data.SqlClient.SqlParameter"LMicrosoft.Data.SqlClient.SqlParameterCollection.AddWithValue(string, object)*;9
-7
-%105/Microsoft.Data.SqlClient.SqlParameterCollection*
-@i_tipo_producto*
-
-%101objectú
-ô
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs3 3(7
-%113/Microsoft.Data.SqlClient.SqlParameterCollection"2Microsoft.Data.SqlClient.SqlCommand.Parameters.get*20
-.
-command#Microsoft.Data.SqlClient.SqlCommandÇ
-ˇ
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs3C 3(V
-%114string">SendSPFT.Business.Models.BD.FileProcDigDto.NumeroOperacion.get*53
-1
-dto*SendSPFT.Business.Models.BD.FileProcDigDto•
-¢
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs3C 3(V
-%110object"__id*
-
-%114string•
-¢
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs3C 3(V
-%109object"__id*
-
-%110object*
-19
-20*ª
-19v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs3Z 3(n«
-ƒ
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs3b 3(n
-%115System.DBNull"__id*-+*)
-System.DBNull"
-ValueSystem.DBNull§
-°
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs3Z 3(n
-%116"__id*
-
-%115System.DBNullù
-ö
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs3Z 3(n
-%111object"__id*
-
-
-%116•
-¢
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs3Z 3(n
-%109object"__id*
-
-%111object*
-20*ﬁ
-
-20v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs3 4(P‰
-·
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs3 3(o-
-%120%Microsoft.Data.SqlClient.SqlParameter"LMicrosoft.Data.SqlClient.SqlParameterCollection.AddWithValue(string, object)*;9
-7
-%113/Microsoft.Data.SqlClient.SqlParameterCollection*
-@i_numero_operacion*
-
-%109objectú
-ô
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs4 4(7
-%121/Microsoft.Data.SqlClient.SqlParameterCollection"2Microsoft.Data.SqlClient.SqlCommand.Parameters.get*20
-.
-command#Microsoft.Data.SqlClient.SqlCommandˇ
-¸
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs4@ 4(P
-%122string";SendSPFT.Business.Models.BD.FileProcDigDto.AnioPolitica.get*53
-1
-dto*SendSPFT.Business.Models.BD.FileProcDigDto•
-¢
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs4@ 4(P
-%118object"__id*
-
-%122string•
-¢
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs4@ 4(P
-%117object"__id*
-
-%118object*
-21
-22*ª
-21v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs4T 4(h«
-ƒ
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs4\ 4(h
-%123System.DBNull"__id*-+*)
-System.DBNull"
-ValueSystem.DBNull§
-°
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs4T 4(h
-%124"__id*
-
-%123System.DBNullù
-ö
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs4T 4(h
-%119object"__id*
-
-
-%124•
-¢
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs4T 4(h
-%117object"__id*
-
-%119object*
-22*‹
-
-22v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs4 5(R·
-ﬁ
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs4 4(i-
-%128%Microsoft.Data.SqlClient.SqlParameter"LMicrosoft.Data.SqlClient.SqlParameterCollection.AddWithValue(string, object)*;9
-7
-%121/Microsoft.Data.SqlClient.SqlParameterCollection*
-@i_anio_politica*
-
-%117objectú
-ô
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs5 5(7
-%129/Microsoft.Data.SqlClient.SqlParameterCollection"2Microsoft.Data.SqlClient.SqlCommand.Parameters.get*20
-.
-command#Microsoft.Data.SqlClient.SqlCommandÄ
-˝
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs5A 5(R
-%130string"<SendSPFT.Business.Models.BD.FileProcDigDto.TipoDocumento.get*53
-1
-dto*SendSPFT.Business.Models.BD.FileProcDigDto•
-¢
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs5A 5(R
-%126object"__id*
-
-%130string•
-¢
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs5A 5(R
-%125object"__id*
-
-%126object*
-23
-24*ª
-23v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs5V 5(j«
-ƒ
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs5^ 5(j
-%131System.DBNull"__id*-+*)
-System.DBNull"
-ValueSystem.DBNull§
-°
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs5V 5(j
-%132"__id*
-
-%131System.DBNullù
-ö
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs5V 5(j
-%127object"__id*
-
-
-%132•
-¢
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs5V 5(j
-%125object"__id*
-
-%127object*
-24*”
-24v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs5 ;(]‚
-ﬂ
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs5 5(k-
-%133%Microsoft.Data.SqlClient.SqlParameter"LMicrosoft.Data.SqlClient.SqlParameterCollection.AddWithValue(string, object)*;9
-7
-%129/Microsoft.Data.SqlClient.SqlParameterCollection*
-@i_tipo_documento*
-
-%125objectú
-ô
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs8 8(7
-%134/Microsoft.Data.SqlClient.SqlParameterCollection"2Microsoft.Data.SqlClient.SqlCommand.Parameters.get*20
-.
-command#Microsoft.Data.SqlClient.SqlCommand˙
-˜
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs8> 8(L
-%135int"9SendSPFT.Business.Models.BD.FileProcDigDto.NumeroEnte.get*53
-1
-dto*SendSPFT.Business.Models.BD.FileProcDigDto‹
-Ÿ
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs8 8(M-
-%136%Microsoft.Data.SqlClient.SqlParameter"LMicrosoft.Data.SqlClient.SqlParameterCollection.AddWithValue(string, object)*;9
-7
-%134/Microsoft.Data.SqlClient.SqlParameterCollection*
-@i_numero_ente*
-
-%135intú
-ô
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs; ;(7
-%137/Microsoft.Data.SqlClient.SqlParameterCollection"2Microsoft.Data.SqlClient.SqlCommand.Parameters.get*20
-.
-command#Microsoft.Data.SqlClient.SqlCommand˘
-ˆ
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs;S ;(]
-%138string"5SendSPFT.Business.Models.BD.FileProcDigDto.Estado.get*53
-1
-dto*SendSPFT.Business.Models.BD.FileProcDigDtoœ
-Ã
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs;9 ;(^
-%139bool""string.IsNullOrWhiteSpace(string?)*
-"
-string*
-
-%138string*
-25
-26*∑
-25v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs;a ;(dí
-è
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs;a ;(d
-%141"__id*
-Pù
-ö
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs;a ;(d
-%140object"__id*
-
-
-%141*
-27*Ñ
-26v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs;g ;(s˘
-ˆ
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs;g ;(q
-%143string"5SendSPFT.Business.Models.BD.FileProcDigDto.Estado.get*53
-1
-dto*SendSPFT.Business.Models.BD.FileProcDigDtoπ
-∂
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs;g ;(t
-%144char"string.this[int].get*
-
-%143string*2 °
-û
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs;g ;(t
-%142char"__id*
-
-%144char£
-†
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs;g ;(t
-%140object"__id*
-
-%142char*
-27*ò
-
-27v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs; ?(⁄
-◊
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs; ;(u-
-%145%Microsoft.Data.SqlClient.SqlParameter"LMicrosoft.Data.SqlClient.SqlParameterCollection.AddWithValue(string, object)*;9
-7
-%137/Microsoft.Data.SqlClient.SqlParameterCollection*
-	@i_estado*
-
-%140objectá
-Ñ
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs= =((#
-%146System.Threading.Tasks.Task"+System.Data.Common.DbConnection.OpenAsync()*86
-4
-
-connection&Microsoft.Data.SqlClient.SqlConnectioní
-è
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs> >(=,
-%147$System.Threading.Tasks.Task<TResult>"3System.Data.Common.DbCommand.ExecuteNonQueryAsync()*20
-.
-command#Microsoft.Data.SqlClient.SqlCommandö
-ó
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs> >(=
-resultint"__id*
-"""Ä
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs? ?(
-""*å
-28v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs@	 @(	"ç
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs@ @(	
-implicit return:´
-v
-lD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\SP\FileProcDigExecSP.cs8 (J1
-dto*SendSPFT.Business.Models.BD.FileProcDigDtoB1/
--SendSPFT.DataAccess.Exec.SP.FileProcDigExecSP

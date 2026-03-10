@@ -1,56 +1,0 @@
-
-§SendSPFT.CrossCutting.Subservices.FileProcessingService.FileProcessingService(SendSPFT.Application.Contracts.Clients.ISftpFileUploader, SendSPFT.DataAccess.Contracts.Exec.SP.IFileProcDigExecSP, SendSPFT.CrossCutting.Mapper.IAttachmentMapper, SendSPFT.DataAccess.Contracts.Exec.SP.IGetDatesSyb12)n
-dD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Subservices\FileProcessingService.cs ($"1*x
-1n
-dD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Subservices\FileProcessingService.cs!	 !(	*
-0*€
-0n
-dD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Subservices\FileProcessingService.cs  (È
-Å
-n
-dD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Subservices\FileProcessingService.cs ( ‚9
-7SendSPFT.CrossCutting.Subservices.FileProcessingService"E
-	_uploader8SendSPFT.Application.Contracts.Clients.ISftpFileUploader"__id*HF
-D
-uploader8SendSPFT.Application.Contracts.Clients.ISftpFileUploaderÊ
-Ç
-n
-dD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Subservices\FileProcessingService.cs ("ƒ9
-7SendSPFT.CrossCutting.Subservices.FileProcessingService"F
-
-_spService8SendSPFT.DataAccess.Contracts.Exec.SP.IFileProcDigExecSP"__id*IG
-E
-	spService8SendSPFT.DataAccess.Contracts.Exec.SP.IFileProcDigExecSP¯
-¬
-n
-dD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Subservices\FileProcessingService.cs (v9
-7SendSPFT.CrossCutting.Subservices.FileProcessingService"9
-_mapper.SendSPFT.CrossCutting.Mapper.IAttachmentMapper"__id*<:
-8
-mapper.SendSPFT.CrossCutting.Mapper.IAttachmentMapper»
-¸
-n
-dD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Subservices\FileProcessingService.cs   (|9
-7SendSPFT.CrossCutting.Subservices.FileProcessingService"?
-_sybase4SendSPFT.DataAccess.Contracts.Exec.SP.IGetDatesSyb12"__id*B@
->
-sybase4SendSPFT.DataAccess.Contracts.Exec.SP.IGetDatesSyb12*
-2*û
-2n
-dD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Subservices\FileProcessingService.cs!	 !(	"…
-n
-dD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Subservices\FileProcessingService.cs! !(	
-implicit return:¶
-n
-dD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Subservices\FileProcessingService.cs (&D
-uploader8SendSPFT.Application.Contracts.Clients.ISftpFileUploader:·
-n
-dD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Subservices\FileProcessingService.cs ((E
-	spService8SendSPFT.DataAccess.Contracts.Exec.SP.IFileProcDigExecSP:ª
-n
-dD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Subservices\FileProcessingService.cs ($8
-mapper.SendSPFT.CrossCutting.Mapper.IAttachmentMapper:°
-n
-dD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Subservices\FileProcessingService.cs (!>
-sybase4SendSPFT.DataAccess.Contracts.Exec.SP.IGetDatesSyb12B;9
-7SendSPFT.CrossCutting.Subservices.FileProcessingService

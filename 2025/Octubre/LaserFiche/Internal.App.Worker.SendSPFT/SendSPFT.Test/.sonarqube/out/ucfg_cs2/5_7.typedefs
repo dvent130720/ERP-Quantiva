@@ -1,6 +1,0 @@
-°
-+SendSPFT.CrossCutting.Helpers.RequestLoggerobject6SendSPFT.CrossCutting.Helpers.Contracts.IRequestLoggerÈ
-LRequestLogger(Davivienda.Framework.Lib.BitacoraLog.BitacoraLog.IBitacoraLog)xSendSPFT.CrossCutting.Helpers.RequestLogger.RequestLogger(Davivienda.Framework.Lib.BitacoraLog.BitacoraLog.IBitacoraLog)ƒ
-iLogRequest(object, SendSPFT.Bussiness.Models.RequestContextHeaders, Microsoft.Extensions.Logging.ILogger)•SendSPFT.CrossCutting.Helpers.RequestLogger.LogRequest(object, SendSPFT.Bussiness.Models.RequestContextHeaders, Microsoft.Extensions.Logging.ILogger)¦
-;LogSuccess(SendSPFT.Bussiness.Models.RequestContextHeaders)gSendSPFT.CrossCutting.Helpers.RequestLogger.LogSuccess(SendSPFT.Bussiness.Models.RequestContextHeaders)Æ
-KLogError(SendSPFT.Bussiness.Models.RequestContextHeaders, System.Exception)wSendSPFT.CrossCutting.Helpers.RequestLogger.LogError(SendSPFT.Bussiness.Models.RequestContextHeaders, System.Exception)
