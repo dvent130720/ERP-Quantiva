@@ -2,6 +2,7 @@
 using Carter;
 using ERPSystem.API.Extensions;
 using ERPSystem.API.Middleware;
+using ERPSystem.API.Services;
 using ERPSystem.Infrastructure.Persistence;
 using ERPSystem.Infrastructure.Services.Identity;
 using ERPSystem.Infrastructure.Services.SRI;
@@ -45,6 +46,10 @@ builder.Services.AddCarter();
 builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<ISriInvoiceService, SriInvoiceService>();
 builder.Services.AddScoped<IEmailService, EmailService>();
+
+// Cola y worker para PDF + WhatsApp
+builder.Services.AddSingleton<IInvoiceDispatchQueue, InvoiceDispatchQueue>();
+builder.Services.AddHostedService<InvoicePostProcessingWorker>();
 
 // Repositorios genéricos
 builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
