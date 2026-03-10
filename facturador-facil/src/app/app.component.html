@@ -1,0 +1,76 @@
+<div class="contenedor">
+  <h1>Facturador Fácil</h1>
+  <p class="subtitulo">Genera facturas simples en pocos pasos.</p>
+
+  <section class="tarjeta">
+    <h2>Datos del cliente</h2>
+    <div class="fila">
+      <label>
+        Nombre
+        <input type="text" [(ngModel)]="nombreCliente" placeholder="Ej: María Pérez" />
+      </label>
+      <label>
+        Identificación
+        <input type="text" [(ngModel)]="identificacion" placeholder="Ej: 1723456789" />
+      </label>
+    </div>
+  </section>
+
+  <section class="tarjeta">
+    <h2>Agregar producto o servicio</h2>
+    <div class="fila producto-form">
+      <label>
+        Descripción
+        <input type="text" [(ngModel)]="itemDescripcion" placeholder="Ej: Consultoría mensual" />
+      </label>
+      <label>
+        Cantidad
+        <input type="number" min="1" [(ngModel)]="itemCantidad" />
+      </label>
+      <label>
+        Precio unitario
+        <input type="number" min="0" step="0.01" [(ngModel)]="itemPrecio" />
+      </label>
+      <button (click)="agregarItem()">Agregar</button>
+    </div>
+
+    <table *ngIf="items.length > 0; else vacio">
+      <thead>
+        <tr>
+          <th>Descripción</th>
+          <th>Cantidad</th>
+          <th>Precio</th>
+          <th>Total</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let item of items; index as i">
+          <td>{{ item.descripcion }}</td>
+          <td>{{ item.cantidad }}</td>
+          <td>${{ item.precioUnitario | number: '1.2-2' }}</td>
+          <td>${{ item.total | number: '1.2-2' }}</td>
+          <td><button class="eliminar" (click)="eliminarItem(i)">Quitar</button></td>
+        </tr>
+      </tbody>
+    </table>
+    <ng-template #vacio>
+      <p class="vacio">Aún no has agregado ítems.</p>
+    </ng-template>
+  </section>
+
+  <section class="tarjeta resumen">
+    <h2>Resumen</h2>
+    <label>
+      IVA (%)
+      <input type="number" min="0" step="1" [(ngModel)]="ivaPorcentaje" />
+    </label>
+    <p>Subtotal: <strong>${{ subtotal | number: '1.2-2' }}</strong></p>
+    <p>IVA: <strong>${{ iva | number: '1.2-2' }}</strong></p>
+    <p class="total">Total: <strong>${{ totalFactura | number: '1.2-2' }}</strong></p>
+    <p *ngIf="nombreCliente || identificacion" class="cliente">
+      Cliente: {{ nombreCliente || 'Sin nombre' }}
+      <span *ngIf="identificacion">- {{ identificacion }}</span>
+    </p>
+  </section>
+</div>
