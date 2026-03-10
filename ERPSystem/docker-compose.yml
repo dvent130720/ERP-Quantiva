@@ -5,7 +5,7 @@ services:
     environment:
       POSTGRES_DB: erpdb
       POSTGRES_USER: erp
-      POSTGRES_PASSWORD: erp123
+      POSTGRES_PASSWORD: diego123
     ports:
       - "5432:5432"
     volumes:

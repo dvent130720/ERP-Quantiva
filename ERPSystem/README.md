@@ -91,4 +91,4 @@ docker compose up -d
 
 Cadena ejemplo:
 
-`Host=localhost;Port=5432;Database=erpdb;Username=erp;Password=erp123`
+`Host=localhost;Port=5432;Database=erpdb;Username=erp;Password=diego123`
