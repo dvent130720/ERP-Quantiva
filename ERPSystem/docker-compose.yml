@@ -1,15 +1,30 @@
-version: '3.9'
 services:
+
   postgres:
     image: postgres:16
+    restart: always
     environment:
       POSTGRES_DB: erp_facturacion
       POSTGRES_USER: erp_user
       POSTGRES_PASSWORD: diego123
- #   ports:
-#      - "5432:5432"
+#    ports:
+ #     - "5432:5432"
     volumes:
       - pgdata:/var/lib/postgresql/data
+
+  api:
+    build:
+      context: ./src
+      dockerfile: ERPSystem.API/Dockerfile
+    container_name: erp_api
+    restart: always
+    ports:
+      - "127.0.0.1:5012:5012"
+    depends_on:
+      - postgres
+    environment:
+      ASPNETCORE_URLS: "http://0.0.0.0:5012"
+      ConnectionStrings__DefaultConnection: "Host=postgres;Port=5432;Database=erp_facturacion;Username=erp_user;Password=diego123"
 
 volumes:
   pgdata:

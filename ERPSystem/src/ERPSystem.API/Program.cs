@@ -13,7 +13,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Authorization;
 
 var builder = WebApplication.CreateBuilder(args);
-
+//builder.WebHost.UseUrls("http://0.0.0.0:5012");
 // ============================================
 // CONFIGURAR SERVICIOS USANDO EXTENSIONES
 // ============================================
@@ -202,7 +202,7 @@ app.MapGet("/info", () => Results.Ok(new
 // ============================================
 
 var port = builder.Configuration["PORT"] ?? "5012";
-var urls = $"http://localhost:{port}";
+var urls = $"http://0.0.0.0:{port}";
 
 Console.WriteLine("════════════════════════════════════════════════════════");
 Console.WriteLine("🚀 ERP SISTEMA DE FACTURACIÓN ELECTRÓNICA");
@@ -217,4 +217,4 @@ Console.WriteLine("✅ API lista para recibir peticiones");
 Console.WriteLine("⚡ Presiona Ctrl+C para detener");
 Console.WriteLine("════════════════════════════════════════════════════════");
 
-app.Run(urls);
+app.Run();

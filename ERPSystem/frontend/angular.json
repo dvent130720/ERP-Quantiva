@@ -28,5 +28,8 @@
       }
     }
   },
-  "defaultProject": "erp-minimal-frontend"
+  "defaultProject": "erp-minimal-frontend",
+  "cli": {
+    "analytics": false
+  }
 }
