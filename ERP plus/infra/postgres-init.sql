@@ -1,0 +1,11 @@
+CREATE DATABASE auth_db;
+CREATE DATABASE tenant_db;
+CREATE DATABASE user_db;
+CREATE DATABASE client_db;
+CREATE DATABASE invoice_db;
+CREATE DATABASE inventory_db;
+CREATE DATABASE accounting_db;
+CREATE DATABASE dashboard_db;
+CREATE DATABASE notification_db;
+CREATE DATABASE ai_db;
+CREATE DATABASE sri_db;

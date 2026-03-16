@@ -1,0 +1,215 @@
+version: '3.9'
+services:
+  api-gateway:
+    build:
+      context: .
+      dockerfile: src/api-gateway/Dockerfile
+    ports:
+      - "8080:8080"
+    depends_on:
+      - auth-service
+      - tenant-service
+      - user-service
+      - client-service
+      - invoice-service
+      - inventory-service
+      - accounting-service
+      - dashboard-service
+      - notification-service
+      - ai-service
+      - sri-integration-service
+    networks:
+      - internal
+
+  auth-service:
+    build:
+      context: .
+      dockerfile: src/auth-service/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Production
+    depends_on:
+      - postgres
+      - redis
+      - rabbitmq
+      - seq
+    networks:
+      - internal
+
+  tenant-service:
+    build:
+      context: .
+      dockerfile: src/tenant-service/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Production
+    depends_on:
+      - postgres
+      - redis
+      - rabbitmq
+      - seq
+    networks:
+      - internal
+
+  user-service:
+    build:
+      context: .
+      dockerfile: src/user-service/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Production
+    depends_on:
+      - postgres
+      - redis
+      - rabbitmq
+      - seq
+    networks:
+      - internal
+
+  client-service:
+    build:
+      context: .
+      dockerfile: src/client-service/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Production
+    depends_on:
+      - postgres
+      - redis
+      - rabbitmq
+      - seq
+    networks:
+      - internal
+
+  invoice-service:
+    build:
+      context: .
+      dockerfile: src/invoice-service/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Production
+    depends_on:
+      - postgres
+      - redis
+      - rabbitmq
+      - seq
+    networks:
+      - internal
+
+  inventory-service:
+    build:
+      context: .
+      dockerfile: src/inventory-service/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Production
+    depends_on:
+      - postgres
+      - redis
+      - rabbitmq
+      - seq
+    networks:
+      - internal
+
+  accounting-service:
+    build:
+      context: .
+      dockerfile: src/accounting-service/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Production
+    depends_on:
+      - postgres
+      - redis
+      - rabbitmq
+      - seq
+    networks:
+      - internal
+
+  dashboard-service:
+    build:
+      context: .
+      dockerfile: src/dashboard-service/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Production
+    depends_on:
+      - postgres
+      - redis
+      - rabbitmq
+      - seq
+    networks:
+      - internal
+
+  notification-service:
+    build:
+      context: .
+      dockerfile: src/notification-service/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Production
+    depends_on:
+      - postgres
+      - redis
+      - rabbitmq
+      - seq
+    networks:
+      - internal
+
+  ai-service:
+    build:
+      context: .
+      dockerfile: src/ai-service/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Production
+    depends_on:
+      - postgres
+      - redis
+      - rabbitmq
+      - seq
+    networks:
+      - internal
+
+  sri-integration-service:
+    build:
+      context: .
+      dockerfile: src/sri-integration-service/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Production
+    depends_on:
+      - postgres
+      - redis
+      - rabbitmq
+      - seq
+    networks:
+      - internal
+
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: venturacom
+      POSTGRES_PASSWORD: venturacom
+      POSTGRES_DB: bootstrap
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./infra/postgres-init.sql:/docker-entrypoint-initdb.d/01-init.sql
+    networks:
+      - internal
+
+  redis:
+    image: redis:7-alpine
+    command: ["redis-server", "--appendonly", "yes"]
+    networks:
+      - internal
+
+  rabbitmq:
+    image: rabbitmq:3.13-management
+    networks:
+      - internal
+
+  seq:
+    image: datalust/seq:2024.3
+    environment:
+      ACCEPT_EULA: Y
+    ports:
+      - "5341:80"
+    networks:
+      - internal
+
+networks:
+  internal:
+    driver: bridge
+
+volumes:
+  postgres_data:
