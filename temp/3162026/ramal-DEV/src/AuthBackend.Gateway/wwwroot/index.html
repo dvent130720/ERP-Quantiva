@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login Básico</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f4f6f8; display:flex; justify-content:center; align-items:center; height:100vh; }
+    .card { background:#fff; padding:24px; border-radius:10px; width:320px; box-shadow:0 10px 25px rgba(0,0,0,.08); }
+    input, button { width:100%; margin-top:10px; padding:10px; }
+    .muted { font-size: 12px; color:#666; }
+    pre { font-size: 12px; background:#111; color:#0f0; padding:10px; border-radius:6px; overflow:auto; max-height: 180px; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h2>Iniciar sesión</h2>
+    <input id="email" type="email" placeholder="correo@dominio.com" />
+    <input id="password" type="password" placeholder="contraseña" />
+    <button id="btnLogin">Login</button>
+    <button id="btnGoogle">Login con Google</button>
+    <p class="muted">Este front llama al API Gateway: <code>/api/auth/*</code></p>
+    <pre id="result">Esperando acción...</pre>
+  </div>
+
+  <script>
+    const result = document.getElementById('result');
+    const email = document.getElementById('email');
+    const password = document.getElementById('password');
+
+    document.getElementById('btnLogin').addEventListener('click', async () => {
+      try {
+        const res = await fetch('/api/auth/login', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ email: email.value, password: password.value })
+        });
+        const text = await res.text();
+        result.textContent = `Status: ${res.status}\n${text}`;
+      } catch (e) {
+        result.textContent = `Error: ${e.message}`;
+      }
+    });
+
+    document.getElementById('btnGoogle').addEventListener('click', async () => {
+      try {
+        const res = await fetch('/api/auth/google');
+        const data = await res.json();
+        result.textContent = JSON.stringify(data, null, 2);
+      } catch (e) {
+        result.textContent = `Error: ${e.message}`;
+      }
+    });
+  </script>
+</body>
+</html>
