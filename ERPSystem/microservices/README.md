@@ -65,3 +65,9 @@ Gateway expone en `http://localhost:8080`.
   - Idempotency store distribuido
   - Firma XAdES-BES real mediante librería certificada
   - cifrado de `.p12` con KMS
+
+
+## 🧪 Pruebas en Postman
+
+- Guía paso a paso: `docs/Postman-Pruebas-Flujo-SRI.md`
+- Colección importable: `docs/Postman-Collection-MARZO.json`

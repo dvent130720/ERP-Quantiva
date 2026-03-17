@@ -1,0 +1,88 @@
+{
+  "info": {
+    "name": "MARZO - Flujo SRI Multi-tenant",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "01 Crear tenant",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "X-Api-Key", "value": "{{api_key}}" },
+          { "key": "Content-Type", "value": "application/json" }
+        ],
+        "url": "{{tenant_url}}",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"tenantId\": \"{{$guid}}\",\n  \"ruc\": \"{{ruc}}\",\n  \"businessName\": \"Empresa Demo S.A.\",\n  \"p12Base64\": \"{{p12_base64}}\",\n  \"p12Password\": \"{{p12_password}}\",\n  \"sriEnvironment\": \"PRUEBAS\"\n}"
+        }
+      }
+    },
+    {
+      "name": "02 Token",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "X-Api-Key", "value": "{{api_key}}" },
+          { "key": "Content-Type", "value": "application/json" }
+        ],
+        "url": "{{identity_url}}/token",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"userName\": \"admin@demo.com\",\n  \"password\": \"Pass.123\",\n  \"tenantId\": \"{{tenant_id}}\"\n}"
+        }
+      }
+    },
+    {
+      "name": "03 Crear factura",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "X-Api-Key", "value": "{{api_key}}" },
+          { "key": "X-Tenant-Id", "value": "{{tenant_id}}" },
+          { "key": "Authorization", "value": "Bearer {{access_token}}" },
+          { "key": "Content-Type", "value": "application/json" }
+        ],
+        "url": "{{billing_url}}",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"tenantId\": \"{{tenant_id}}\",\n  \"ruc\": \"{{ruc}}\",\n  \"secuencial\": \"1\",\n  \"total\": 145.67,\n  \"buyerDocument\": \"0912345678\",\n  \"buyerName\": \"Cliente Prueba\"\n}"
+        }
+      }
+    },
+    {
+      "name": "04 Consultar factura por ID",
+      "request": {
+        "method": "GET",
+        "header": [
+          { "key": "X-Api-Key", "value": "{{api_key}}" }
+        ],
+        "url": "{{billing_url}}/{{invoice_id}}"
+      }
+    },
+    {
+      "name": "05 Consultar estado por clave",
+      "request": {
+        "method": "GET",
+        "header": [
+          { "key": "X-Api-Key", "value": "{{api_key}}" }
+        ],
+        "url": "{{billing_url}}/{{clave_acceso}}/estado"
+      }
+    }
+  ],
+  "variable": [
+    { "key": "api_key", "value": "demo-key-tenant" },
+    { "key": "tenant_url", "value": "http://localhost:8080/tenants" },
+    { "key": "identity_url", "value": "http://localhost:8080/identity" },
+    { "key": "billing_url", "value": "http://localhost:8080/facturas" },
+    { "key": "tenant_id", "value": "" },
+    { "key": "access_token", "value": "" },
+    { "key": "invoice_id", "value": "" },
+    { "key": "clave_acceso", "value": "" },
+    { "key": "p12_base64", "value": "" },
+    { "key": "p12_password", "value": "" },
+    { "key": "ruc", "value": "1790012345001" }
+  ]
+}
