@@ -1,0 +1,38 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: billing-service
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: billing-service
+  template:
+    metadata:
+      labels:
+        app: billing-service
+    spec:
+      containers:
+      - name: billing-service
+        image: quantiva/billing-service:latest
+        ports:
+        - containerPort: 8080
+        env:
+        - name: ConnectionStrings__BillingDb
+          valueFrom:
+            secretKeyRef:
+              name: billing-secrets
+              key: billing-db
+        - name: RabbitMQ__Host
+          value: rabbitmq
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: billing-service
+spec:
+  selector:
+    app: billing-service
+  ports:
+  - port: 8080
+    targetPort: 8080

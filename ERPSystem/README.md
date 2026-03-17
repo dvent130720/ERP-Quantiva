@@ -60,3 +60,9 @@ dotnet test
 - Firma Digital XML
 - Comunicación SOAP
 - Validación automática
+
+---
+
+## 🚀 Plataforma MARZO - Microservicios SRI Multi-tenant
+
+Se agregó una implementación base en `ERPSystem/microservices` con API Gateway, Identity, Tenant, Billing, Worker y Notification; además de Docker Compose, manifiesto Kubernetes y pipeline CI para build/test.
