@@ -1,68 +1,74 @@
-# 🏢 ERP System - Sistema de Gestión Empresarial SaaS
+# Quantiva SRI Platform (MARZO)
 
-Sistema ERP completo con integración al SRI (Ecuador)
+Plataforma **multi-tenant** para facturación electrónica SRI lista para evolucionar a producción.
 
-## 🏗️ Arquitectura
+## Arquitectura aplicada
 
-- **Clean Architecture**
-- **.NET 8**
-- **PostgreSQL 16**
-- **Angular 18**
+- Clean Architecture + DDD + SOLID en `Billing.Service`.
+- Microservicios separados:
+  - Gateway (`YARP`)
+  - Identity Service (JWT + refresh token)
+  - Tenant Service (multi-RUC + certificados)
+  - Billing Service (core SRI)
+  - Worker Service (procesamiento asíncrono)
+  - Notification Service
+- Event-driven con RabbitMQ (`billing.events`).
+- PostgreSQL como persistencia principal de comprobantes, Redis para cache.
+- Resiliencia base con retry exponencial (Polly) en worker.
 
-## 📁 Estructura del Proyecto
+## Flujo de eventos
 
-```
-ERPSystem/
-├── src/
-│   ├── ERPSystem.Domain/          # Entidades, Value Objects, Interfaces
-│   ├── ERPSystem.Application/     # Casos de uso, CQRS, DTOs
-│   ├── ERPSystem.Infrastructure/  # EF Core, Servicios externos
-│   ├── ERPSystem.API/             # Endpoints, Middleware
-│   └── ERPSystem.Shared/          # Utilidades compartidas
-└── tests/
-    ├── ERPSystem.UnitTests/
-    └── ERPSystem.IntegrationTests/
-```
+1. `POST /facturas` en Billing Service crea comprobante y publica `FacturaCreada`.
+2. Worker consume y ejecuta pipeline (XML, firma, envío SRI, autorización).
+3. Se actualiza estado y se publican eventos de resultado:
+   - `FacturaFirmada`
+   - `FacturaEnviada`
+   - `FacturaAutorizada`
+   - `FacturaError`
+4. Notification Service consume `FacturaAutorizada` para webhook/email.
 
-## 🚀 Comandos
+## Endpoints clave
+
+- `POST /facturas`
+- `GET /facturas/{id}`
+- `GET /facturas/{clave}/estado`
+- `POST /internal/facturas/{id}/estado` (uso interno worker)
+- `POST /identity/token`
+- `POST /tenants`
+
+## SRI PRUEBAS (configurable)
+
+- Recepción: `https://celcer.sri.gob.ec/comprobantes-electronicos-ws/RecepcionComprobantesOffline?wsdl`
+- Autorización: `https://celcer.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl`
+
+> No se hardcodean secrets: usar variables de entorno/secret manager (Vault o AWS Secrets Manager) para producción.
+
+## Ejecución local
 
 ```bash
-# Restaurar dependencias
-dotnet restore
-
-# Compilar
-dotnet build
-
-# Ejecutar API
-dotnet run --project src/ERPSystem.API
-
-# Ejecutar tests
-dotnet test
+cd ERPSystem/microservices
+export JWT_SECRET='change-me-please'
+docker compose up --build
 ```
 
-## 📦 Tecnologías
+Gateway expone en `http://localhost:8080`.
 
-- .NET 8
-- Entity Framework Core 8
-- PostgreSQL 16
-- MediatR (CQRS)
-- FluentValidation
-- AutoMapper
-- JWT Authentication
-- Serilog
-- Hangfire
-- Redis
-- Carter (Minimal APIs)
+## Producción
 
-## 🎯 Integración SRI
+- CI/CD: `.github/workflows/microservices-ci.yml`
+- Kubernetes ready: `k8s/billing-deployment.yaml`
+- Añadir observabilidad:
+  - Logs: Loki/ELK
+  - Métricas: Prometheus + Grafana
+- Recomendado:
+  - Outbox pattern
+  - Idempotency store distribuido
+  - Firma XAdES-BES real mediante librería certificada
+  - cifrado de `.p12` con KMS
 
-- Facturación Electrónica
-- Firma Digital XML
-- Comunicación SOAP
-- Validación automática
 
----
+## 🧪 Pruebas en Postman
 
-## 🚀 Plataforma MARZO - Microservicios SRI Multi-tenant
-
-Se agregó una implementación base en `ERPSystem/microservices` con API Gateway, Identity, Tenant, Billing, Worker y Notification; además de Docker Compose, manifiesto Kubernetes y pipeline CI para build/test.
+- Guía paso a paso: `docs/Postman-Pruebas-Flujo-SRI.md`
+- Colección importable: `docs/Postman-Collection-MARZO.json`
+- Pantalla única (registro usuario + empresa + facturación): `docs/index.html`
