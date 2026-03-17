@@ -8,15 +8,15 @@ var app = builder.Build();
 
 app.MapPost("/tenants", async (TenantCreateRequest request, TenantDbContext db) =>
 {
-    var key = ResolveMasterKey();
+    var key = TenantCrypto.ResolveMasterKey();
     var tenant = new Tenant
     {
         Id = Guid.NewGuid(),
         TenantId = request.TenantId,
         Ruc = request.Ruc,
         BusinessName = request.BusinessName,
-        P12Encrypted = Encrypt(Convert.FromBase64String(request.P12Base64), key),
-        P12PasswordEncrypted = Convert.ToBase64String(Encrypt(System.Text.Encoding.UTF8.GetBytes(request.P12Password), key)),
+        P12Encrypted = TenantCrypto.Encrypt(Convert.FromBase64String(request.P12Base64), key),
+        P12PasswordEncrypted = Convert.ToBase64String(TenantCrypto.Encrypt(System.Text.Encoding.UTF8.GetBytes(request.P12Password), key)),
         SriEnvironment = request.SriEnvironment
     };
 
@@ -57,34 +57,39 @@ public sealed class TenantDbContext(DbContextOptions<TenantDbContext> options) :
     public DbSet<Tenant> Tenants => Set<Tenant>();
 }
 
-static byte[] Encrypt(byte[] plain, byte[] key)
-{
-    var nonce = RandomNumberGenerator.GetBytes(12);
-    var tag = new byte[16];
-    var cipher = new byte[plain.Length];
-    using var aes = new AesGcm(key, tagSizeInBytes: 16);
-    aes.Encrypt(nonce, plain, cipher, tag);
 
-    var payload = new byte[nonce.Length + tag.Length + cipher.Length];
-    Buffer.BlockCopy(nonce, 0, payload, 0, nonce.Length);
-    Buffer.BlockCopy(tag, 0, payload, nonce.Length, tag.Length);
-    Buffer.BlockCopy(cipher, 0, payload, nonce.Length + tag.Length, cipher.Length);
-    return payload;
-}
 
-static byte[] ResolveMasterKey()
+public static class TenantCrypto
 {
-    var base64 = Environment.GetEnvironmentVariable("P12_MASTER_KEY");
-    if (string.IsNullOrWhiteSpace(base64))
+    public static byte[] Encrypt(byte[] plain, byte[] key)
     {
-        throw new InvalidOperationException("P12_MASTER_KEY no configurada.");
+        var nonce = RandomNumberGenerator.GetBytes(12);
+        var tag = new byte[16];
+        var cipher = new byte[plain.Length];
+        using var aes = new AesGcm(key, tagSizeInBytes: 16);
+        aes.Encrypt(nonce, plain, cipher, tag);
+
+        var payload = new byte[nonce.Length + tag.Length + cipher.Length];
+        Buffer.BlockCopy(nonce, 0, payload, 0, nonce.Length);
+        Buffer.BlockCopy(tag, 0, payload, nonce.Length, tag.Length);
+        Buffer.BlockCopy(cipher, 0, payload, nonce.Length + tag.Length, cipher.Length);
+        return payload;
     }
 
-    var key = Convert.FromBase64String(base64);
-    if (key.Length != 32)
+    public static byte[] ResolveMasterKey()
     {
-        throw new InvalidOperationException("P12_MASTER_KEY debe representar 32 bytes (AES-256).");
-    }
+        var base64 = Environment.GetEnvironmentVariable("P12_MASTER_KEY");
+        if (string.IsNullOrWhiteSpace(base64))
+        {
+            throw new InvalidOperationException("P12_MASTER_KEY no configurada.");
+        }
 
-    return key;
+        var key = Convert.FromBase64String(base64);
+        if (key.Length != 32)
+        {
+            throw new InvalidOperationException("P12_MASTER_KEY debe representar 32 bytes (AES-256).");
+        }
+
+        return key;
+    }
 }
