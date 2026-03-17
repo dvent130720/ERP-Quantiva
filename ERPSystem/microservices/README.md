@@ -71,3 +71,4 @@ Gateway expone en `http://localhost:8080`.
 
 - Guía paso a paso: `docs/Postman-Pruebas-Flujo-SRI.md`
 - Colección importable: `docs/Postman-Collection-MARZO.json`
+- Formulario web simple para alta con `.p12`: `docs/index.html`

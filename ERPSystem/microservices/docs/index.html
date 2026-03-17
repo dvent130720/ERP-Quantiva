@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Registro de Empresa (Tenant) - Carga .p12</title>
+  <style>
+    :root { font-family: Inter, Arial, sans-serif; color-scheme: light dark; }
+    body { margin: 0; padding: 24px; background: #0b1020; color: #e7eaf4; }
+    .wrap { max-width: 840px; margin: 0 auto; background: #151c31; border-radius: 12px; padding: 24px; }
+    h1 { margin-top: 0; font-size: 1.4rem; }
+    .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+    .full { grid-column: 1 / -1; }
+    label { display:block; font-size:.9rem; margin: 8px 0 4px; }
+    input, select, textarea, button { width:100%; box-sizing:border-box; padding:10px; border-radius:8px; border:1px solid #2d385a; background:#0f162a; color:#fff; }
+    textarea { min-height: 130px; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; }
+    button { cursor:pointer; background:#2a67ff; border:none; font-weight:700; margin-top:12px; }
+    .help { font-size:.82rem; opacity:.85; }
+    .result { margin-top: 14px; padding: 10px; border-radius:8px; background:#0f162a; white-space: pre-wrap; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Alta de empresa (tenant) + carga de certificado .p12</h1>
+    <p class="help">Completa los campos, selecciona tu archivo <strong>.p12</strong> y escribe la clave. El navegador convierte el archivo a Base64 y lo envía al API <code>POST /tenants</code>.</p>
+
+    <form id="tenantForm">
+      <div class="grid">
+        <div class="full">
+          <label>URL API (Tenant Service)</label>
+          <input id="apiUrl" value="http://localhost:8080/tenants" required />
+        </div>
+
+        <div>
+          <label>Tenant ID (GUID)</label>
+          <input id="tenantId" placeholder="ej: 11111111-2222-3333-4444-555555555555" required />
+        </div>
+
+        <div>
+          <label>RUC</label>
+          <input id="ruc" placeholder="1790012345001" required />
+        </div>
+
+        <div class="full">
+          <label>Razón social</label>
+          <input id="businessName" placeholder="Mi Empresa S.A." required />
+        </div>
+
+        <div>
+          <label>Ambiente SRI</label>
+          <select id="sriEnvironment">
+            <option value="PRUEBAS">PRUEBAS</option>
+            <option value="PRODUCCION">PRODUCCION</option>
+          </select>
+        </div>
+
+        <div>
+          <label>Archivo certificado (.p12)</label>
+          <input id="p12File" type="file" accept=".p12,application/x-pkcs12" required />
+        </div>
+
+        <div class="full">
+          <label>Clave del .p12</label>
+          <input id="p12Password" type="password" required />
+        </div>
+      </div>
+
+      <button type="submit">Registrar empresa y enviar .p12 en Base64</button>
+    </form>
+
+    <div class="result" id="result">Esperando envío...</div>
+  </div>
+
+  <script>
+    const form = document.getElementById('tenantForm');
+    const result = document.getElementById('result');
+
+    function fileToBase64(file) {
+      return new Promise((resolve, reject) => {
+        const reader = new FileReader();
+        reader.onload = () => {
+          const dataUrl = reader.result;
+          const base64 = String(dataUrl).split(',')[1];
+          resolve(base64);
+        };
+        reader.onerror = reject;
+        reader.readAsDataURL(file);
+      });
+    }
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      result.textContent = 'Procesando archivo y enviando al API...';
+
+      try {
+        const file = document.getElementById('p12File').files[0];
+        if (!file) {
+          throw new Error('Debes seleccionar un archivo .p12');
+        }
+
+        const payload = {
+          tenantId: document.getElementById('tenantId').value.trim(),
+          ruc: document.getElementById('ruc').value.trim(),
+          businessName: document.getElementById('businessName').value.trim(),
+          p12Base64: await fileToBase64(file),
+          p12Password: document.getElementById('p12Password').value,
+          sriEnvironment: document.getElementById('sriEnvironment').value
+        };
+
+        const response = await fetch(document.getElementById('apiUrl').value.trim(), {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload)
+        });
+
+        const text = await response.text();
+        result.textContent = `Status: ${response.status}\n\n${text}`;
+      } catch (error) {
+        result.textContent = `Error: ${error.message}`;
+      }
+    });
+  </script>
+</body>
+</html>
