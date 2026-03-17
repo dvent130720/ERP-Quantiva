@@ -3,127 +3,248 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Registro de Empresa (Tenant) - Carga .p12</title>
+  <title>Portal único | Registro, Empresa y Facturación SRI</title>
   <style>
     :root { font-family: Inter, Arial, sans-serif; color-scheme: light dark; }
-    body { margin: 0; padding: 24px; background: #0b1020; color: #e7eaf4; }
-    .wrap { max-width: 840px; margin: 0 auto; background: #151c31; border-radius: 12px; padding: 24px; }
-    h1 { margin-top: 0; font-size: 1.4rem; }
-    .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
-    .full { grid-column: 1 / -1; }
-    label { display:block; font-size:.9rem; margin: 8px 0 4px; }
-    input, select, textarea, button { width:100%; box-sizing:border-box; padding:10px; border-radius:8px; border:1px solid #2d385a; background:#0f162a; color:#fff; }
-    textarea { min-height: 130px; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; }
-    button { cursor:pointer; background:#2a67ff; border:none; font-weight:700; margin-top:12px; }
-    .help { font-size:.82rem; opacity:.85; }
-    .result { margin-top: 14px; padding: 10px; border-radius:8px; background:#0f162a; white-space: pre-wrap; }
+    body { margin:0; padding:24px; background:#0a1226; color:#e9eeff; }
+    .wrap { max-width:1100px; margin:auto; background:#141d35; border-radius:14px; padding:20px; }
+    h1 { margin:0 0 8px; }
+    .muted { opacity:.85; font-size:.9rem; }
+    .step { margin-top:14px; padding:14px; background:#0f1830; border-radius:10px; border:1px solid #243055; }
+    .step h2 { margin:0 0 8px; font-size:1.05rem; }
+    .grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px; }
+    .full { grid-column:1/-1; }
+    label { display:block; margin:6px 0 4px; font-size:.88rem; }
+    input, select, button, textarea { width:100%; box-sizing:border-box; padding:10px; border-radius:8px; border:1px solid #2e3b62; background:#0d1630; color:#fff; }
+    button { cursor:pointer; border:none; background:#2f6fff; font-weight:700; }
+    button.secondary { background:#44527d; }
+    .ok { color:#59e18a; font-weight:700; }
+    .warn { color:#ffcd57; font-weight:700; }
+    #result { min-height:90px; white-space:pre-wrap; }
   </style>
 </head>
 <body>
-  <div class="wrap">
-    <h1>Alta de empresa (tenant) + carga de certificado .p12</h1>
-    <p class="help">Completa los campos, selecciona tu archivo <strong>.p12</strong> y escribe la clave. El navegador convierte el archivo a Base64 y lo envía al API <code>POST /tenants</code>.</p>
+<div class="wrap">
+  <h1>Portal único (Usuario → Empresa → Factura SRI)</h1>
+  <p class="muted">Flujo guiado: 1) registrar usuario, 2) crear empresa con .p12, 3) emitir factura en SRI pruebas. Ambiente por defecto: <strong>PRUEBAS</strong> (parametrizable).</p>
 
-    <form id="tenantForm">
-      <div class="grid">
-        <div class="full">
-          <label>URL API (Tenant Service)</label>
-          <input id="apiUrl" value="http://localhost:8080/tenants" required />
-        </div>
+  <section class="step">
+    <h2>Configuración general</h2>
+    <div class="grid">
+      <div><label>Gateway URL</label><input id="gatewayUrl" value="http://localhost:8080" /></div>
+      <div><label>API Key</label><input id="apiKey" value="demo-key-tenant" /></div>
+      <div><label>Endpoint registro usuario</label><input id="registerPath" value="/identity/register" /></div>
+      <div><label>Endpoint token</label><input id="tokenPath" value="/identity/token" /></div>
+      <div><label>Endpoint empresa</label><input id="tenantPath" value="/tenants" /></div>
+      <div><label>Endpoint facturas</label><input id="invoicePath" value="/facturas" /></div>
+    </div>
+  </section>
 
-        <div>
-          <label>Tenant ID (GUID)</label>
-          <input id="tenantId" placeholder="ej: 11111111-2222-3333-4444-555555555555" required />
-        </div>
+  <section class="step" id="stepUser">
+    <h2>1) Registro de usuario</h2>
+    <div class="grid">
+      <div><label>Nombre</label><input id="fullName" value="Admin Demo" /></div>
+      <div><label>Email</label><input id="email" value="admin@demo.com" /></div>
+      <div><label>Password</label><input id="password" type="password" value="Pass.123" /></div>
+      <div class="full"><button id="btnRegister" type="button">Registrar usuario</button></div>
+    </div>
+    <p id="userStatus" class="muted">Pendiente de registro.</p>
+  </section>
 
-        <div>
-          <label>RUC</label>
-          <input id="ruc" placeholder="1790012345001" required />
-        </div>
+  <section class="step" id="stepTenant" style="display:none;">
+    <h2>2) Crear empresa (tenant)</h2>
+    <div class="grid">
+      <div><label>Tenant ID (GUID)</label><input id="tenantId" placeholder="11111111-2222-3333-4444-555555555555" /></div>
+      <div><label>RUC</label><input id="ruc" placeholder="1790012345001" /></div>
+      <div class="full"><label>Razón social</label><input id="businessName" placeholder="Mi Empresa S.A." /></div>
+      <div><label>Ambiente SRI</label><select id="sriEnvironment"><option value="PRUEBAS" selected>PRUEBAS</option><option value="PRODUCCION">PRODUCCION</option></select></div>
+      <div><label>Certificado .p12</label><input id="p12File" type="file" accept=".p12,application/x-pkcs12" /></div>
+      <div class="full"><label>Clave .p12</label><input id="p12Password" type="password" /></div>
+      <div class="full"><button id="btnCreateTenant" type="button">Crear empresa</button></div>
+    </div>
+    <p id="tenantStatus" class="muted">Pendiente de empresa.</p>
+  </section>
 
-        <div class="full">
-          <label>Razón social</label>
-          <input id="businessName" placeholder="Mi Empresa S.A." required />
-        </div>
+  <section class="step" id="stepInvoice" style="display:none;">
+    <h2>3) Facturación electrónica (simple)</h2>
+    <p class="muted">Autocompleta tenant/ruc desde paso 2. El secuencial se incrementa automáticamente en este navegador.</p>
+    <div class="grid">
+      <div><label>Tenant ID</label><input id="invoiceTenantId" readonly /></div>
+      <div><label>RUC emisor</label><input id="invoiceRuc" readonly /></div>
+      <div><label>Secuencial (auto)</label><input id="secuencial" readonly /></div>
+      <div><label>Total</label><input id="total" type="number" step="0.01" value="100.00" /></div>
+      <div><label>Documento comprador</label><input id="buyerDocument" value="0912345678" /></div>
+      <div><label>Nombre comprador</label><input id="buyerName" value="Consumidor Final" /></div>
+      <div class="full"><button id="btnEmitir" type="button">Emitir factura al ambiente seleccionado</button></div>
+      <div><button id="btnById" class="secondary" type="button">Consultar por ID</button></div>
+      <div><button id="btnByClave" class="secondary" type="button">Consultar estado por clave</button></div>
+    </div>
+  </section>
 
-        <div>
-          <label>Ambiente SRI</label>
-          <select id="sriEnvironment">
-            <option value="PRUEBAS">PRUEBAS</option>
-            <option value="PRODUCCION">PRODUCCION</option>
-          </select>
-        </div>
+  <section class="step">
+    <h2>Resultado / logs</h2>
+    <div id="result">Listo para iniciar.</div>
+  </section>
+</div>
 
-        <div>
-          <label>Archivo certificado (.p12)</label>
-          <input id="p12File" type="file" accept=".p12,application/x-pkcs12" required />
-        </div>
+<script>
+  const state = {
+    registered: false,
+    tenantCreated: false,
+    tenantId: '',
+    ruc: '',
+    accessToken: '',
+    invoiceId: '',
+    claveAcceso: ''
+  };
 
-        <div class="full">
-          <label>Clave del .p12</label>
-          <input id="p12Password" type="password" required />
-        </div>
-      </div>
+  const byId = (id) => document.getElementById(id).value.trim();
+  const setText = (id, text, cls = 'muted') => {
+    const el = document.getElementById(id);
+    el.className = cls;
+    el.textContent = text;
+  };
+  const print = (msg) => document.getElementById('result').textContent = typeof msg === 'string' ? msg : JSON.stringify(msg, null, 2);
+  const url = (pathInputId) => `${byId('gatewayUrl')}${byId(pathInputId)}`;
+  const baseHeaders = () => ({ 'Content-Type': 'application/json', 'X-Api-Key': byId('apiKey') });
 
-      <button type="submit">Registrar empresa y abrir pantalla de facturación</button>
-    </form>
+  function nextSecuencial(tenantId) {
+    const key = `secuencial:${tenantId}`;
+    const current = Number(localStorage.getItem(key) || '0') + 1;
+    localStorage.setItem(key, String(current));
+    return String(current);
+  }
 
-    <div class="result" id="result">Esperando envío...</div>
-  </div>
-
-  <script>
-    const form = document.getElementById('tenantForm');
-    const result = document.getElementById('result');
-
-    function fileToBase64(file) {
-      return new Promise((resolve, reject) => {
-        const reader = new FileReader();
-        reader.onload = () => {
-          const dataUrl = reader.result;
-          const base64 = String(dataUrl).split(',')[1];
-          resolve(base64);
-        };
-        reader.onerror = reject;
-        reader.readAsDataURL(file);
-      });
-    }
-
-    form.addEventListener('submit', async (e) => {
-      e.preventDefault();
-      result.textContent = 'Procesando archivo y enviando al API...';
-
-      try {
-        const file = document.getElementById('p12File').files[0];
-        if (!file) {
-          throw new Error('Debes seleccionar un archivo .p12');
-        }
-
-        const payload = {
-          tenantId: document.getElementById('tenantId').value.trim(),
-          ruc: document.getElementById('ruc').value.trim(),
-          businessName: document.getElementById('businessName').value.trim(),
-          p12Base64: await fileToBase64(file),
-          p12Password: document.getElementById('p12Password').value,
-          sriEnvironment: document.getElementById('sriEnvironment').value
-        };
-
-        const response = await fetch(document.getElementById('apiUrl').value.trim(), {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify(payload)
-        });
-
-        const text = await response.text();
-        result.textContent = `Status: ${response.status}\n\n${text}`;
-
-        if (response.ok) {
-          const nextUrl = `facturar.html?tenantId=${encodeURIComponent(payload.tenantId)}&ruc=${encodeURIComponent(payload.ruc)}`;
-          setTimeout(() => { window.location.href = nextUrl; }, 800);
-        }
-      } catch (error) {
-        result.textContent = `Error: ${error.message}`;
-      }
+  function fileToBase64(file) {
+    return new Promise((resolve, reject) => {
+      const reader = new FileReader();
+      reader.onload = () => resolve(String(reader.result).split(',')[1]);
+      reader.onerror = reject;
+      reader.readAsDataURL(file);
     });
-  </script>
+  }
+
+  async function getToken() {
+    const payload = { userName: byId('email'), password: byId('password'), tenantId: state.tenantId };
+    const res = await fetch(url('tokenPath'), { method:'POST', headers: baseHeaders(), body: JSON.stringify(payload) });
+    const json = await res.json();
+    if (!res.ok) throw new Error(`Token error: ${JSON.stringify(json)}`);
+    state.accessToken = json.access_token || '';
+  }
+
+  document.getElementById('btnRegister').addEventListener('click', async () => {
+    try {
+      const payload = { fullName: byId('fullName'), email: byId('email'), password: byId('password') };
+      const res = await fetch(url('registerPath'), { method:'POST', headers: baseHeaders(), body: JSON.stringify(payload) });
+
+      if (res.ok) {
+        state.registered = true;
+        setText('userStatus', 'Usuario registrado en backend.', 'ok');
+        document.getElementById('stepTenant').style.display = 'block';
+        print('Usuario registrado correctamente. Continúa con la creación de empresa.');
+        return;
+      }
+
+      // Fallback: el backend actual puede no tener /identity/register todavía.
+      state.registered = true;
+      setText('userStatus', 'Registro backend no disponible; se habilita modo demo local para continuar flujo.', 'warn');
+      document.getElementById('stepTenant').style.display = 'block';
+      print('Aviso: endpoint /identity/register no disponible. Se continúa en modo demo local y luego se usa /identity/token.');
+    } catch (error) {
+      print(`Error registro usuario: ${error.message}`);
+    }
+  });
+
+  document.getElementById('btnCreateTenant').addEventListener('click', async () => {
+    try {
+      if (!state.registered) throw new Error('Primero registra usuario.');
+      const file = document.getElementById('p12File').files[0];
+      if (!file) throw new Error('Selecciona un archivo .p12');
+
+      const payload = {
+        tenantId: byId('tenantId'),
+        ruc: byId('ruc'),
+        businessName: byId('businessName'),
+        p12Base64: await fileToBase64(file),
+        p12Password: byId('p12Password'),
+        sriEnvironment: byId('sriEnvironment') || 'PRUEBAS'
+      };
+
+      const res = await fetch(url('tenantPath'), { method:'POST', headers: baseHeaders(), body: JSON.stringify(payload) });
+      const text = await res.text();
+      if (!res.ok) throw new Error(text);
+
+      state.tenantCreated = true;
+      state.tenantId = payload.tenantId;
+      state.ruc = payload.ruc;
+
+      document.getElementById('invoiceTenantId').value = state.tenantId;
+      document.getElementById('invoiceRuc').value = state.ruc;
+      document.getElementById('secuencial').value = nextSecuencial(state.tenantId);
+
+      setText('tenantStatus', `Empresa creada para ambiente SRI: ${payload.sriEnvironment}`, 'ok');
+      document.getElementById('stepInvoice').style.display = 'block';
+
+      await getToken();
+      print('Empresa creada y token obtenido automáticamente. Ya puedes facturar.');
+    } catch (error) {
+      print(`Error creando empresa: ${error.message}`);
+    }
+  });
+
+  document.getElementById('btnEmitir').addEventListener('click', async () => {
+    try {
+      if (!state.tenantCreated) throw new Error('Primero crea la empresa.');
+      if (!state.accessToken) await getToken();
+
+      const payload = {
+        tenantId: state.tenantId,
+        ruc: state.ruc,
+        secuencial: byId('secuencial'),
+        total: Number(byId('total')),
+        buyerDocument: byId('buyerDocument'),
+        buyerName: byId('buyerName')
+      };
+
+      const headers = {
+        ...baseHeaders(),
+        'X-Tenant-Id': state.tenantId,
+        'Authorization': `Bearer ${state.accessToken}`
+      };
+
+      const res = await fetch(url('invoicePath'), { method:'POST', headers, body: JSON.stringify(payload) });
+      const json = await res.json();
+      if (!res.ok) throw new Error(JSON.stringify(json));
+
+      state.invoiceId = json.id || '';
+      state.claveAcceso = json.claveAcceso || '';
+      print({ message: 'Factura emitida', response: json });
+
+      document.getElementById('secuencial').value = nextSecuencial(state.tenantId);
+    } catch (error) {
+      print(`Error facturación: ${error.message}`);
+    }
+  });
+
+  document.getElementById('btnById').addEventListener('click', async () => {
+    try {
+      if (!state.invoiceId) throw new Error('Aún no hay invoiceId. Emite una factura primero.');
+      const res = await fetch(`${url('invoicePath')}/${state.invoiceId}`, { headers: baseHeaders() });
+      print(`Status ${res.status}\n${await res.text()}`);
+    } catch (error) {
+      print(`Error consulta por ID: ${error.message}`);
+    }
+  });
+
+  document.getElementById('btnByClave').addEventListener('click', async () => {
+    try {
+      if (!state.claveAcceso) throw new Error('Aún no hay claveAcceso. Emite una factura primero.');
+      const res = await fetch(`${url('invoicePath')}/${state.claveAcceso}/estado`, { headers: baseHeaders() });
+      print(`Status ${res.status}\n${await res.text()}`);
+    } catch (error) {
+      print(`Error consulta por clave: ${error.message}`);
+    }
+  });
+</script>
 </body>
 </html>
