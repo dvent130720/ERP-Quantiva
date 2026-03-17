@@ -65,7 +65,7 @@
         </div>
       </div>
 
-      <button type="submit">Registrar empresa y enviar .p12 en Base64</button>
+      <button type="submit">Registrar empresa y abrir pantalla de facturación</button>
     </form>
 
     <div class="result" id="result">Esperando envío...</div>
@@ -115,6 +115,11 @@
 
         const text = await response.text();
         result.textContent = `Status: ${response.status}\n\n${text}`;
+
+        if (response.ok) {
+          const nextUrl = `facturar.html?tenantId=${encodeURIComponent(payload.tenantId)}&ruc=${encodeURIComponent(payload.ruc)}`;
+          setTimeout(() => { window.location.href = nextUrl; }, 800);
+        }
       } catch (error) {
         result.textContent = `Error: ${error.message}`;
       }
