@@ -1,71 +1,0 @@
-
-LSendSPFT.Application.Clients.SftpFileUploaderClient.Validate(string, string)j
-`D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\SftpFileUploaderClient.csf f(#"0*½
-0j
-`D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\SftpFileUploaderClient.csh h(0Ã
-À
-j
-`D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\SftpFileUploaderClient.csh h(1
-
-%0bool""string.IsNullOrWhiteSpace(string?)*
-"
-string*
-
-formatstring*
-1
-2*¨
-1j
-`D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\SftpFileUploaderClient.csi i(T©¦
-j
-`D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\SftpFileUploaderClient.csi i(U
-%1System.ArgumentException"System.ArgumentException…
-‚
-j
-`D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\SftpFileUploaderClient.csi i(+
-
-%2void"<System.ArgumentException.ArgumentException(string?, string?)*" 
-
-%1System.ArgumentException*
-Format cannot be empty*
-""*
-3*Ä
-2j
-`D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\SftpFileUploaderClient.csk k(7Ê
-Ç
-j
-`D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\SftpFileUploaderClient.csk k(8
-
-%3bool""string.IsNullOrWhiteSpace(string?)*
-"
-string*
-
-base64Contentstring*
-4
-3*°
-4j
-`D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\SftpFileUploaderClient.csl l(c©¦
-j
-`D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\SftpFileUploaderClient.csl l(d
-%4System.ArgumentException"System.ArgumentException
-Š
-j
-`D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\SftpFileUploaderClient.csl l(+
-
-%5void"<System.ArgumentException.ArgumentException(string?, string?)*" 
-
-%4System.ArgumentException*$" 
-Base64 content cannot be empty*
-""*
-3*ó
-3j
-`D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\SftpFileUploaderClient.csm	 m(	"
-j
-`D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\SftpFileUploaderClient.csm m(	
-implicit return:~
-j
-`D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\SftpFileUploaderClient.csf$ f(1
-formatstring:…
-j
-`D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\SftpFileUploaderClient.csf3 f(G
-base64ContentstringB7"5
-3SendSPFT.Application.Clients.SftpFileUploaderClient

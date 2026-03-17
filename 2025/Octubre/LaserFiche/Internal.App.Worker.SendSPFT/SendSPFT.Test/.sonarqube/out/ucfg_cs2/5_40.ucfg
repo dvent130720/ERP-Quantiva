@@ -1,43 +1,0 @@
-
-wSendSPFT.CrossCutting.Helpers.RequestLogger.LogError(SendSPFT.Bussiness.Models.RequestContextHeaders, System.Exception)b
-XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\RequestLogger.cs# #("0*ä	
-0b
-XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\RequestLogger.cs% %(P¼¹
-b
-XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\RequestLogger.cs%F %(P
-%0string"System.Exception.Message.get*
-
-exSystem.Exception2Message.getÌ
-É
-b
-XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\RequestLogger.cs%" %(QE
-%1?Davivienda.Framework.Lib.BitacoraLog.BitacoraLog.BitacoraLogDto"~SendSPFT.CrossCutting.Helpers.RequestLogger.CreateLog(SendSPFT.Bussiness.Models.RequestContextHeaders, string, string, string)*1/"-
-+SendSPFT.CrossCutting.Helpers.RequestLogger*><
-:
-context/SendSPFT.Bussiness.Models.RequestContextHeaders*	
-ERROR*
-
-9999*
-
-%0stringçä
-b
-XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\RequestLogger.cs% %(R
-
-%2void"ˆDavivienda.Framework.Lib.BitacoraLog.BitacoraLog.IBitacoraLog.Registrar(Davivienda.Framework.Lib.BitacoraLog.BitacoraLog.BitacoraLogDto)*PN
-L
-bitacoraLog=Davivienda.Framework.Lib.BitacoraLog.BitacoraLog.IBitacoraLog*IG
-E
-%1?Davivienda.Framework.Lib.BitacoraLog.BitacoraLog.BitacoraLogDto2JRegistrar(Davivienda.Framework.Lib.BitacoraLog.BitacoraLog.BitacoraLogDto)*
-1*â
-1b
-XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\RequestLogger.cs&	 &(	"y
-b
-XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\RequestLogger.cs& &(	
-implicit return: 
-b
-XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\RequestLogger.cs# #(::
-context/SendSPFT.Bussiness.Models.RequestContextHeaders:|
-b
-XD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\RequestLogger.cs#< #(H
-exSystem.ExceptionB/-
-+SendSPFT.CrossCutting.Helpers.RequestLogger

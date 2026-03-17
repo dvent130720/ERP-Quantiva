@@ -1,9 +1,0 @@
-ƒ
-.SendSPFT.Business.Models.SFTP.SftpUploadResultobjectW
-SftpUploadResult()ASendSPFT.Business.Models.SFTP.SftpUploadResult.SftpUploadResult()I
-Success.get:SendSPFT.Business.Models.SFTP.SftpUploadResult.Success.getI
-Success.set:SendSPFT.Business.Models.SFTP.SftpUploadResult.Success.setW
-RemoteFilePath.getASendSPFT.Business.Models.SFTP.SftpUploadResult.RemoteFilePath.getW
-RemoteFilePath.setASendSPFT.Business.Models.SFTP.SftpUploadResult.RemoteFilePath.setS
-ErrorMessage.get?SendSPFT.Business.Models.SFTP.SftpUploadResult.ErrorMessage.getS
-ErrorMessage.set?SendSPFT.Business.Models.SFTP.SftpUploadResult.ErrorMessage.set

@@ -1,46 +1,0 @@
-
-[SendSPFT.Application.Clients.SftpFileUploaderClient.UploadFileAsync(string, string, string)j
-`D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\SftpFileUploaderClient.cs$, $(;"0*™
-0j
-`D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\SftpFileUploaderClient.cs& '(R∑
-¥
-j
-`D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\SftpFileUploaderClient.cs& &(+
-
-%0void"LSendSPFT.Application.Clients.SftpFileUploaderClient.Validate(string, string)*97"5
-3SendSPFT.Application.Clients.SftpFileUploaderClient*
-
-formatstring*
-
-base64Contentstringà
-Ö
-j
-`D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\SftpFileUploaderClient.cs' '(S*
-%1$System.Threading.Tasks.Task<TResult>"cSendSPFT.Application.Clients.SftpFileUploaderClient.UploadFileInternalAsync(string, string, string)*975
-3SendSPFT.Application.Clients.SftpFileUploaderClient*
-
-formatstring*
-
-base64Contentstring*
-
-
-reportNamestring"t
-j
-`D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\SftpFileUploaderClient.cs' '(T
-""*Û
-1j
-`D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\SftpFileUploaderClient.cs(	 ((	"Å
-j
-`D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\SftpFileUploaderClient.cs( ((	
-implicit return:~
-j
-`D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\SftpFileUploaderClient.cs$< $(I
-formatstring:Ö
-j
-`D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\SftpFileUploaderClient.cs$K $(_
-base64Contentstring:Ç
-j
-`D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\SftpFileUploaderClient.cs$a $(r
-
-reportNamestringB75
-3SendSPFT.Application.Clients.SftpFileUploaderClient

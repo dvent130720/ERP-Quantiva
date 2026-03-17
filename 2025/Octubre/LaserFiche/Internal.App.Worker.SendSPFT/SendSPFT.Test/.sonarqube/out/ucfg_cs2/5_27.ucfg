@@ -1,135 +1,0 @@
-
-±SendSPFT.CrossCutting.Healthchecks.HttpEndpointHealthCheck.CheckHealthAsync(Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckContext, System.Threading.CancellationToken)q
-gD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Healthchecks\HttpEndpointHealthCheck.cs- (="0*~
-0q
-gD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Healthchecks\HttpEndpointHealthCheck.cs#	 #(	*
-1
-2*‘
-1q
-gD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Healthchecks\HttpEndpointHealthCheck.cs (0Ê
-„
-q
-gD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Healthchecks\HttpEndpointHealthCheck.cs (= 
-%0System.Net.Http.HttpClient"\System.Net.Http.HttpClientFactoryExtensions.CreateClient(System.Net.Http.IHttpClientFactory)*1/"-
-+System.Net.Http.HttpClientFactoryExtensions*;9
-7
-httpClientFactory"System.Net.Http.IHttpClientFactory»
-≈
-q
-gD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Healthchecks\HttpEndpointHealthCheck.cs (=$
-clientSystem.Net.Http.HttpClient"__id*$"
- 
-%0System.Net.Http.HttpClientÓ
-Î
-q
-gD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Healthchecks\HttpEndpointHealthCheck.cs% (L*
-%1$System.Threading.Tasks.Task<TResult>"PSystem.Net.Http.HttpClient.GetAsync(string?, System.Threading.CancellationToken)*(&
-$
-clientSystem.Net.Http.HttpClient*
-
-urlstring*;9
-7
-cancellationToken"System.Threading.CancellationToken∑
-¥
-q
-gD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Healthchecks\HttpEndpointHealthCheck.cs (L/
-response#System.Net.Http.HttpResponseMessage"__id*
-""Ù
-Ò
-q
-gD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Healthchecks\HttpEndpointHealthCheck.cs (0
-
-%2bool";System.Net.Http.HttpResponseMessage.IsSuccessStatusCode.get*31
-/
-response#System.Net.Http.HttpResponseMessage*
-3
-4*˙
-3q
-gD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Healthchecks\HttpEndpointHealthCheck.cs (O¬
-ø
-q
-gD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Healthchecks\HttpEndpointHealthCheck.cs (PE
-%3?Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckResult"ëMicrosoft.Extensions.Diagnostics.HealthChecks.HealthCheckResult.Healthy(string?, System.Collections.Generic.IReadOnlyDictionary<string, object>?)*EC"A
-?Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckResult*
-Servicio HTTP disponible*
-"""º
-q
-gD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Healthchecks\HttpEndpointHealthCheck.cs (QG
-E
-%3?Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckResult*
-4q
-gD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Healthchecks\HttpEndpointHealthCheck.cs (^Ä
-˝
-q
-gD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Healthchecks\HttpEndpointHealthCheck.csK (^
-%4System.Net.HttpStatusCode"2System.Net.Http.HttpResponseMessage.StatusCode.get*31
-/
-response#System.Net.Http.HttpResponseMessageÃ
-…
-q
-gD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Healthchecks\HttpEndpointHealthCheck.cs3 (`
-%5System.Net.HttpStatusCode"__concat*è
-q
-gD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Healthchecks\HttpEndpointHealthCheck.cs5 (J
-C√≥digo de respuesta: *ñ
-q
-gD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Healthchecks\HttpEndpointHealthCheck.csJ (_!
-
-%4System.Net.HttpStatusCodeÊ
-„
-q
-gD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Healthchecks\HttpEndpointHealthCheck.cs (aE
-%6?Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckResult"¶Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckResult.Unhealthy(string?, System.Exception?, System.Collections.Generic.IReadOnlyDictionary<string, object>?)*EC"A
-?Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckResult*#!
-
-%5System.Net.HttpStatusCode*
-""*
-"""º
-q
-gD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Healthchecks\HttpEndpointHealthCheck.cs (bG
-E
-%6?Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckResult*¯
-
-2q
-gD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Healthchecks\HttpEndpointHealthCheck.cs! !(KÀ»
-q
-gD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Healthchecks\HttpEndpointHealthCheck.cs!A !(K
-%7string"System.Exception.Message.get*
-
-exSystem.Exception2Message.getú
-ô
-q
-gD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Healthchecks\HttpEndpointHealthCheck.cs!3 !(M
-%8string"__concat*Ö
-q
-gD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Healthchecks\HttpEndpointHealthCheck.cs!5 !(@
-Excepci√≥n: *É
-q
-gD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Healthchecks\HttpEndpointHealthCheck.cs!@ !(L
-
-%7string”
-–
-q
-gD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Healthchecks\HttpEndpointHealthCheck.cs! !(NE
-%9?Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckResult"¶Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckResult.Unhealthy(string?, System.Exception?, System.Collections.Generic.IReadOnlyDictionary<string, object>?)*EC"A
-?Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckResult*
-
-%8string*
-""*
-"""º
-q
-gD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Healthchecks\HttpEndpointHealthCheck.cs! !(OG
-E
-%9?Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckResult*Å
-5q
-gD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Healthchecks\HttpEndpointHealthCheck.cs#	 #(	"à
-q
-gD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Healthchecks\HttpEndpointHealthCheck.cs# #(	
-implicit return:¿
-q
-gD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Healthchecks\HttpEndpointHealthCheck.cs (&K
-context@Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckContext:¨
-q
-gD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Healthchecks\HttpEndpointHealthCheck.cs (97
-cancellationToken"System.Threading.CancellationTokenB><
-:SendSPFT.CrossCutting.Healthchecks.HttpEndpointHealthCheck

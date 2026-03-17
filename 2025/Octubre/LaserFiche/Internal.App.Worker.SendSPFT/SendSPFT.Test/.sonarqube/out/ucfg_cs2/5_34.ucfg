@@ -1,116 +1,0 @@
-
-sSendSPFT.CrossCutting.Helpers.ServiceResponseFactory.Success<T>(T, SendSPFT.Bussiness.Models.RequestContextHeaders)k
-aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\ServiceResponseFactory.cs# (*"0*Û"
-0k
-aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\ServiceResponseFactory.cs (<€ý
-k
-aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\ServiceResponseFactory.cs (I
-%0CDavivienda.Framework.Services.CanonicalSignature.ServiceResponse<T>"CDavivienda.Framework.Services.CanonicalSignature.ServiceResponse<T>¢
-Ÿ
-k
-aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\ServiceResponseFactory.cs ()
-
-%1void"UDavivienda.Framework.Services.CanonicalSignature.ServiceResponse<T>.ServiceResponse()*MK
-I
-%0CDavivienda.Framework.Services.CanonicalSignature.ServiceResponse<T>¥
-¢
-k
-aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\ServiceResponseFactory.cs (
-%2T"LDavivienda.Framework.Services.CanonicalSignature.ServiceResponse<T>.Data.set*MK
-I
-%0CDavivienda.Framework.Services.CanonicalSignature.ServiceResponse<T>*
-	
-dataT¨
-¥
-k
-aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\ServiceResponseFactory.cs ( 
-
-%3bool"QDavivienda.Framework.Services.CanonicalSignature.ServiceResponse<T>.Succeeded.set*MK
-I
-%0CDavivienda.Framework.Services.CanonicalSignature.ServiceResponse<T>*
-""ù
-ö
-k
-aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\ServiceResponseFactory.cs ()
-%4string"=SendSPFT.Bussiness.Models.RequestContextHeaders.SessionId.get*:8
-6
-ctx/SendSPFT.Bussiness.Models.RequestContextHeaders²
-¯
-k
-aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\ServiceResponseFactory.cs ()
-%5string"QDavivienda.Framework.Services.CanonicalSignature.ServiceResponse<T>.SessionId.set*MK
-I
-%0CDavivienda.Framework.Services.CanonicalSignature.ServiceResponse<T>*
-
-%4stringý
-ú
-k
-aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\ServiceResponseFactory.cs  (1
-%6string"ASendSPFT.Bussiness.Models.RequestContextHeaders.TransactionId.get*:8
-6
-ctx/SendSPFT.Bussiness.Models.RequestContextHeaders¶
-³
-k
-aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\ServiceResponseFactory.cs (1
-%7string"UDavivienda.Framework.Services.CanonicalSignature.ServiceResponse<T>.TransactionId.set*MK
-I
-%0CDavivienda.Framework.Services.CanonicalSignature.ServiceResponse<T>*
-
-%6string¾»
-k
-aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\ServiceResponseFactory.cs ((
-%8"System.Collections.Generic.List<T>""System.Collections.Generic.List<T>Õ
-Ò
-k
-aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\ServiceResponseFactory.cs (.
-
-%9void")System.Collections.Generic.List<T>.List()*,*
-(
-%8"System.Collections.Generic.List<T>óð
-k
-aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\ServiceResponseFactory.cs (>C
-%10<Davivienda.Framework.Services.CanonicalSignature.ErrorDetail"<Davivienda.Framework.Services.CanonicalSignature.ErrorDetail’
-
-k
-aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\ServiceResponseFactory.cs (
-%11void"JDavivienda.Framework.Services.CanonicalSignature.ErrorDetail.ErrorDetail()*GE
-C
-%10<Davivienda.Framework.Services.CanonicalSignature.ErrorDetail˜
-•
-k
-aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\ServiceResponseFactory.cs" (,
-%12string"EDavivienda.Framework.Services.CanonicalSignature.ErrorDetail.Code.set*GE
-C
-%10<Davivienda.Framework.Services.CanonicalSignature.ErrorDetail*
-0œ
-™
-k
-aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\ServiceResponseFactory.cs. (<
-%13string"HDavivienda.Framework.Services.CanonicalSignature.ErrorDetail.Message.set*GE
-C
-%10<Davivienda.Framework.Services.CanonicalSignature.ErrorDetail*
-OKè
-å
-k
-aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\ServiceResponseFactory.cs ()
-%14"System.Collections.Generic.List<T>"NDavivienda.Framework.Services.CanonicalSignature.ServiceResponse<T>.Errors.set*MK
-I
-%0CDavivienda.Framework.Services.CanonicalSignature.ServiceResponse<T>*,*
-(
-%8"System.Collections.Generic.List<T>"º
-k
-aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\ServiceResponseFactory.cs (K
-I
-%0CDavivienda.Framework.Services.CanonicalSignature.ServiceResponse<T>*õ
-1k
-aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\ServiceResponseFactory.cs	 (	"‚
-k
-aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\ServiceResponseFactory.cs (	
-implicit return:x
-k
-aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\ServiceResponseFactory.cs. (4	
-dataT:¥
-k
-aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Helpers\ServiceResponseFactory.cs6 (O6
-ctx/SendSPFT.Bussiness.Models.RequestContextHeadersB86
-4SendSPFT.CrossCutting.Helpers.ServiceResponseFactory
