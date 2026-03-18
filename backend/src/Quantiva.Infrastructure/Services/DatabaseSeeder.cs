@@ -20,7 +20,7 @@ public sealed class DatabaseSeeder(AppDbContext dbContext, IPasswordHasher passw
         {
             Name = "Quantiva Demo",
             Slug = "quantiva-demo",
-            PrimaryDomain = "quantiva-solutions.com",
+            PrimaryDomain = "demo.quantiva-solutions.com",
             ContactEmail = "admin@quantiva-solutions.com",
             CreatedBy = "seed",
             UpdatedBy = "seed"

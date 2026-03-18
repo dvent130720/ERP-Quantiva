@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using Quantiva.Application.Common.Abstractions;
+using Quantiva.Application.Common.Exceptions;
 using Quantiva.Application.DTOs;
 using Quantiva.Domain.Entities;
 using Quantiva.Infrastructure.Persistence;
@@ -19,11 +20,35 @@ public sealed class TenantAdminService(AppDbContext dbContext, IPasswordHasher p
 
     public async Task<TenantDto> CreateAsync(CreateTenantDto request, CancellationToken cancellationToken = default)
     {
+        if (string.IsNullOrWhiteSpace(request.Name) || string.IsNullOrWhiteSpace(request.Slug))
+        {
+            throw new ValidationAppException("Name y Slug son obligatorios para crear un tenant.");
+        }
+
+        var normalizedSlug = request.Slug.Trim().ToLowerInvariant();
+        var normalizedDomain = request.PrimaryDomain?.Trim().ToLowerInvariant();
+        var normalizedAdminEmail = request.AdminEmail.Trim().ToLowerInvariant();
+
+        if (await dbContext.Tenants.AnyAsync(x => x.Slug == normalizedSlug, cancellationToken))
+        {
+            throw new ConflictAppException($"Ya existe un tenant con slug {normalizedSlug}.");
+        }
+
+        if (!string.IsNullOrWhiteSpace(normalizedDomain) && await dbContext.Tenants.AnyAsync(x => x.PrimaryDomain == normalizedDomain, cancellationToken))
+        {
+            throw new ConflictAppException($"El dominio {normalizedDomain} ya está asignado a otro tenant.");
+        }
+
+        if (await dbContext.Users.AnyAsync(x => x.Email == normalizedAdminEmail && x.TenantId != null, cancellationToken))
+        {
+            throw new ConflictAppException($"Ya existe un usuario tenant con email {normalizedAdminEmail}.");
+        }
+
         var tenant = new Tenant
         {
             Name = request.Name.Trim(),
-            Slug = request.Slug.Trim().ToLowerInvariant(),
-            PrimaryDomain = request.PrimaryDomain?.Trim().ToLowerInvariant(),
+            Slug = normalizedSlug,
+            PrimaryDomain = normalizedDomain,
             ContactEmail = request.ContactEmail?.Trim().ToLowerInvariant()
         };
 
@@ -31,7 +56,7 @@ public sealed class TenantAdminService(AppDbContext dbContext, IPasswordHasher p
         {
             Tenant = tenant,
             FullName = request.AdminFullName.Trim(),
-            Email = request.AdminEmail.Trim().ToLowerInvariant(),
+            Email = normalizedAdminEmail,
             PasswordHash = passwordHasher.Hash(request.AdminPassword)
         };
 

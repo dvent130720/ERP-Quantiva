@@ -16,10 +16,7 @@ public sealed class CustomersController(ICustomerService customerService) : Cont
 
     [HttpGet("{id:guid}")]
     public async Task<ActionResult<CustomerDto>> GetById(Guid id, CancellationToken cancellationToken)
-    {
-        var customer = await customerService.GetByIdAsync(id, cancellationToken);
-        return customer is null ? NotFound() : Ok(customer);
-    }
+        => Ok(await customerService.GetByIdAsync(id, cancellationToken));
 
     [HttpPost]
     public async Task<ActionResult<CustomerDto>> Create([FromBody] UpsertCustomerDto request, CancellationToken cancellationToken)
@@ -30,8 +27,12 @@ public sealed class CustomersController(ICustomerService customerService) : Cont
 
     [HttpPut("{id:guid}")]
     public async Task<ActionResult<CustomerDto>> Update(Guid id, [FromBody] UpsertCustomerDto request, CancellationToken cancellationToken)
+        => Ok(await customerService.UpdateAsync(id, request, cancellationToken));
+
+    [HttpDelete("{id:guid}")]
+    public async Task<IActionResult> Delete(Guid id, CancellationToken cancellationToken)
     {
-        var customer = await customerService.UpdateAsync(id, request, cancellationToken);
-        return customer is null ? NotFound() : Ok(customer);
+        await customerService.DeleteAsync(id, cancellationToken);
+        return NoContent();
     }
 }

@@ -1,7 +1,10 @@
+using Microsoft.AspNetCore.HttpOverrides;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
+using Quantiva.Api.Middleware;
 using Quantiva.Application.Common.Abstractions;
 using Quantiva.Infrastructure;
+using Quantiva.Infrastructure.MultiTenancy;
 using Quantiva.Infrastructure.Persistence;
 using Quantiva.Infrastructure.Services;
 
@@ -10,6 +13,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddInfrastructure(builder.Configuration);
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddProblemDetails();
 builder.Services.AddSwaggerGen(options =>
 {
     options.SwaggerDoc("v1", new OpenApiInfo
@@ -45,33 +49,41 @@ builder.Services.AddSwaggerGen(options =>
     });
 });
 builder.Services.AddHealthChecks();
+builder.Services.Configure<ForwardedHeadersOptions>(options =>
+{
+    options.ForwardedHeaders = ForwardedHeaders.XForwardedFor | ForwardedHeaders.XForwardedProto;
+    options.KnownNetworks.Clear();
+    options.KnownProxies.Clear();
+});
 
 var app = builder.Build();
 
-app.UseSwagger();
-app.UseSwaggerUI();
+app.UseMiddleware<ExceptionHandlingMiddleware>();
+
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
+else
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+    app.UseHsts();
+}
+
+app.UseForwardedHeaders();
 app.UseHttpsRedirection();
 app.Use(async (context, next) =>
 {
     var tenantContext = context.RequestServices.GetRequiredService<ITenantContext>();
     tenantContext.Clear();
 
-    var dbContext = context.RequestServices.GetRequiredService<AppDbContext>();
-    var host = context.Request.Host.Host?.ToLowerInvariant();
-    var headerSlug = context.Request.Headers["X-Tenant-Slug"].FirstOrDefault()?.Trim().ToLowerInvariant();
-
-    var tenant = headerSlug is not null
-        ? await dbContext.Tenants.AsNoTracking().FirstOrDefaultAsync(x => x.Slug == headerSlug, context.RequestAborted)
-        : null;
-
-    if (tenant is null && host is not null)
-    {
-        var tenants = await dbContext.Tenants.AsNoTracking().ToListAsync(context.RequestAborted);
-        tenant = tenants.FirstOrDefault(x =>
-            x.PrimaryDomain == host ||
-            host == $"{x.Slug}.quantiva-solutions.com" ||
-            host == $"{x.Slug}.localhost");
-    }
+    var resolutionService = context.RequestServices.GetRequiredService<TenantResolutionService>();
+    var tenant = await resolutionService.ResolveAsync(
+        context.Request.Headers["X-Tenant-Slug"].FirstOrDefault(),
+        context.Request.Host.Host,
+        context.RequestAborted);
 
     if (tenant is not null)
     {

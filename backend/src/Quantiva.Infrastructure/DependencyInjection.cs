@@ -5,6 +5,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
 using Quantiva.Application.Common.Abstractions;
+using Quantiva.Infrastructure.MultiTenancy;
 using Quantiva.Infrastructure.Persistence;
 using Quantiva.Infrastructure.Security;
 using Quantiva.Infrastructure.Services;
@@ -16,6 +17,7 @@ public static class DependencyInjection
     public static IServiceCollection AddInfrastructure(this IServiceCollection services, IConfiguration configuration)
     {
         services.Configure<JwtOptions>(configuration.GetSection(JwtOptions.SectionName));
+        services.Configure<TenantResolutionOptions>(configuration.GetSection(TenantResolutionOptions.SectionName));
 
         services.AddHttpContextAccessor();
         services.AddScoped<ITenantContext, TenantContext>();
@@ -27,6 +29,7 @@ public static class DependencyInjection
         services.AddScoped<IProductService, ProductService>();
         services.AddScoped<IAuditService, AuditService>();
         services.AddScoped<ITenantAdminService, TenantAdminService>();
+        services.AddScoped<TenantResolutionService>();
         services.AddScoped<DatabaseSeeder>();
 
         services.AddDbContext<AppDbContext>(options =>

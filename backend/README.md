@@ -1,28 +1,33 @@
 # Quantiva Backend (.NET 8)
 
-## Diagnóstico del repositorio actual
-El repositorio original solo contenía un frontend Angular enfocado en autenticación mock. No existía una API real, persistencia, multi-tenancy, seguridad por JWT ni trazabilidad de auditoría. Por eso agregué una solución backend desacoplada en .NET 8 lista para correr en Linux sobre Contabo VPS.
+## Qué corregí respecto a la primera versión
+Esta iteración fortalece el backend anterior en tres frentes:
+- endurece validaciones y manejo de errores con respuestas `problem+json`
+- amplía la administración de datos con operaciones `GET/POST/PUT/DELETE` para clientes y productos
+- añade despliegue productivo con Docker, PostgreSQL y Nginx para Contabo VPS
 
 ## Arquitectura propuesta
-- `Quantiva.Api`: capa HTTP, autenticación JWT, Swagger, health checks y resolución de tenant por `X-Tenant-Slug` o dominio.
-- `Quantiva.Infrastructure`: acceso a PostgreSQL con EF Core, hashing PBKDF2, generación de tokens, seed inicial y servicios de aplicación.
-- `Quantiva.Application`: contratos, DTOs y abstracciones.
+- `Quantiva.Api`: capa HTTP, autenticación JWT, Swagger, middleware global de errores y resolución de tenant.
+- `Quantiva.Infrastructure`: acceso a PostgreSQL con EF Core, hashing PBKDF2, generación de tokens, seed inicial y servicios de negocio.
+- `Quantiva.Application`: contratos, DTOs, validaciones declarativas y excepciones de aplicación.
 - `Quantiva.Domain`: entidades de dominio (`Tenant`, `AppUser`, `Customer`, `Product`, `AuditTrail`).
 
 ## Capacidades implementadas
-- Multi-tenant por tenant lógico con filtro global en entidades de negocio.
-- Resolución de tenant por header `X-Tenant-Slug` o dominio configurado.
-- Auditoría automática de altas, modificaciones y eliminaciones.
+- Multi-tenant por tenant lógico con filtros globales por `TenantId`.
+- Resolución de tenant por header `X-Tenant-Slug`, dominio directo o subdominio (`tenant.quantiva-solutions.com`).
+- Auditoría automática de altas, modificaciones y eliminaciones en `SaveChangesAsync`.
 - JWT con roles `PlatformAdmin` y `TenantAdmin`.
-- Gestión inicial de clientes, productos, tenants y consulta de auditorías.
-- Seed de datos para ambiente inicial.
+- Endpoints CRUD para clientes y productos.
+- Gestión de tenants desde plataforma.
+- Middleware centralizado de errores con `problem+json`.
+- Artefactos Docker para desplegar en VPS Linux con PostgreSQL.
 
 ## Endpoints base
 - `POST /api/auth/login`
 - `GET|POST /api/platform/tenants`
 - `GET /api/platform/tenants/current`
-- `GET|POST|PUT /api/customers`
-- `GET|POST /api/products`
+- `GET|POST|PUT|DELETE /api/customers`
+- `GET|POST|PUT|DELETE /api/products`
 - `GET /api/audits`
 - `GET /health`
 - `GET /swagger`
@@ -33,79 +38,112 @@ El repositorio original solo contenía un frontend Angular enfocado en autentica
 - Platform admin: `platform@quantiva-solutions.com` / `ChangeMe123!`
 - Tenant admin demo: `admin@quantiva-solutions.com` / `ChangeMe123!`
 - Tenant demo: `quantiva-demo`
+- Dominio demo sugerido: `demo.quantiva-solutions.com`
 
-## Variables y configuración recomendada para Contabo
-1. Instala `.NET 8 SDK` y `PostgreSQL 16` o usa un PostgreSQL administrado.
-2. Crea la base de datos `quantiva`.
-3. Ajusta `src/Quantiva.Api/appsettings.Production.json` o variables de entorno:
-   - `ConnectionStrings__DefaultConnection`
-   - `Jwt__Issuer`
-   - `Jwt__Audience`
-   - `Jwt__SecretKey`
-4. Configura Nginx como reverse proxy hacia Kestrel.
-5. Crea un servicio `systemd` para publicar el backend.
+## Configuración principal
+Variables importantes:
+- `ConnectionStrings__DefaultConnection`
+- `Jwt__Issuer`
+- `Jwt__Audience`
+- `Jwt__SecretKey`
+- `TenantResolution__SharedHosts`
+- `TenantResolution__WildcardBaseDomains`
 
-## Publicación sugerida en VPS Linux
+## Despliegue recomendado en Contabo con Docker
+Como ya tienes Docker instalado en el VPS, esta es la ruta más simple y sólida.
+
+### 1) Subir el proyecto al VPS
 ```bash
-cd backend/src/Quantiva.Api
-dotnet restore
-dotnet publish -c Release -o /var/www/quantiva-api
+cd /opt
+git clone <TU-REPO> quantiva
+cd quantiva/backend
+cp .env.example .env
 ```
 
-Ejemplo de servicio `systemd` (`/etc/systemd/system/quantiva-api.service`):
-```ini
-[Unit]
-Description=Quantiva API
-After=network.target
-
-[Service]
-WorkingDirectory=/var/www/quantiva-api
-ExecStart=/usr/bin/dotnet /var/www/quantiva-api/Quantiva.Api.dll
-Restart=always
-RestartSec=10
-KillSignal=SIGINT
-SyslogIdentifier=quantiva-api
-User=www-data
-Environment=ASPNETCORE_ENVIRONMENT=Production
-Environment=ASPNETCORE_URLS=http://0.0.0.0:8080
-Environment=ConnectionStrings__DefaultConnection=Host=127.0.0.1;Port=5432;Database=quantiva;Username=quantiva;Password=super-segura
-Environment=Jwt__Issuer=quantiva-api
-Environment=Jwt__Audience=quantiva-clients
-Environment=Jwt__SecretKey=CAMBIA_ESTA_LLAVE_SUPER_SEGURA_DE_MAS_DE_32_CARACTERES
-
-[Install]
-WantedBy=multi-user.target
+### 2) Editar variables de entorno
+Edita `.env` con secretos reales:
+```bash
+nano .env
 ```
 
-Ejemplo de Nginx para `https://quantiva-solutions.com`:
-```nginx
-server {
-    server_name quantiva-solutions.com api.quantiva-solutions.com;
-
-    location / {
-        proxy_pass         http://127.0.0.1:8080;
-        proxy_http_version 1.1;
-        proxy_set_header   Upgrade $http_upgrade;
-        proxy_set_header   Connection keep-alive;
-        proxy_set_header   Host $host;
-        proxy_set_header   X-Forwarded-For $proxy_add_x_forwarded_for;
-        proxy_set_header   X-Forwarded-Proto $scheme;
-        proxy_cache_bypass $http_upgrade;
-    }
-
-    listen 443 ssl http2;
-    ssl_certificate /etc/letsencrypt/live/quantiva-solutions.com/fullchain.pem;
-    ssl_certificate_key /etc/letsencrypt/live/quantiva-solutions.com/privkey.pem;
-}
+Ejemplo:
+```env
+POSTGRES_DB=quantiva
+POSTGRES_USER=quantiva
+POSTGRES_PASSWORD=UnaClavePostgresMuySegura
+JWT_ISSUER=quantiva-api
+JWT_AUDIENCE=quantiva-clients
+JWT_SECRET_KEY=CAMBIA_ESTA_LLAVE_SUPER_SEGURA_DE_MAS_DE_32_CARACTERES
+ROOT_DOMAIN=quantiva-solutions.com
+API_DOMAIN=api.quantiva-solutions.com
 ```
 
-## Flujo operativo multi-tenant
-- El frontend o cliente envía `X-Tenant-Slug: quantiva-demo`.
-- El middleware resuelve el tenant antes de ejecutar controladores.
-- EF Core aplica filtros globales a `customers` y `products` por `TenantId`.
-- `SaveChangesAsync` registra la huella de auditoría con usuario/IP/cambios JSON.
+### 3) Levantar la API y PostgreSQL
+```bash
+docker compose up -d --build
+```
+
+### 4) Verificar contenedores y logs
+```bash
+docker compose ps
+docker compose logs -f api
+docker compose logs -f postgres
+```
+
+### 5) Configurar Nginx en el VPS
+Copia `backend/deploy/nginx/quantiva-api.conf` a Nginx:
+```bash
+sudo cp /opt/quantiva/backend/deploy/nginx/quantiva-api.conf /etc/nginx/sites-available/quantiva-api.conf
+sudo ln -s /etc/nginx/sites-available/quantiva-api.conf /etc/nginx/sites-enabled/quantiva-api.conf
+sudo nginx -t
+sudo systemctl reload nginx
+```
+
+### 6) Certificados SSL con Let's Encrypt
+Si aún no tienes los certificados:
+```bash
+sudo apt update
+sudo apt install -y certbot python3-certbot-nginx
+sudo certbot --nginx -d quantiva-solutions.com -d api.quantiva-solutions.com -d '*.quantiva-solutions.com'
+```
+
+> Nota: algunos escenarios wildcard requieren validación DNS con el proveedor del dominio. Si no quieres wildcard al inicio, publica primero `quantiva-solutions.com` y `api.quantiva-solutions.com`.
+
+### 7) Probar salud del backend
+```bash
+curl http://127.0.0.1:8080/health
+curl https://api.quantiva-solutions.com/health
+```
+
+## Flujo multi-tenant sugerido en producción
+- Usa `api.quantiva-solutions.com` como host principal del backend.
+- Para clientes multi-tenant puedes:
+  - enviar `X-Tenant-Slug: quantiva-demo`, o
+  - entrar por subdominio como `quantiva-demo.quantiva-solutions.com`
+- Mantén `quantiva-solutions.com` y `api.quantiva-solutions.com` como hosts compartidos, no ligados automáticamente a un tenant.
+
+## Operación diaria
+### Actualizar a una nueva versión
+```bash
+cd /opt/quantiva
+git pull
+cd backend
+docker compose up -d --build
+```
+
+### Reiniciar servicios
+```bash
+cd /opt/quantiva/backend
+docker compose restart api
+docker compose restart postgres
+```
+
+### Backup manual de PostgreSQL
+```bash
+docker exec -t quantiva-postgres pg_dump -U quantiva -d quantiva > backup_quantiva.sql
+```
 
 ## Siguientes pasos recomendados
-- Integrar esta API con el frontend Angular actual sustituyendo el `AuthService` mock.
-- Añadir migrations versionadas y pipeline CI/CD cuando el entorno tenga .NET SDK disponible.
-- Incorporar refresh tokens, rotación de secretos y observabilidad (Serilog + OpenTelemetry).
+- Integrar el frontend Angular actual contra esta API real.
+- Sustituir `EnsureCreated` por migraciones EF Core versionadas cuando el entorno de build tenga `dotnet` disponible.
+- Añadir refresh tokens, observabilidad y tests automáticos de integración.
