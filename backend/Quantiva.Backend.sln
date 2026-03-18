@@ -1,0 +1,39 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quantiva.Domain", "src/Quantiva.Domain/Quantiva.Domain.csproj", "{19FD80F6-4572-4DBD-95F9-3389F68C4B9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quantiva.Application", "src/Quantiva.Application/Quantiva.Application.csproj", "{A649B762-E6B1-48CD-8B1D-8EB550AD3C86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quantiva.Infrastructure", "src/Quantiva.Infrastructure/Quantiva.Infrastructure.csproj", "{DAB63506-6FF7-4514-93E1-C5A7B3D3C7AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quantiva.Api", "src/Quantiva.Api/Quantiva.Api.csproj", "{E150DC93-886E-4C8B-BE96-6850EE2C6548}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19FD80F6-4572-4DBD-95F9-3389F68C4B9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19FD80F6-4572-4DBD-95F9-3389F68C4B9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19FD80F6-4572-4DBD-95F9-3389F68C4B9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19FD80F6-4572-4DBD-95F9-3389F68C4B9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A649B762-E6B1-48CD-8B1D-8EB550AD3C86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A649B762-E6B1-48CD-8B1D-8EB550AD3C86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A649B762-E6B1-48CD-8B1D-8EB550AD3C86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A649B762-E6B1-48CD-8B1D-8EB550AD3C86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAB63506-6FF7-4514-93E1-C5A7B3D3C7AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAB63506-6FF7-4514-93E1-C5A7B3D3C7AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAB63506-6FF7-4514-93E1-C5A7B3D3C7AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAB63506-6FF7-4514-93E1-C5A7B3D3C7AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E150DC93-886E-4C8B-BE96-6850EE2C6548}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E150DC93-886E-4C8B-BE96-6850EE2C6548}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E150DC93-886E-4C8B-BE96-6850EE2C6548}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E150DC93-886E-4C8B-BE96-6850EE2C6548}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
