@@ -1,0 +1,33 @@
+:host {
+  display: block;
+  width: 100%;
+}
+
+.premium-field {
+  width: 100%;
+}
+
+:host ::ng-deep .premium-field .mdc-notched-outline__leading,
+:host ::ng-deep .premium-field .mdc-notched-outline__notch,
+:host ::ng-deep .premium-field .mdc-notched-outline__trailing {
+  border-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+:host ::ng-deep .premium-field .mat-mdc-text-field-wrapper {
+  background: rgba(8, 12, 24, 0.72);
+  border-radius: var(--radius-input);
+  backdrop-filter: blur(12px);
+}
+
+:host ::ng-deep .premium-field .mdc-text-field--focused .mdc-notched-outline__leading,
+:host ::ng-deep .premium-field .mdc-text-field--focused .mdc-notched-outline__notch,
+:host ::ng-deep .premium-field .mdc-text-field--focused .mdc-notched-outline__trailing {
+  border-color: rgba(79, 172, 254, 0.75) !important;
+}
+
+:host ::ng-deep .premium-field input,
+:host ::ng-deep .premium-field .mdc-floating-label,
+:host ::ng-deep .premium-field .mat-mdc-form-field-hint,
+:host ::ng-deep .premium-field .mat-mdc-form-field-error {
+  color: var(--color-text-soft) !important;
+}
