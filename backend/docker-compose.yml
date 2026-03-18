@@ -1,0 +1,43 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: quantiva-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-quantiva}
+      POSTGRES_USER: ${POSTGRES_USER:-quantiva}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-ChangeThisNow!}
+    volumes:
+      - quantiva_postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-quantiva} -d ${POSTGRES_DB:-quantiva}"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: quantiva-api
+    restart: unless-stopped
+    depends_on:
+      postgres:
+        condition: service_healthy
+    environment:
+      ASPNETCORE_ENVIRONMENT: Production
+      ASPNETCORE_URLS: http://0.0.0.0:8080
+      ConnectionStrings__DefaultConnection: Host=postgres;Port=5432;Database=${POSTGRES_DB:-quantiva};Username=${POSTGRES_USER:-quantiva};Password=${POSTGRES_PASSWORD:-ChangeThisNow!}
+      Jwt__Issuer: ${JWT_ISSUER:-quantiva-api}
+      Jwt__Audience: ${JWT_AUDIENCE:-quantiva-clients}
+      Jwt__SecretKey: ${JWT_SECRET_KEY:-CHANGE_THIS_ULTRA_SECRET_32_CHAR_MINIMUM}
+      TenantResolution__SharedHosts__0: ${ROOT_DOMAIN:-quantiva-solutions.com}
+      TenantResolution__SharedHosts__1: ${API_DOMAIN:-api.quantiva-solutions.com}
+      TenantResolution__SharedHosts__2: localhost
+      TenantResolution__WildcardBaseDomains__0: ${ROOT_DOMAIN:-quantiva-solutions.com}
+      TenantResolution__WildcardBaseDomains__1: localhost
+    ports:
+      - "8080:8080"
+
+volumes:
+  quantiva_postgres_data:
