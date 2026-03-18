@@ -1,107 +1,0 @@
-
-FSendSPFT.CrossCutting.Subservices.ProcessRecord.ProcessRecord()!staticf
-\D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Subservices\ProcessRecord.cs ("0*Ð
-0f
-\D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Subservices\ProcessRecord.csB B(€
-~
-f
-\D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Subservices\ProcessRecord.cs ($
-%0"__id*
-""½º
-f
-\D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Subservices\ProcessRecord.cs (0*
-%1$Microsoft.Extensions.Logging.EventId"$Microsoft.Extensions.Logging.EventIdõ
-ò
-f
-\D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Subservices\ProcessRecord.cs (
-
-%2void":Microsoft.Extensions.Logging.EventId.EventId(int, string?)*.,
-*
-%1$Microsoft.Extensions.Logging.EventId*2*
-""–
-“
-f
-\D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Subservices\ProcessRecord.cs (
-%3System.Action<T1, T2, T3>"ŠMicrosoft.Extensions.Logging.LoggerMessage.Define<T1>(Microsoft.Extensions.Logging.LogLevel, Microsoft.Extensions.Logging.EventId, string)*0.",
-*Microsoft.Extensions.Logging.LoggerMessage*
-
-%0*.,
-*
-%1$Microsoft.Extensions.Logging.EventId*
-	{Message}ò
-ï
-f
-\D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Subservices\ProcessRecord.csC (Z1
-/SendSPFT.CrossCutting.Subservices.ProcessRecord"%
-_logInfoSystem.Action<T1, T2, T3>"__id*#!
-
-%3System.Action<T1, T2, T3>€
-~
-f
-\D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Subservices\ProcessRecord.cs ( 
-%4"__id*
-""½º
-f
-\D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Subservices\ProcessRecord.cs   (3*
-%5$Microsoft.Extensions.Logging.EventId"$Microsoft.Extensions.Logging.EventIdõ
-ò
-f
-\D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Subservices\ProcessRecord.cs   (
-
-%6void":Microsoft.Extensions.Logging.EventId.EventId(int, string?)*.,
-*
-%5$Microsoft.Extensions.Logging.EventId*2*
-""–
-“
-f
-\D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Subservices\ProcessRecord.cs !(
-%7System.Action<T1, T2, T3>"ŠMicrosoft.Extensions.Logging.LoggerMessage.Define<T1>(Microsoft.Extensions.Logging.LogLevel, Microsoft.Extensions.Logging.EventId, string)*0.",
-*Microsoft.Extensions.Logging.LoggerMessage*
-
-%4*.,
-*
-%5$Microsoft.Extensions.Logging.EventId*
-	{Message}õ
-ò
-f
-\D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Subservices\ProcessRecord.csC !(]1
-/SendSPFT.CrossCutting.Subservices.ProcessRecord"(
-_logWarningSystem.Action<T1, T2, T3>"__id*#!
-
-%7System.Action<T1, T2, T3>€
-~
-f
-\D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Subservices\ProcessRecord.cs% %(
-%8"__id*
-""½º
-f
-\D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Subservices\ProcessRecord.cs& &(1*
-%9$Microsoft.Extensions.Logging.EventId"$Microsoft.Extensions.Logging.EventIdö
-ó
-f
-\D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Subservices\ProcessRecord.cs& &(
-%10void":Microsoft.Extensions.Logging.EventId.EventId(int, string?)*.,
-*
-%9$Microsoft.Extensions.Logging.EventId*2*
-""£
- 
-f
-\D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Subservices\ProcessRecord.cs$ '(0
-%11System.Action<T1, T2>"†Microsoft.Extensions.Logging.LoggerMessage.Define(Microsoft.Extensions.Logging.LogLevel, Microsoft.Extensions.Logging.EventId, string)*0.",
-*Microsoft.Extensions.Logging.LoggerMessage*
-
-%8*.,
-*
-%9$Microsoft.Extensions.Logging.EventId*#!
-Error general en el servicio.ì
-é
-f
-\D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Subservices\ProcessRecord.cs#; '(0W1
-/SendSPFT.CrossCutting.Subservices.ProcessRecord""
-	_logErrorSystem.Action<T1, T2>"__id* 
-
-%11System.Action<T1, T2>"}
-f
-\D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Subservices\ProcessRecord.cs B(
-implicit returnB3"1
-/SendSPFT.CrossCutting.Subservices.ProcessRecord

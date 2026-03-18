@@ -1,0 +1,56 @@
+<!-- features/auth/register/register.component.html -->
+<vc-auth-layout>
+
+  <div class="register-header">
+    <h2 class="title">Crea tu cuenta</h2>
+    <p class="subtitle">Empieza gratis. Sin tarjeta de crédito.</p>
+  </div>
+
+  <form class="register-form" [formGroup]="form" (ngSubmit)="onSubmit()" novalidate>
+
+    <vc-input
+      formControlName="name"
+      type="text"
+      label="Nombre completo"
+      placeholder="Tu nombre"
+      [error]="getError('name')">
+    </vc-input>
+
+    <vc-input
+      formControlName="email"
+      type="email"
+      label="Correo electrónico"
+      placeholder="tu@empresa.com"
+      [error]="getError('email')">
+    </vc-input>
+
+    <vc-input
+      formControlName="password"
+      type="password"
+      label="Contraseña"
+      placeholder="Mínimo 8 caracteres"
+      [error]="getError('password')">
+    </vc-input>
+
+    <vc-button
+      type="submit"
+      label="Crear cuenta"
+      variant="primary"
+      size="lg"
+      [fullWidth]="true"
+      [loading]="isLoading()"
+      [hideTextOnLoad]="true">
+    </vc-button>
+
+  </form>
+
+  <p class="terms">
+    Al continuar, aceptas los <a href="#">Términos de servicio</a> y la <a href="#">Política de privacidad</a>.
+  </p>
+
+  <p class="login-link">
+    ¿Ya tienes cuenta?
+    <a routerLink="/auth/login">Iniciar sesión</a>
+  </p>
+
+</vc-auth-layout>

@@ -1,8 +1,0 @@
-\
-SD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Test\CrossCuttingHelpersTests.csutf-8N
-ED:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Test\RecordTest.csutf-8_
-OD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Test\SendSftpServiceTests.cswindows-1252€
-uD:\Users\60500258\.nuget\packages\microsoft.net.test.sdk\17.8.0\build\netcoreapp3.1\Microsoft.NET.Test.Sdk.Program.csutf-8s
-hD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Test\obj\Debug\net8.0\SendSPFT.Test.GlobalUsings.g.csutf-8‚
-wD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Test\obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.csutf-8q
-fD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Test\obj\Debug\net8.0\SendSPFT.Test.AssemblyInfo.csutf-8

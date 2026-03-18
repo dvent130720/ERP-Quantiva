@@ -1,0 +1,61 @@
+// styles/globals.scss
+@use './design-system' as *;
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&family=DM+Sans:wght@400;500;600&display=swap');
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  font-family: var(--font-body);
+  background: var(--color-bg);
+  color: var(--color-text-primary);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+// Scrollbar minimal
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb {
+  background: var(--color-border);
+  border-radius: var(--radius-full);
+}
+
+// Angular Material overrides
+.mat-mdc-form-field {
+  width: 100%;
+  
+  .mdc-text-field {
+    background: var(--color-surface) !important;
+    border-radius: var(--radius-md) !important;
+  }
+
+  .mdc-text-field--filled:not(.mdc-text-field--disabled) {
+    background-color: var(--color-surface) !important;
+  }
+
+  .mdc-line-ripple { display: none !important; }
+  
+  .mdc-text-field--filled .mdc-floating-label {
+    color: var(--color-text-secondary) !important;
+  }
+
+  input.mat-mdc-input-element {
+    color: var(--color-text-primary) !important;
+    caret-color: var(--color-primary) !important;
+  }
+}

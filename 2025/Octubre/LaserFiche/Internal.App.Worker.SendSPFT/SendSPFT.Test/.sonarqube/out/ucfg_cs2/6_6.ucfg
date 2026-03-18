@@ -1,107 +1,0 @@
-
-FSendSPFT.Application.Services.SendSftpService.SendSftpService()!staticd
-ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Services\SendSftpService.cs ('"0*¥
-0d
-ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Services\SendSftpService.csH H(~
-|
-d
-ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Services\SendSftpService.cs%) %(=
-%0"__id*
-""»¸
-d
-ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Services\SendSftpService.cs%? %(_*
-%1$Microsoft.Extensions.Logging.EventId"$Microsoft.Extensions.Logging.EventIdó
-ð
-d
-ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Services\SendSftpService.cs%C %(J
-
-%2void":Microsoft.Extensions.Logging.EventId.EventId(int, string?)*.,
-*
-%1$Microsoft.Extensions.Logging.EventId*2*
-""”
-‘
-d
-ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Services\SendSftpService.cs% %(m
-%3System.Action<T1, T2, T3>"ŠMicrosoft.Extensions.Logging.LoggerMessage.Define<T1>(Microsoft.Extensions.Logging.LogLevel, Microsoft.Extensions.Logging.EventId, string)*0.",
-*Microsoft.Extensions.Logging.LoggerMessage*
-
-%0*.,
-*
-%1$Microsoft.Extensions.Logging.EventId*
-	{Message}î
-ë
-d
-ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Services\SendSftpService.cs$D %(mX/
--SendSPFT.Application.Services.SendSftpService"%
-_logInfoSystem.Action<T1, T2, T3>"__id*#!
-
-%3System.Action<T1, T2, T3>~
-|
-d
-ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Services\SendSftpService.cs() ((9
-%4"__id*
-""»¸
-d
-ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Services\SendSftpService.cs(; ((^*
-%5$Microsoft.Extensions.Logging.EventId"$Microsoft.Extensions.Logging.EventIdó
-ð
-d
-ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Services\SendSftpService.cs(? ((F
-
-%6void":Microsoft.Extensions.Logging.EventId.EventId(int, string?)*.,
-*
-%5$Microsoft.Extensions.Logging.EventId*2*
-""”
-‘
-d
-ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Services\SendSftpService.cs( ((l
-%7System.Action<T1, T2, T3>"ŠMicrosoft.Extensions.Logging.LoggerMessage.Define<T1>(Microsoft.Extensions.Logging.LogLevel, Microsoft.Extensions.Logging.EventId, string)*0.",
-*Microsoft.Extensions.Logging.LoggerMessage*
-
-%4*.,
-*
-%5$Microsoft.Extensions.Logging.EventId*
-	{Message}ñ
-î
-d
-ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Services\SendSftpService.cs'D ((l[/
--SendSPFT.Application.Services.SendSftpService"(
-_logWarningSystem.Action<T1, T2, T3>"__id*#!
-
-%7System.Action<T1, T2, T3>~
-|
-d
-ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Services\SendSftpService.cs+! +(/
-%8"__id*
-""»¸
-d
-ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Services\SendSftpService.cs+1 +(R*
-%9$Microsoft.Extensions.Logging.EventId"$Microsoft.Extensions.Logging.EventIdô
-ñ
-d
-ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Services\SendSftpService.cs+5 +(<
-%10void":Microsoft.Extensions.Logging.EventId.EventId(int, string?)*.,
-*
-%9$Microsoft.Extensions.Logging.EventId*2*
-""¡
-ž
-d
-ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Services\SendSftpService.cs+ +(t
-%11System.Action<T1, T2>"†Microsoft.Extensions.Logging.LoggerMessage.Define(Microsoft.Extensions.Logging.LogLevel, Microsoft.Extensions.Logging.EventId, string)*0.",
-*Microsoft.Extensions.Logging.LoggerMessage*
-
-%8*.,
-*
-%9$Microsoft.Extensions.Logging.EventId*#!
-Error general en el servicio.è
-å
-d
-ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Services\SendSftpService.cs*< +(tU/
--SendSPFT.Application.Services.SendSftpService""
-	_logErrorSystem.Action<T1, T2>"__id* 
-
-%11System.Action<T1, T2>"{
-d
-ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Services\SendSftpService.cs H(
-implicit returnB1"/
--SendSPFT.Application.Services.SendSftpService

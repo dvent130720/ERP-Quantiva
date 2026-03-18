@@ -1,42 +1,0 @@
-
-6SendSPFT.DataAccess.Context.BdSybase.BdSybase()!static[
-QD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\BdSybase.cs ("0*š
-0[
-QD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\BdSybase.csV V(u
-s
-[
-QD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\BdSybase.cs (
-%0"__id*
-""²¯
-[
-QD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\BdSybase.cs (9*
-%1$Microsoft.Extensions.Logging.EventId"$Microsoft.Extensions.Logging.EventIdë
-è
-[
-QD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\BdSybase.cs (
-
-%2void":Microsoft.Extensions.Logging.EventId.EventId(int, string?)*.,
-*
-%1$Microsoft.Extensions.Logging.EventId*2é*
-""Á
-¾
-[
-QD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\BdSybase.cs (
-%3System.Action<T1, T2, T3>"ŠMicrosoft.Extensions.Logging.LoggerMessage.Define<T1>(Microsoft.Extensions.Logging.LogLevel, Microsoft.Extensions.Logging.EventId, string)*0.",
-*Microsoft.Extensions.Logging.LoggerMessage*
-
-%0*.,
-*
-%1$Microsoft.Extensions.Logging.EventId*ECA
-?Data Access Error: Connection not Healthy. Exception: {Message}å
-â
-[
-QD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\BdSybase.csM (X&
-$SendSPFT.DataAccess.Context.BdSybase".
-_logErrorDelegateSystem.Action<T1, T2, T3>"__id*#!
-
-%3System.Action<T1, T2, T3>"r
-[
-QD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\BdSybase.cs V(
-implicit returnB("&
-$SendSPFT.DataAccess.Context.BdSybase

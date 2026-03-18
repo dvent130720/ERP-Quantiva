@@ -1,5 +1,0 @@
-å
-)SendSPFT.DataAccess.Exec.SP.GetDatesSyb12object4SendSPFT.DataAccess.Contracts.Exec.SP.IGetDatesSyb12Œ
-èGetDatesSyb12(SendSPFT.DataAccess.Contracts.Context.IBdSybase, Microsoft.Extensions.Logging.ILogger<SendSPFT.DataAccess.Exec.SP.GetDatesSyb12>)πSendSPFT.DataAccess.Exec.SP.GetDatesSyb12.GetDatesSyb12(SendSPFT.DataAccess.Contracts.Context.IBdSybase, Microsoft.Extensions.Logging.ILogger<SendSPFT.DataAccess.Exec.SP.GetDatesSyb12>)T
-ExecuteSpGetDates()=SendSPFT.DataAccess.Exec.SP.GetDatesSyb12.ExecuteSpGetDates()z
-&MapResult(System.Data.DataSet, string)PSendSPFT.DataAccess.Exec.SP.GetDatesSyb12.MapResult(System.Data.DataSet, string)

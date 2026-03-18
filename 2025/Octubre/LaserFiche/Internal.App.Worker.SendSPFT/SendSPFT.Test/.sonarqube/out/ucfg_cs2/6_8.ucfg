@@ -1,364 +1,0 @@
-
-oSendSPFT.Application.Clients.QueryCustomerDataClient.GetDataClient(SendSPFT.Business.Models.BD.TdAttachmentDto)k
-aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\QueryCustomerDataClient.cs,# ,(0"0*{
-0k
-aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\QueryCustomerDataClient.csa	 a(	*	
-1
-2
-3*ß
-1k
-aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\QueryCustomerDataClient.cs3 =(E–Õ
-k
-aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\QueryCustomerDataClient.cs3  8(1
-%3+SendSPFT.Business.Models.ApiQCD.ReqConsulta"+SendSPFT.Business.Models.ApiQCD.ReqConsultaÓ
-Î
-k
-aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\QueryCustomerDataClient.cs3$ 3(/
-
-%4void"9SendSPFT.Business.Models.ApiQCD.ReqConsulta.ReqConsulta()*53
-1
-%3+SendSPFT.Business.Models.ApiQCD.ReqConsulta
-Ì
-k
-aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\QueryCustomerDataClient.cs5( 5(4
-%5string"8SendSPFT.Business.Models.BD.TdAttachmentDto.TdCedula.get*64
-2
-dto+SendSPFT.Business.Models.BD.TdAttachmentDtoä
-á
-k
-aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\QueryCustomerDataClient.cs5 5(4
-%6string"ASendSPFT.Business.Models.ApiQCD.ReqConsulta.nroIdentificacion.set*53
-1
-%3+SendSPFT.Business.Models.ApiQCD.ReqConsulta*
-
-%5stringÛ
-
-k
-aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\QueryCustomerDataClient.cs6) 6(8
-%7string";SendSPFT.Business.Models.BD.TdAttachmentDto.TdTipoIdent.get*64
-2
-dto+SendSPFT.Business.Models.BD.TdAttachmentDtoã
-à
-k
-aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\QueryCustomerDataClient.cs6 6(8
-%8string"BSendSPFT.Business.Models.ApiQCD.ReqConsulta.tipoIdentificacion.set*53
-1
-%3+SendSPFT.Business.Models.ApiQCD.ReqConsulta*
-
-%7stringÚÔ
-k
-aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\QueryCustomerDataClient.cs7! 7(U>
-%98Microsoft.Extensions.Configuration.IConfigurationSection"DMicrosoft.Extensions.Configuration.IConfiguration.GetSection(string)*FD
-B
-configuration1Microsoft.Extensions.Configuration.IConfiguration*
-Format_Api_Customer_Data2GetSection(string)íè
-k
-aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\QueryCustomerDataClient.cs7! 7([
-%10string"BMicrosoft.Extensions.Configuration.IConfigurationSection.Value.get*B@
->
-%98Microsoft.Extensions.Configuration.IConfigurationSection2	Value.getÖ
-Ç
-k
-aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\QueryCustomerDataClient.cs7 7([
-%11string":SendSPFT.Business.Models.ApiQCD.ReqConsulta.conFormato.set*53
-1
-%3+SendSPFT.Business.Models.ApiQCD.ReqConsulta*
-
-%10stringÁ
-‰
-k
-aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\QueryCustomerDataClient.cs3 8(8
-	requestWS+SendSPFT.Business.Models.ApiQCD.ReqConsulta"__id*53
-1
-%3+SendSPFT.Business.Models.ApiQCD.ReqConsulta“
-œ
-k
-aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\QueryCustomerDataClient.cs:% :(H
-%12string"bSystem.Text.Json.JsonSerializer.Serialize<TValue>(TValue, System.Text.Json.JsonSerializerOptions?)*%#"!
-System.Text.Json.JsonSerializer*<:
-8
-	requestWS+SendSPFT.Business.Models.ApiQCD.ReqConsulta*
-""†
-ù
-k
-aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\QueryCustomerDataClient.cs: :(H
-jsonPayloadstring"__id*
-
-%12stringΩ∫
-k
-aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\QueryCustomerDataClient.cs= =(F
-%13string"BMicrosoft.Extensions.Configuration.IConfiguration.this[string].get*FD
-B
-configuration1Microsoft.Extensions.Configuration.IConfiguration*
-Url_ConsultaDatosCliente2this[string].getó
-î
-k
-aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\QueryCustomerDataClient.cs= =(F
-%1string"__id*
-
-%13stringñ
-ì
-k
-aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\QueryCustomerDataClient.cs= =(F
-%0string"__id*
-
-%1string*
-4
-5*—
-4k
-aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\QueryCustomerDataClient.cs=J =(V¶
-£
-k
-aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\QueryCustomerDataClient.cs=J =(V
-%14string"__id**
-string"
-Emptystringó
-î
-k
-aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\QueryCustomerDataClient.cs=J =(V
-%2string"__id*
-
-%14stringñ
-ì
-k
-aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\QueryCustomerDataClient.cs=J =(V
-%0string"__id*
-
-%2string*
-5*±(
-5k
-aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\QueryCustomerDataClient.cs= S(ó
-î
-k
-aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\QueryCustomerDataClient.cs= =(V
-urlstring"__id*
-
-%0string⁄
-◊
-k
-aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\QueryCustomerDataClient.cs@< @(K!
-%15System.Net.Http.HttpMethod"#System.Net.Http.HttpMethod.Post.get* "
-System.Net.Http.HttpMethodøº
-k
-aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\QueryCustomerDataClient.cs@% C()
-%16"System.Net.Http.HttpRequestMessage""System.Net.Http.HttpRequestMessage¬
-ø
-k
-aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\QueryCustomerDataClient.cs@) @(;
-%17void"ZSystem.Net.Http.HttpRequestMessage.HttpRequestMessage(System.Net.Http.HttpMethod, string?)*-+
-)
-%16"System.Net.Http.HttpRequestMessage*%#
-!
-%15System.Net.Http.HttpMethod*
-
-urlstring»
-≈
-k
-aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\QueryCustomerDataClient.csB= B(J
-%18System.Text.Encoding"System.Text.Encoding.UTF8.get*"
-System.Text.Encodingµ≤
-k
-aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\QueryCustomerDataClient.csB B(_$
-%19System.Net.Http.StringContent"System.Net.Http.StringContentœ
-Ã
-k
-aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\QueryCustomerDataClient.csB" B(/
-%20void"RSystem.Net.Http.StringContent.StringContent(string, System.Text.Encoding?, string)*(&
-$
-%19System.Net.Http.StringContent*
-
-jsonPayloadstring*
-
-%18System.Text.Encoding*
-application/jsonù
-ö
-k
-aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\QueryCustomerDataClient.csB B(_"
-%21System.Net.Http.HttpContent".System.Net.Http.HttpRequestMessage.Content.set*-+
-)
-%16"System.Net.Http.HttpRequestMessage*(&
-$
-%19System.Net.Http.StringContent€
-ÿ
-k
-aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\QueryCustomerDataClient.cs@ C(4
-requestMessage"System.Net.Http.HttpRequestMessage"__id*-+
-)
-%16"System.Net.Http.HttpRequestMessageœ
-Ã
-k
-aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\QueryCustomerDataClient.csF5 F(Y+
-%22$System.Threading.Tasks.Task<TResult>"HSystem.Net.Http.HttpClient.SendAsync(System.Net.Http.HttpRequestMessage)*,*
-(
-
-httpClientSystem.Net.Http.HttpClient*86
-4
-requestMessage"System.Net.Http.HttpRequestMessage±
-Æ
-k
-aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\QueryCustomerDataClient.csF$ F(Y/
-response#System.Net.Http.HttpResponseMessage"__id*
-""ê
-ç
-k
-aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\QueryCustomerDataClient.csG G(2*
-%23#System.Net.Http.HttpResponseMessage"=System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()*31
-/
-response#System.Net.Http.HttpResponseMessage˙
-˜
-k
-aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\QueryCustomerDataClient.csL/ L(?"
-%24System.Net.Http.HttpContent"/System.Net.Http.HttpResponseMessage.Content.get*31
-/
-response#System.Net.Http.HttpResponseMessageˆ
-Û
-k
-aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\QueryCustomerDataClient.csL/ L(S+
-%25$System.Threading.Tasks.Task<TResult>"/System.Net.Http.HttpContent.ReadAsStringAsync()*&$
-"
-%24System.Net.Http.HttpContentõ
-ò
-k
-aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\QueryCustomerDataClient.csL L(S
-responseContentstring"__id*
-""â
-Ü
-k
-aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\QueryCustomerDataClient.csM M($ 
-%26System.Action<T1, T2, T3>"__id*om*k6
-4SendSPFT.Application.Clients.QueryCustomerDataClient"1
-_logResponseReceivedSystem.Action<T1, T2, T3>π
-∂
-k
-aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\QueryCustomerDataClient.csM M(D
-%27void",System.Action<T1, T2, T3>.Invoke(T1, T2, T3)*
-System.Action<T1, T2, T3>*B@
->
-serilog3Microsoft.Extensions.Logging.ILogger<TCategoryName>*
-
-responseContentstring*
-""õ
-ò
-k
-aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\QueryCustomerDataClient.csQZ Q(f-
-%28&System.Text.Json.JsonSerializerOptions"__id*tr*p6
-4SendSPFT.Application.Clients.QueryCustomerDataClient"6
-_jsonOptions&System.Text.Json.JsonSerializerOptions˙
-˜
-k
-aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\QueryCustomerDataClient.csQ Q(g)
-%29"System.Collections.Generic.List<T>"dSystem.Text.Json.JsonSerializer.Deserialize<TValue>(string, System.Text.Json.JsonSerializerOptions?)*%#"!
-System.Text.Json.JsonSerializer*
-
-responseContentstring*1/
--
-%28&System.Text.Json.JsonSerializerOptions’
-“
-k
-aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\QueryCustomerDataClient.csQ Q(g.
-clientes"System.Collections.Generic.List<T>"__id*-+
-)
-%29"System.Collections.Generic.List<T>*
-6
-7*Á
-7k
-aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\QueryCustomerDataClient.csS  S(/Ô
-Ï
-k
-aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\QueryCustomerDataClient.csS  S(1J
-%30CCore.Customer.Web.Api.ConsultaDatosClientes.Business.Models.Cliente"_System.Linq.Enumerable.FirstOrDefault<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
-System.Linq.Enumerable*20
-.
-clientes"System.Collections.Generic.List<T>*
-6*x
-6k
-aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\QueryCustomerDataClient.csa	 a(	*
-8
-9*¬	
-8k
-aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\QueryCustomerDataClient.csS5 S(BÅ˛
-k
-aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\QueryCustomerDataClient.csS5 S(BJ
-%34CCore.Customer.Web.Api.ConsultaDatosClientes.Business.Models.Cliente"CCore.Customer.Web.Api.ConsultaDatosClientes.Business.Models.Clienteú
-ô
-k
-aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\QueryCustomerDataClient.csS9 S(@
-%35void"MCore.Customer.Web.Api.ConsultaDatosClientes.Business.Models.Cliente.Cliente()*NL
-J
-%34CCore.Customer.Web.Api.ConsultaDatosClientes.Business.Models.Clienteí
-è
-k
-aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\QueryCustomerDataClient.csS5 S(BJ
-%33CCore.Customer.Web.Api.ConsultaDatosClientes.Business.Models.Cliente"__id*NL
-J
-%34CCore.Customer.Web.Api.ConsultaDatosClientes.Business.Models.Clienteí
-è
-k
-aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\QueryCustomerDataClient.csS5 S(BJ
-%31CCore.Customer.Web.Api.ConsultaDatosClientes.Business.Models.Cliente"__id*NL
-J
-%33CCore.Customer.Web.Api.ConsultaDatosClientes.Business.Models.Cliente*
-9*Æ
-9k
-aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\QueryCustomerDataClient.csa	 a(	"ª
-k
-aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\QueryCustomerDataClient.csS S(CL
-J
-%31CCore.Customer.Web.Api.ConsultaDatosClientes.Business.Models.Cliente*å
-3k
-aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\QueryCustomerDataClient.csX X(;Ç
-ˇ
-k
-aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\QueryCustomerDataClient.csX X( 
-%36System.Action<T1, T2, T3>"__id*hf*d6
-4SendSPFT.Application.Clients.QueryCustomerDataClient"*
-_logHttpErrorSystem.Action<T1, T2, T3>ﬁ€
-k
-aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\QueryCustomerDataClient.csX' X(5
-%37string"System.Exception.Message.get*20
-.
-httpEx$System.Net.Http.HttpRequestException2Message.get≠
-™
-k
-aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\QueryCustomerDataClient.csX X(<
-%38void",System.Action<T1, T2, T3>.Invoke(T1, T2, T3)*
-System.Action<T1, T2, T3>*B@
->
-serilog3Microsoft.Extensions.Logging.ILogger<TCategoryName>*
-
-%37string*
-""*
-10*Ù
-2k
-aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\QueryCustomerDataClient.cs] ](7Ç
-ˇ
-k
-aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\QueryCustomerDataClient.cs] ]( 
-%39System.Action<T1, T2, T3>"__id*hf*d6
-4SendSPFT.Application.Clients.QueryCustomerDataClient"*
-_logHttpErrorSystem.Action<T1, T2, T3>∆√
-k
-aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\QueryCustomerDataClient.cs]' ](1
-%40string"System.Exception.Message.get*
-
-exSystem.Exception2Message.get≠
-™
-k
-aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\QueryCustomerDataClient.cs] ](8
-%41void",System.Action<T1, T2, T3>.Invoke(T1, T2, T3)*
-System.Action<T1, T2, T3>*B@
->
-serilog3Microsoft.Extensions.Logging.ILogger<TCategoryName>*
-
-%40string*
-""*
-10*ˆ
-10k
-aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\QueryCustomerDataClient.csa	 a(	"Ç
-k
-aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\QueryCustomerDataClient.csa a(	
-implicit return:°
-k
-aD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application\Clients\QueryCustomerDataClient.cs,1 ,(D2
-dto+SendSPFT.Business.Models.BD.TdAttachmentDtoB86
-4SendSPFT.Application.Clients.QueryCustomerDataClient

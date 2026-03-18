@@ -1,74 +1,0 @@
-
-9SendSPFT.Business.Models.SFTP.SftpSettings.SftpSettings()a
-WD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Business\Models\SFTP\SftpSettings.cs	 	("0*¹
-0a
-WD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Business\Models\SFTP\SftpSettings.cs (›
-˜
-a
-WD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Business\Models\SFTP\SftpSettings.cs+ (7
-%0string"__id**
-string"
-Emptystringí
-ê
-a
-WD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Business\Models\SFTP\SftpSettings.cs (8
-%1string"3SendSPFT.Business.Models.SFTP.SftpSettings.Host.set*0.,
-*SendSPFT.Business.Models.SFTP.SftpSettings*
-
-%0string›
-˜
-a
-WD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Business\Models\SFTP\SftpSettings.cs/ (;
-%2string"__id**
-string"
-Emptystringñ
-î
-a
-WD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Business\Models\SFTP\SftpSettings.cs (<
-%3string"7SendSPFT.Business.Models.SFTP.SftpSettings.Username.set*0.,
-*SendSPFT.Business.Models.SFTP.SftpSettings*
-
-%2string›
-˜
-a
-WD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Business\Models\SFTP\SftpSettings.cs/ (;
-%4string"__id**
-string"
-Emptystringñ
-î
-a
-WD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Business\Models\SFTP\SftpSettings.cs (<
-%5string"7SendSPFT.Business.Models.SFTP.SftpSettings.Password.set*0.,
-*SendSPFT.Business.Models.SFTP.SftpSettings*
-
-%4string›
-˜
-a
-WD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Business\Models\SFTP\SftpSettings.cs1 (=
-%6string"__id**
-string"
-Emptystringó
-ð
-a
-WD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Business\Models\SFTP\SftpSettings.cs (>
-%7string"9SendSPFT.Business.Models.SFTP.SftpSettings.RemotePath.set*0.,
-*SendSPFT.Business.Models.SFTP.SftpSettings*
-
-%6string›
-˜
-a
-WD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Business\Models\SFTP\SftpSettings.cs0 (<
-%8string"__id**
-string"
-Emptystringò
-ï
-a
-WD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Business\Models\SFTP\SftpSettings.cs (=
-%9string"8SendSPFT.Business.Models.SFTP.SftpSettings.ErrorPath.set*0.,
-*SendSPFT.Business.Models.SFTP.SftpSettings*
-
-%8string"x
-a
-WD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Business\Models\SFTP\SftpSettings.cs	 (
-implicit returnB.,
-*SendSPFT.Business.Models.SFTP.SftpSettings

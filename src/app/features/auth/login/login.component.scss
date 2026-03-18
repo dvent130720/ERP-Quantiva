@@ -1,0 +1,100 @@
+// features/auth/login/login.component.scss
+@use '../../../../styles/design-system' as *;
+
+.login-header {
+  text-align: center;
+  @include fadeUp(150ms);
+
+  .title {
+    font-family: var(--font-display);
+    font-size: var(--text-3xl);
+    font-weight: var(--weight-bold);
+    letter-spacing: -0.04em;
+    color: var(--color-text-primary);
+    margin-bottom: var(--space-2);
+  }
+
+  .subtitle {
+    font-size: var(--text-sm);
+    color: var(--color-text-secondary);
+  }
+}
+
+.api-error {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  width: 100%;
+  padding: var(--space-3) var(--space-4);
+  background: rgba(248, 113, 113, 0.08);
+  border: 1px solid rgba(248, 113, 113, 0.2);
+  border-radius: var(--radius-md);
+  color: var(--color-error);
+  font-size: var(--text-sm);
+  animation: fadeUp 250ms var(--ease-out) both;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  width: 100%;
+
+  vc-input:nth-child(1) { @include fadeUp(250ms); }
+  .password-field       { @include fadeUp(350ms); }
+  vc-button             { @include fadeUp(450ms); }
+}
+
+.password-field {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.forgot-link {
+  align-self: flex-end;
+  font-size: var(--text-xs);
+  color: var(--color-text-secondary);
+  transition: color var(--duration-fast) var(--ease-smooth);
+  cursor: pointer;
+
+  &:hover { color: var(--color-primary); }
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: var(--space-4);
+  @include fadeUp(500ms);
+
+  &::before, &::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--color-border);
+  }
+
+  span {
+    font-size: var(--text-xs);
+    color: var(--color-text-tertiary);
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+}
+
+.register-link {
+  font-size: var(--text-sm);
+  color: var(--color-text-secondary);
+  text-align: center;
+  @include fadeUp(650ms);
+
+  a {
+    color: var(--color-primary);
+    font-weight: var(--weight-medium);
+    transition: color var(--duration-fast) var(--ease-smooth);
+
+    &:hover { color: #93c5fd; text-decoration: underline; text-underline-offset: 3px; }
+  }
+}

@@ -1,135 +1,0 @@
-
-ÄSendSPFT.DataAccess.Exec.Func.SelectRegistryBD.SelectRegistryBD(SendSPFT.DataAccess.Contracts.Context.ISendSftpContext, Microsoft.Extensions.Logging.ILogger<SendSPFT.DataAccess.Exec.Func.SelectRegistryBD>, Microsoft.Extensions.Configuration.IConfiguration)e
-[D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\SelectRegistryBD.cs) )("1*o
-1e
-[D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\SelectRegistryBD.cs1	 1(	*
-0*ﬂ
-0e
-[D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\SelectRegistryBD.cs. .("˜
-Ù
-e
-[D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\SelectRegistryBD.cs. .("<
-%16SendSPFT.DataAccess.Contracts.Context.ISendSftpContext"__id*GE
-C
-	pgContext6SendSPFT.DataAccess.Contracts.Context.ISendSftpContext
-Ì
-e
-[D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\SelectRegistryBD.cs. .("<
-%06SendSPFT.DataAccess.Contracts.Context.ISendSftpContext"__id*@>
-<
-%16SendSPFT.DataAccess.Contracts.Context.ISendSftpContext*
-2
-3*Ü
-2e
-[D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\SelectRegistryBD.cs., .(W¨©
-e
-[D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\SelectRegistryBD.cs., .(X"
-%3System.ArgumentNullException"System.ArgumentNullExceptionÂ
-‚
-e
-[D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\SelectRegistryBD.cs.0 .(E
-
-%4void";System.ArgumentNullException.ArgumentNullException(string?)*&$
-"
-%3System.ArgumentNullException*
-""*
-4*¸
-3e
-[D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\SelectRegistryBD.cs. /(¨
-©
-e
-[D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\SelectRegistryBD.cs. .(Xx0
-.SendSPFT.DataAccess.Exec.Func.SelectRegistryBD"D
-
-_pgContext6SendSPFT.DataAccess.Contracts.Context.ISendSftpContext"__id*@>
-<
-%06SendSPFT.DataAccess.Contracts.Context.ISendSftpContextÎ
-Ë
-e
-[D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\SelectRegistryBD.cs/ /(9
-%63Microsoft.Extensions.Logging.ILogger<TCategoryName>"__id*><
-:
-log3Microsoft.Extensions.Logging.ILogger<TCategoryName>Í
-Á
-e
-[D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\SelectRegistryBD.cs/ /(9
-%53Microsoft.Extensions.Logging.ILogger<TCategoryName>"__id*=;
-9
-%63Microsoft.Extensions.Logging.ILogger<TCategoryName>*
-5
-6*Ü
-5e
-[D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\SelectRegistryBD.cs/  /(E¨©
-e
-[D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\SelectRegistryBD.cs/  /(F"
-%8System.ArgumentNullException"System.ArgumentNullExceptionÂ
-‚
-e
-[D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\SelectRegistryBD.cs/$ /(9
-
-%9void";System.ArgumentNullException.ArgumentNullException(string?)*&$
-"
-%8System.ArgumentNullException*
-""*
-4*ı
-6e
-[D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\SelectRegistryBD.cs/ 0(*†
-ù
-e
-[D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\SelectRegistryBD.cs/ /(Fo0
-.SendSPFT.DataAccess.Exec.Func.SelectRegistryBD";
-_log3Microsoft.Extensions.Logging.ILogger<TCategoryName>"__id*=;
-9
-%53Microsoft.Extensions.Logging.ILogger<TCategoryName>Ú
-Ô
-e
-[D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\SelectRegistryBD.cs0 0(*8
-%111Microsoft.Extensions.Configuration.IConfiguration"__id*FD
-B
-configuration1Microsoft.Extensions.Configuration.IConfigurationË
-Â
-e
-[D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\SelectRegistryBD.cs0 0(*8
-%101Microsoft.Extensions.Configuration.IConfiguration"__id*<:
-8
-%111Microsoft.Extensions.Configuration.IConfiguration*
-7
-8*â
-7e
-[D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\SelectRegistryBD.cs04 0(c≠™
-e
-[D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\SelectRegistryBD.cs04 0(d#
-%13System.ArgumentNullException"System.ArgumentNullExceptionÁ
-‰
-e
-[D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\SelectRegistryBD.cs08 0(M
-%14void";System.ArgumentNullException.ArgumentNullException(string?)*'%
-#
-%13System.ArgumentNullException*
-""*
-4*ô
-8e
-[D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\SelectRegistryBD.cs0 0(dß
-§
-e
-[D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\SelectRegistryBD.cs0 0(dw0
-.SendSPFT.DataAccess.Exec.Func.SelectRegistryBD"C
-_configuration1Microsoft.Extensions.Configuration.IConfiguration"__id*<:
-8
-%101Microsoft.Extensions.Configuration.IConfiguration*
-4*Ë
-4e
-[D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\SelectRegistryBD.cs1	 1(	"|
-e
-[D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\SelectRegistryBD.cs1 1(	
-implicit return:¨
-e
-[D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\SelectRegistryBD.cs* *(&C
-	pgContext6SendSPFT.DataAccess.Contracts.Context.ISendSftpContext:£
-e
-[D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\SelectRegistryBD.cs+ +():
-log3Microsoft.Extensions.Logging.ILogger<TCategoryName>:´
-e
-[D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Exec\Func\SelectRegistryBD.cs, ,((B
-configuration1Microsoft.Extensions.Configuration.IConfigurationB20
-.SendSPFT.DataAccess.Exec.Func.SelectRegistryBD

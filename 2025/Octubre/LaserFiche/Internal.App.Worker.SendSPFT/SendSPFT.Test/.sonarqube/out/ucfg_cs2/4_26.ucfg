@@ -1,329 +1,0 @@
-
-iSendSPFT.DataAccess.Exec.Func.UpdateTableBD.UpdateTableAsync(SendSPFT.Business.Models.BD.TdAttachmentDto)t
-jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\Func\UpdateTableBD.cs/ /(*"0*˚
-0t
-jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\Func\UpdateTableBD.cs1 6(&˙
-˜
-t
-jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\Func\UpdateTableBD.cs1 6(&
-sqlstring"__id*ÈÊ„
-‡
-                UPDATE td_attachment
-                SET 
-                    td_operacion = @td_operacion,
-                    td_operacion_fecha_envio = @td_operacion_fecha_envio
-                WHERE td_id = @td_id;*
-1*Õ
-1t
-jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\Func\UpdateTableBD.cs:  >(Oÿ’
-t
-jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\Func\UpdateTableBD.cs:- :(O*
-%3$System.Threading.Tasks.Task<TResult>"NSendSPFT.DataAccess.Contracts.Context.ISendSftpContext.CreateConnectionAsync()*HF
-D
-
-_pgContext6SendSPFT.DataAccess.Contracts.Context.ISendSftpContext2CreateConnectionAsync()™
-ß
-t
-jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\Func\UpdateTableBD.cs:  :(O
-connNpgsql.NpgsqlConnection"__id*
-""´®
-t
-jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\Func\UpdateTableBD.cs;& ;(B
-%4Npgsql.NpgsqlCommand"Npgsql.NpgsqlCommand§
-°
-t
-jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\Func\UpdateTableBD.cs;* ;(7
-
-%5void"ENpgsql.NpgsqlCommand.NpgsqlCommand(string?, Npgsql.NpgsqlConnection?)*
-
-%4Npgsql.NpgsqlCommand*
-
-sqlstring*#!
-
-connNpgsql.NpgsqlConnectionº
-π
-t
-jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\Func\UpdateTableBD.cs;  ;(B
-cmdNpgsql.NpgsqlCommand"__id*
-
-%4Npgsql.NpgsqlCommandÁ
-‰
-t
-jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\Func\UpdateTableBD.cs> >(&
-%6 Npgsql.NpgsqlParameterCollection"#Npgsql.NpgsqlCommand.Parameters.get*
-
-cmdNpgsql.NpgsqlCommandˇ
-¸
-t
-jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\Func\UpdateTableBD.cs>= >(O
-%7string";SendSPFT.Business.Models.BD.TdAttachmentDto.TdOperacion.get*97
-5
-record+SendSPFT.Business.Models.BD.TdAttachmentDtoü
-ú
-t
-jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\Func\UpdateTableBD.cs>= >(O
-%1object"__id*
-
-%7stringü
-ú
-t
-jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\Func\UpdateTableBD.cs>= >(O
-%0object"__id*
-
-%1object*
-2
-3*°
-2t
-jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\Func\UpdateTableBD.cs>S >(g√
-¿
-t
-jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\Func\UpdateTableBD.cs>[ >(g
-%8System.DBNull"__id*-+*)
-System.DBNull"
-ValueSystem.DBNullû
-õ
-t
-jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\Func\UpdateTableBD.cs>S >(g
-%9"__id*
-
-%8System.DBNulló
-î
-t
-jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\Func\UpdateTableBD.cs>S >(g
-%2object"__id*
-
-%9ü
-ú
-t
-jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\Func\UpdateTableBD.cs>S >(g
-%0object"__id*
-
-%2object*
-3*Ü
-
-3t
-jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\Func\UpdateTableBD.cs> ?(e™
-ß
-t
-jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\Func\UpdateTableBD.cs> >(h
-%13Npgsql.NpgsqlParameter"=Npgsql.NpgsqlParameterCollection.AddWithValue(string, object)**(
-&
-%6 Npgsql.NpgsqlParameterCollection*
-@td_operacion*
-
-%0objectË
-Â
-t
-jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\Func\UpdateTableBD.cs? ?('
-%14 Npgsql.NpgsqlParameterCollection"#Npgsql.NpgsqlCommand.Parameters.get*
-
-cmdNpgsql.NpgsqlCommandñ
-ì
-t
-jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\Func\UpdateTableBD.cs?I ?(e
-%15System.Nullable<T>"ESendSPFT.Business.Models.BD.TdAttachmentDto.TdOperacionFechaEnvio.get*97
-5
-record+SendSPFT.Business.Models.BD.TdAttachmentDto≠
-™
-t
-jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\Func\UpdateTableBD.cs?I ?(e
-%11object"__id*
-
-%15System.Nullable<T>°
-û
-t
-jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\Func\UpdateTableBD.cs?I ?(e
-%10object"__id*
-
-%11object*
-4
-5*®
-4t
-jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\Func\UpdateTableBD.cs?i ?(}ƒ
-¡
-t
-jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\Func\UpdateTableBD.cs?q ?(}
-%16System.DBNull"__id*-+*)
-System.DBNull"
-ValueSystem.DBNull†
-ù
-t
-jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\Func\UpdateTableBD.cs?i ?(}
-%17"__id*
-
-%16System.DBNullô
-ñ
-t
-jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\Func\UpdateTableBD.cs?i ?(}
-%12object"__id*	
-
-%17°
-û
-t
-jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\Func\UpdateTableBD.cs?i ?(}
-%10object"__id*
-
-%12object*
-5*Â
-5t
-jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\Func\UpdateTableBD.cs? D(%∏
-µ
-t
-jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\Func\UpdateTableBD.cs? ?(~
-%18Npgsql.NpgsqlParameter"=Npgsql.NpgsqlParameterCollection.AddWithValue(string, object)*+)
-'
-%14 Npgsql.NpgsqlParameterCollection*
-@td_operacion_fecha_envio*
-
-%10objectË
-Â
-t
-jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\Func\UpdateTableBD.cs@ @('
-%19 Npgsql.NpgsqlParameterCollection"#Npgsql.NpgsqlCommand.Parameters.get*
-
-cmdNpgsql.NpgsqlCommandˆ
-Û
-t
-jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\Func\UpdateTableBD.cs@6 @(A
-
-%20int"4SendSPFT.Business.Models.BD.TdAttachmentDto.TdId.get*97
-5
-record+SendSPFT.Business.Models.BD.TdAttachmentDto¢
-ü
-t
-jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\Func\UpdateTableBD.cs@ @(B
-%21Npgsql.NpgsqlParameter"=Npgsql.NpgsqlParameterCollection.AddWithValue(string, object)*+)
-'
-%19 Npgsql.NpgsqlParameterCollection*
-
-@td_id*
-
-
-%20int¸
-˘
-t
-jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\Func\UpdateTableBD.csB) B(C+
-%22$System.Threading.Tasks.Task<TResult>"3System.Data.Common.DbCommand.ExecuteNonQueryAsync()*
-
-cmdNpgsql.NpgsqlCommandû
-õ
-t
-jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\Func\UpdateTableBD.csB B(C
-rowsAffectedint"__id*
-""*
-6
-7*≥
-6t
-jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\Func\UpdateTableBD.csF F(=Ü
-É
-t
-jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\Func\UpdateTableBD.csF F(% 
-%23System.Action<T1, T2, T3>"__id*ca*_-
-+SendSPFT.DataAccess.Exec.Func.UpdateTableBD".
-_logNoRowsUpdatedSystem.Action<T1, T2, T3>ˆ
-Û
-t
-jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\Func\UpdateTableBD.csF, F(7
-
-%24int"4SendSPFT.Business.Models.BD.TdAttachmentDto.TdId.get*97
-5
-record+SendSPFT.Business.Models.BD.TdAttachmentDto∞
-≠
-t
-jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\Func\UpdateTableBD.csF F(>
-%25void",System.Action<T1, T2, T3>.Invoke(T1, T2, T3)*
-System.Action<T1, T2, T3>*?=
-;
-_log3Microsoft.Extensions.Logging.ILogger<TCategoryName>*
-
-
-%24int*
-""*
-8*π
-7t
-jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\Func\UpdateTableBD.csJ J(Cå
-â
-t
-jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\Func\UpdateTableBD.csJ J(+ 
-%26System.Action<T1, T2, T3>"__id*ig*e-
-+SendSPFT.DataAccess.Exec.Func.UpdateTableBD"4
-_logUpdatedSuccessfullySystem.Action<T1, T2, T3>ˆ
-Û
-t
-jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\Func\UpdateTableBD.csJ2 J(=
-
-%27int"4SendSPFT.Business.Models.BD.TdAttachmentDto.TdId.get*97
-5
-record+SendSPFT.Business.Models.BD.TdAttachmentDto∞
-≠
-t
-jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\Func\UpdateTableBD.csJ J(D
-%28void",System.Action<T1, T2, T3>.Invoke(T1, T2, T3)*
-System.Action<T1, T2, T3>*?=
-;
-_log3Microsoft.Extensions.Logging.ILogger<TCategoryName>*
-
-
-%27int*
-""*
-8*Ü
-8t
-jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\Func\UpdateTableBD.csW	 W(	*
-9
-10
-11*À
-10t
-jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\Func\UpdateTableBD.csO O(5Ñ
-Å
-t
-jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\Func\UpdateTableBD.csO O( 
-%29System.Action<T1, T2, T3>"__id*a_*]-
-+SendSPFT.DataAccess.Exec.Func.UpdateTableBD",
-_logNpgsqlErrorSystem.Action<T1, T2, T3>ˆ
-Û
-t
-jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\Func\UpdateTableBD.csO& O(1
-
-%30int"4SendSPFT.Business.Models.BD.TdAttachmentDto.TdId.get*97
-5
-record+SendSPFT.Business.Models.BD.TdAttachmentDto»
-≈
-t
-jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\Func\UpdateTableBD.csO O(6
-%31void",System.Action<T1, T2, T3>.Invoke(T1, T2, T3)*
-System.Action<T1, T2, T3>*?=
-;
-_log3Microsoft.Extensions.Logging.ILogger<TCategoryName>*
-
-
-%30int* 
-
-exNpgsql.NpgsqlException*
-11*´
-9t
-jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\Func\UpdateTableBD.csT T(,Ä
-˝
-t
-jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\Func\UpdateTableBD.csT T(#
-%32System.Action<T1, T2>"__id*a_*]-
-+SendSPFT.DataAccess.Exec.Func.UpdateTableBD",
-_logUnexpectedErrorSystem.Action<T1, T2>¶
-£
-t
-jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\Func\UpdateTableBD.csT T(-
-%33void"$System.Action<T1, T2>.Invoke(T1, T2)*
-System.Action<T1, T2>*?=
-;
-_log3Microsoft.Extensions.Logging.ILogger<TCategoryName>*
-
-exSystem.Exception*
-11*à
-11t
-jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\Func\UpdateTableBD.csW	 W(	"ã
-t
-jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\Func\UpdateTableBD.csW W(	
-implicit return:≠
-t
-jD:\TV\temp\Core.SET.Web.Api.GetHolidays\Core.SET.Web.Api.GetHolidays.DataAccess\Exec\Func\UpdateTableBD.cs/+ /(A5
-record+SendSPFT.Business.Models.BD.TdAttachmentDtoB/-
-+SendSPFT.DataAccess.Exec.Func.UpdateTableBD

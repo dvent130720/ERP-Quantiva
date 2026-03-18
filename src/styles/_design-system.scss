@@ -1,0 +1,154 @@
+// ============================================================
+// VENTURACOM — DESIGN SYSTEM
+// ============================================================
+
+// ── COLORS ──────────────────────────────────────────────────
+:root {
+  // Core
+  --color-bg:           #09090f;
+  --color-bg-elevated:  #0e0e1a;
+  --color-bg-glass:     rgba(14, 14, 26, 0.72);
+  --color-surface:      rgba(255, 255, 255, 0.04);
+  --color-surface-hover:rgba(255, 255, 255, 0.07);
+  --color-border:       rgba(255, 255, 255, 0.08);
+  --color-border-focus: rgba(99, 179, 237, 0.6);
+
+  // Brand Blue
+  --color-primary:      #3b82f6;
+  --color-primary-soft: rgba(59, 130, 246, 0.15);
+  --color-primary-glow: rgba(59, 130, 246, 0.35);
+
+  // Orb / Glow
+  --orb-color-1:        #1d4ed8;
+  --orb-color-2:        #2563eb;
+  --orb-color-3:        #06b6d4;
+
+  // Typography
+  --color-text-primary: #f0f4ff;
+  --color-text-secondary: rgba(240, 244, 255, 0.55);
+  --color-text-tertiary: rgba(240, 244, 255, 0.30);
+
+  // Status
+  --color-error:        #f87171;
+  --color-success:      #34d399;
+
+  // ── TYPOGRAPHY ──────────────────────────────────────────────
+  --font-display:       'Sora', sans-serif;
+  --font-body:          'DM Sans', sans-serif;
+
+  --text-xs:    0.75rem;
+  --text-sm:    0.875rem;
+  --text-base:  1rem;
+  --text-lg:    1.125rem;
+  --text-xl:    1.25rem;
+  --text-2xl:   1.5rem;
+  --text-3xl:   1.875rem;
+  --text-4xl:   2.25rem;
+  --text-5xl:   3rem;
+
+  --weight-regular: 400;
+  --weight-medium:  500;
+  --weight-semibold:600;
+  --weight-bold:    700;
+
+  // ── SPACING ─────────────────────────────────────────────────
+  --space-1:  0.25rem;
+  --space-2:  0.5rem;
+  --space-3:  0.75rem;
+  --space-4:  1rem;
+  --space-5:  1.25rem;
+  --space-6:  1.5rem;
+  --space-8:  2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+
+  // ── RADIUS ──────────────────────────────────────────────────
+  --radius-sm:   6px;
+  --radius-md:   12px;
+  --radius-lg:   16px;
+  --radius-xl:   24px;
+  --radius-full: 9999px;
+
+  // ── SHADOWS ─────────────────────────────────────────────────
+  --shadow-glow:    0 0 40px rgba(59, 130, 246, 0.25);
+  --shadow-glow-lg: 0 0 80px rgba(59, 130, 246, 0.35);
+  --shadow-card:    0 8px 32px rgba(0, 0, 0, 0.5);
+  --shadow-input:   0 2px 8px rgba(0, 0, 0, 0.3);
+
+  // ── TRANSITIONS ─────────────────────────────────────────────
+  --ease-smooth:  cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-spring:  cubic-bezier(0.34, 1.56, 0.64, 1);
+  --ease-out:     cubic-bezier(0, 0, 0.2, 1);
+  --duration-fast:   150ms;
+  --duration-base:   250ms;
+  --duration-slow:   400ms;
+  --duration-xslow:  600ms;
+}
+
+// ── ANIMATION KEYFRAMES ─────────────────────────────────────
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes orbPulse {
+  0%, 100% {
+    transform: scale(1) translate(-50%, -50%);
+    opacity: 0.6;
+  }
+  50% {
+    transform: scale(1.08) translate(-50%, -50%);
+    opacity: 0.8;
+  }
+}
+
+@keyframes orbDrift {
+  0%, 100% { transform: translate(-50%, -50%) rotate(0deg); }
+  33%       { transform: translate(-48%, -52%) rotate(120deg); }
+  66%       { transform: translate(-52%, -48%) rotate(240deg); }
+}
+
+@keyframes typewriter {
+  from { width: 0; }
+  to   { width: 100%; }
+}
+
+@keyframes blink {
+  0%, 100% { border-color: transparent; }
+  50%       { border-color: var(--color-primary); }
+}
+
+@keyframes shimmer {
+  0%   { background-position: -200% center; }
+  100% { background-position: 200% center; }
+}
+
+// ── MIXINS ──────────────────────────────────────────────────
+@mixin fadeUp($delay: 0ms) {
+  animation: fadeUp var(--duration-slow) var(--ease-out) #{$delay} both;
+}
+
+@mixin glass($blur: 20px) {
+  background: var(--color-bg-glass);
+  backdrop-filter: blur(#{$blur});
+  -webkit-backdrop-filter: blur(#{$blur});
+  border: 1px solid var(--color-border);
+}
+
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

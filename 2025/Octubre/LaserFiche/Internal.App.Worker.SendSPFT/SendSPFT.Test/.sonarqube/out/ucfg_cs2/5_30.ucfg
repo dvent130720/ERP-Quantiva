@@ -1,100 +1,0 @@
-
-?SendSPFT.CrossCutting.Metrics.MetricCollector.MetricCollector()d
-ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Metrics\MetricCollector.cs ("1*n
-1d
-ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Metrics\MetricCollector.cs 	  (	*
-0* 
-0d
-ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Metrics\MetricCollector.cs (,Õ
-Ò
-d
-ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Metrics\MetricCollector.cs (E
-%0Prometheus.Counter"RPrometheus.Metrics.CreateCounter(string, string, Prometheus.CounterConfiguration?)*"
-Prometheus.Metrics*
-total_published_messages*864
-2The total number of messages serviced by this API.*
-""ç
-ä
-d
-ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Metrics\MetricCollector.cs (EX/
--SendSPFT.CrossCutting.Metrics.MetricCollector"%
-_requestCounterPrometheus.Counter"__id*
-
-%0Prometheus.CounterÏ
-Ì
-d
-ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Metrics\MetricCollector.cs! (K
-%1Prometheus.Counter"RPrometheus.Metrics.CreateCounter(string, string, Prometheus.CounterConfiguration?)*"
-Prometheus.Metrics*
-total_errors*><:
-8The total number of times an error has been encountered.*
-""ê
-ç
-d
-ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Metrics\MetricCollector.cs (K[/
--SendSPFT.CrossCutting.Metrics.MetricCollector"(
-_errorsEncounteredPrometheus.Counter"__id*
-
-%1Prometheus.Counterµ²
-d
-ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Metrics\MetricCollector.cs ('
-%2!Prometheus.HistogramConfiguration"!Prometheus.HistogramConfigurationÞ
-Û
-d
-ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Metrics\MetricCollector.cs (*
-
-%3void":Prometheus.HistogramConfiguration.HistogramConfiguration()*+)
-'
-%2!Prometheus.HistogramConfigurationí
-ê
-d
-ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Metrics\MetricCollector.cs (G
-%4double[]"<Prometheus.Histogram.ExponentialBuckets(double, double, int)*"
-Prometheus.Histogram*
-""*2*2
-é
-æ
-d
-ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Metrics\MetricCollector.cs (G
-%5double[]"-Prometheus.HistogramConfiguration.Buckets.set*+)
-'
-%2!Prometheus.HistogramConfiguration*
-
-%4double[]Ï
-Ì
-d
-ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Metrics\MetricCollector.cs! (,
-%6string[]"__id*NL*J/
--SendSPFT.CrossCutting.Metrics.MetricCollector"
-_labelNamesstring[]é
-æ
-d
-ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Metrics\MetricCollector.cs (,
-%7string[]"-Prometheus.MetricConfiguration.LabelNames.set*+)
-'
-%2!Prometheus.HistogramConfiguration*
-
-%6string[]†
-ƒ
-d
-ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Metrics\MetricCollector.cs% (
-%8Prometheus.Histogram"VPrometheus.Metrics.CreateHistogram(string, string, Prometheus.HistogramConfiguration?)*"
-Prometheus.Metrics*
-request_duration_seconds*@><
-:The duration in seconds between the response to a request.*+)
-'
-%2!Prometheus.HistogramConfigurationò
-ï
-d
-ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Metrics\MetricCollector.cs (a/
--SendSPFT.CrossCutting.Metrics.MetricCollector".
-_responseTimeHistogramPrometheus.Histogram"__id*
-
-%8Prometheus.Histogram*
-2*æ
-2d
-ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Metrics\MetricCollector.cs 	  (	"{
-d
-ZD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.CrossCutting\Metrics\MetricCollector.cs   (	
-implicit returnB1/
--SendSPFT.CrossCutting.Metrics.MetricCollector
