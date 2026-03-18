@@ -1,72 +1,0 @@
-
-5SendSPFT.DataAccess.Context.BdSybase.IsHealthyAsync()[
-QD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\BdSybase.csI  I(."0*h
-0[
-QD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\BdSybase.csU	 U(	*
-1
-2*â
-1[
-QD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\BdSybase.csM  N(=ö
-ó
-[
-QD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\BdSybase.csM1 M(H*
-%0$System.Threading.Tasks.Task<TResult>"<SendSPFT.DataAccess.Context.BdSybase.CreateConnectionAsync()**(&
-$SendSPFT.DataAccess.Context.BdSybase§
-¤
-[
-QD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\BdSybase.csM  M(H5
-conexion)System.Data.CData.Sybase.SybaseConnection"__id*
-""þû
-[
-QD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\BdSybase.csN N(%!
-%1System.Data.ConnectionState"3System.Data.CData.Sybase.SybaseConnection.State.get*97
-5
-conexion)System.Data.CData.Sybase.SybaseConnection2	State.getu
-s
-[
-QD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\BdSybase.csN) N(=
-%2"__id*
-"""e
-[
-QD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\BdSybase.csN N(>
-""*Ñ	
-2[
-QD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\BdSybase.csR S(å
-â
-[
-QD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\BdSybase.csR R(!
-%3System.Action<T1, T2, T3>"__id*\Z*X&
-$SendSPFT.DataAccess.Context.BdSybase".
-_logErrorDelegateSystem.Action<T1, T2, T3>Œ
-‰
-[
-QD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\BdSybase.csR" R(&9
-%43Microsoft.Extensions.Logging.ILogger<TCategoryName>"__id*ig*e&
-$SendSPFT.DataAccess.Context.BdSybase";
-_log3Microsoft.Extensions.Logging.ILogger<TCategoryName>ÍÊ
-[
-QD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\BdSybase.csR( R(2
-%5string"System.Exception.Message.get*20
-.
-ex(System.Data.CData.Sybase.SybaseException2Message.getÀ
-½
-[
-QD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\BdSybase.csR R(7
-
-%6void",System.Action<T1, T2, T3>.Invoke(T1, T2, T3)*
-System.Action<T1, T2, T3>*=;
-9
-%43Microsoft.Extensions.Logging.ILogger<TCategoryName>*
-
-%5string*20
-.
-ex(System.Data.CData.Sybase.SybaseException"e
-[
-QD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\BdSybase.csS S(
-""*Ô
-3[
-QD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\BdSybase.csU	 U(	"r
-[
-QD:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.DataAccess\Context\BdSybase.csU U(	
-implicit returnB(&
-$SendSPFT.DataAccess.Context.BdSybase

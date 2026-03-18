@@ -1,7 +1,0 @@
-﻿D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application.Contracts\Clients\IQueryCustomerDataClient.cs
-D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application.Contracts\Clients\ISftpFileUploader.cs
-D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application.Contracts\DTOs\ContratoFifo.cs
-D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application.Contracts\DTOs\RequestSnsDto.cs
-D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application.Contracts\DTOs\ResponseReintentos.cs
-D:\TV\LF\git\Internal.App.Worker.SendSPFT\SendSPFT.Application.Contracts\Services\ISendSPFTService.cs
-D:\Users\60500258\.nuget\packages\davivienda.framework.services.exceptionhandlermiddleware\1.2.0\contentFiles\any\net6.0\NM Leitmotiv Superior cono-1.ico

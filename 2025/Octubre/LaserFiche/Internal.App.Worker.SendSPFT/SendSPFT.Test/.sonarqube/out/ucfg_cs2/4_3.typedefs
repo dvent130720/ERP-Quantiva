@@ -1,5 +1,0 @@
-¨
-.SendSPFT.DataAccess.Exec.Func.SelectRegistryBDobject9SendSPFT.DataAccess.Contracts.Exec.Func.ISelectRegistryBD◊
-—SelectRegistryBD(SendSPFT.DataAccess.Contracts.Context.ISendSftpContext, Microsoft.Extensions.Logging.ILogger<SendSPFT.DataAccess.Exec.Func.SelectRegistryBD>, Microsoft.Extensions.Configuration.IConfiguration)ÄSendSPFT.DataAccess.Exec.Func.SelectRegistryBD.SelectRegistryBD(SendSPFT.DataAccess.Contracts.Context.ISendSftpContext, Microsoft.Extensions.Logging.ILogger<SendSPFT.DataAccess.Exec.Func.SelectRegistryBD>, Microsoft.Extensions.Configuration.IConfiguration)Y
-SelectRecordAsync()BSendSPFT.DataAccess.Exec.Func.SelectRegistryBD.SelectRecordAsync()Å
-'MapReaderToDto(Npgsql.NpgsqlDataReader)VSendSPFT.DataAccess.Exec.Func.SelectRegistryBD.MapReaderToDto(Npgsql.NpgsqlDataReader)

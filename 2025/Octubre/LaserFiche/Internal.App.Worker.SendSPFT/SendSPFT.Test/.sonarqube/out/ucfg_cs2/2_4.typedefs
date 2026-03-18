@@ -1,11 +1,0 @@
-õ
-0SendSPFT.Application.Contracts.DTOs.ContratoFifoobjectQ
-ContratoFifo()?SendSPFT.Application.Contracts.DTOs.ContratoFifo.ContratoFifo()E
-Type.get9SendSPFT.Application.Contracts.DTOs.ContratoFifo.Type.getE
-Type.set9SendSPFT.Application.Contracts.DTOs.ContratoFifo.Type.setO
-MessageId.get>SendSPFT.Application.Contracts.DTOs.ContratoFifo.MessageId.getO
-MessageId.set>SendSPFT.Application.Contracts.DTOs.ContratoFifo.MessageId.setM
-TopicArn.get=SendSPFT.Application.Contracts.DTOs.ContratoFifo.TopicArn.getM
-TopicArn.set=SendSPFT.Application.Contracts.DTOs.ContratoFifo.TopicArn.setK
-Message.get<SendSPFT.Application.Contracts.DTOs.ContratoFifo.Message.getK
-Message.set<SendSPFT.Application.Contracts.DTOs.ContratoFifo.Message.set

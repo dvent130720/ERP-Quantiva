@@ -1,6 +1,0 @@
-Î
--SendSPFT.CrossCutting.Metrics.MetricCollectorobjectT
-MetricCollector()?SendSPFT.CrossCutting.Metrics.MetricCollector.MetricCollector()T
-RegisterRequest()?SendSPFT.CrossCutting.Metrics.MetricCollector.RegisterRequest()P
-RegisterError()=SendSPFT.CrossCutting.Metrics.MetricCollector.RegisterError()–
-2RegisterResponseTime(int, string, System.TimeSpan)`SendSPFT.CrossCutting.Metrics.MetricCollector.RegisterResponseTime(int, string, System.TimeSpan)

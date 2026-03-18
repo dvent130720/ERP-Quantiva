@@ -1,4 +1,0 @@
-÷
-:SendSPFT.CrossCutting.Healthchecks.HttpEndpointHealthCheckobject:Microsoft.Extensions.Diagnostics.HealthChecks.IHealthCheckÅ
-CHttpEndpointHealthCheck(System.Net.Http.IHttpClientFactory, string)~SendSPFT.CrossCutting.Healthchecks.HttpEndpointHealthCheck.HttpEndpointHealthCheck(System.Net.Http.IHttpClientFactory, string)¬
-vCheckHealthAsync(Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckContext, System.Threading.CancellationToken)±SendSPFT.CrossCutting.Healthchecks.HttpEndpointHealthCheck.CheckHealthAsync(Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckContext, System.Threading.CancellationToken)

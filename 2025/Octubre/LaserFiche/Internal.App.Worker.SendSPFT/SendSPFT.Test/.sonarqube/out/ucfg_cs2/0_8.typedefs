@@ -1,9 +1,0 @@
-‘
-+SendSPFT.Business.Models.ApiQCD.ReqConsultaobjectJ
-ReqConsulta()9SendSPFT.Business.Models.ApiQCD.ReqConsulta.ReqConsulta()\
-tipoIdentificacion.getBSendSPFT.Business.Models.ApiQCD.ReqConsulta.tipoIdentificacion.get\
-tipoIdentificacion.setBSendSPFT.Business.Models.ApiQCD.ReqConsulta.tipoIdentificacion.setZ
-nroIdentificacion.getASendSPFT.Business.Models.ApiQCD.ReqConsulta.nroIdentificacion.getZ
-nroIdentificacion.setASendSPFT.Business.Models.ApiQCD.ReqConsulta.nroIdentificacion.setL
-conFormato.get:SendSPFT.Business.Models.ApiQCD.ReqConsulta.conFormato.getL
-conFormato.set:SendSPFT.Business.Models.ApiQCD.ReqConsulta.conFormato.set
