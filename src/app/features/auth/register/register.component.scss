@@ -1,0 +1,66 @@
+// features/auth/register/register.component.scss
+@use '../../../../styles/design-system' as *;
+
+.register-header {
+  text-align: center;
+  @include fadeUp(150ms);
+
+  .title {
+    font-family: var(--font-display);
+    font-size: var(--text-3xl);
+    font-weight: var(--weight-bold);
+    letter-spacing: -0.04em;
+    color: var(--color-text-primary);
+    margin-bottom: var(--space-2);
+  }
+
+  .subtitle {
+    font-size: var(--text-sm);
+    color: var(--color-text-secondary);
+    letter-spacing: -0.01em;
+  }
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  width: 100%;
+
+  vc-input:nth-child(1) { @include fadeUp(250ms); }
+  vc-input:nth-child(2) { @include fadeUp(350ms); }
+  vc-input:nth-child(3) { @include fadeUp(450ms); }
+  vc-button             { @include fadeUp(550ms); }
+}
+
+.terms {
+  font-size: var(--text-xs);
+  color: var(--color-text-tertiary);
+  text-align: center;
+  line-height: 1.6;
+  @include fadeUp(600ms);
+
+  a {
+    color: var(--color-text-secondary);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    transition: color var(--duration-fast) var(--ease-smooth);
+
+    &:hover { color: var(--color-text-primary); }
+  }
+}
+
+.login-link {
+  font-size: var(--text-sm);
+  color: var(--color-text-secondary);
+  text-align: center;
+  @include fadeUp(650ms);
+
+  a {
+    color: var(--color-primary);
+    font-weight: var(--weight-medium);
+    transition: color var(--duration-fast) var(--ease-smooth);
+
+    &:hover { color: #93c5fd; text-decoration: underline; text-underline-offset: 3px; }
+  }
+}

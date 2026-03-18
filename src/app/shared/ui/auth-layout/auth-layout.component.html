@@ -1,0 +1,54 @@
+<!-- shared/ui/auth-layout/auth-layout.component.html -->
+<div class="auth-root" [class]="'variant-' + variant">
+
+  <!-- ORB: Elemento visual principal -->
+  <div class="orb-container" aria-hidden="true">
+    <div class="orb orb--outer"></div>
+    <div class="orb orb--middle"></div>
+    <div class="orb orb--core"></div>
+    <div class="orb-rays"></div>
+  </div>
+
+  <!-- Noise texture overlay -->
+  <div class="noise-overlay" aria-hidden="true"></div>
+
+  <!-- Grid lines decorativas -->
+  <div class="grid-overlay" aria-hidden="true">
+    <div class="grid-line grid-line--v1"></div>
+    <div class="grid-line grid-line--v2"></div>
+    <div class="grid-line grid-line--h1"></div>
+    <div class="grid-line grid-line--h2"></div>
+  </div>
+
+  <!-- Logo -->
+  <header class="auth-header">
+    <a routerLink="/" class="logo">
+      <span class="logo__mark">
+        <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+          <circle cx="14" cy="14" r="12" stroke="url(#grad)" stroke-width="2"/>
+          <circle cx="14" cy="14" r="5" fill="url(#grad)"/>
+          <defs>
+            <linearGradient id="grad" x1="0" y1="0" x2="28" y2="28">
+              <stop offset="0%" stop-color="#3b82f6"/>
+              <stop offset="100%" stop-color="#06b6d4"/>
+            </linearGradient>
+          </defs>
+        </svg>
+      </span>
+      <span class="logo__text">Venturacom</span>
+    </a>
+  </header>
+
+  <!-- Content slot -->
+  <main class="auth-main">
+    <div class="auth-card">
+      <ng-content></ng-content>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="auth-footer">
+    <span>© 2025 Venturacom · <a href="#">Privacidad</a> · <a href="#">Términos</a></span>
+  </footer>
+
+</div>

@@ -1,0 +1,64 @@
+<!-- features/auth/login/login.component.html -->
+<vc-auth-layout>
+
+  <div class="login-header">
+    <h2 class="title">Bienvenido de nuevo</h2>
+    <p class="subtitle">Continúa donde lo dejaste.</p>
+  </div>
+
+  <!-- API Error -->
+  <div *ngIf="apiError()" class="api-error" role="alert">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/>
+    </svg>
+    {{ apiError() }}
+  </div>
+
+  <form class="login-form" [formGroup]="form" (ngSubmit)="onSubmit()" novalidate>
+
+    <vc-input
+      formControlName="email"
+      type="email"
+      label="Correo electrónico"
+      placeholder="tu@empresa.com"
+      [error]="getError('email')">
+    </vc-input>
+
+    <div class="password-field">
+      <vc-input
+        formControlName="password"
+        type="password"
+        label="Contraseña"
+        placeholder="Tu contraseña"
+        [error]="getError('password')">
+      </vc-input>
+      <a routerLink="/auth/forgot-password" class="forgot-link">¿La olvidaste?</a>
+    </div>
+
+    <vc-button
+      type="submit"
+      label="Iniciar sesión"
+      variant="primary"
+      size="lg"
+      [fullWidth]="true"
+      [loading]="isLoading()">
+    </vc-button>
+
+  </form>
+
+  <div class="divider"><span>o</span></div>
+
+  <vc-button
+    label="Continuar con Google"
+    variant="google"
+    size="lg"
+    [fullWidth]="true"
+    (clicked)="onGoogleSignIn()">
+  </vc-button>
+
+  <p class="register-link">
+    ¿No tienes cuenta?
+    <a routerLink="/auth/register">Créala gratis</a>
+  </p>
+
+</vc-auth-layout>

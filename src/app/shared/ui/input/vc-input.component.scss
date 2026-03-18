@@ -1,0 +1,108 @@
+// shared/ui/input/vc-input.component.scss
+@use '../../../../styles/design-system' as *;
+
+.vc-input {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  width: 100%;
+
+  &__label {
+    font-size: var(--text-sm);
+    font-weight: var(--weight-medium);
+    color: var(--color-text-secondary);
+    letter-spacing: -0.01em;
+  }
+
+  &__wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+
+  &__field {
+    width: 100%;
+    height: 52px;
+    padding: 0 var(--space-4);
+    padding-right: var(--space-12);
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    color: var(--color-text-primary);
+    font-family: var(--font-body);
+    font-size: var(--text-base);
+    outline: none;
+    transition:
+      border-color var(--duration-base) var(--ease-smooth),
+      background var(--duration-base) var(--ease-smooth),
+      box-shadow var(--duration-base) var(--ease-smooth);
+
+    &::placeholder {
+      color: var(--color-text-tertiary);
+    }
+
+    &:focus {
+      border-color: var(--color-border-focus);
+      background: var(--color-surface-hover);
+      box-shadow: 0 0 0 3px var(--color-primary-soft),
+                  var(--shadow-input);
+    }
+
+    &:disabled {
+      opacity: 0.4;
+      cursor: not-allowed;
+    }
+
+    // Autofill override
+    &:-webkit-autofill,
+    &:-webkit-autofill:hover,
+    &:-webkit-autofill:focus {
+      -webkit-box-shadow: 0 0 0 100px #0e0e1a inset !important;
+      -webkit-text-fill-color: var(--color-text-primary) !important;
+      caret-color: var(--color-primary);
+    }
+  }
+
+  &__toggle {
+    position: absolute;
+    right: var(--space-4);
+    background: transparent;
+    border: none;
+    color: var(--color-text-tertiary);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: var(--space-1);
+    border-radius: var(--radius-sm);
+    transition: color var(--duration-fast) var(--ease-smooth);
+
+    &:hover { color: var(--color-text-secondary); }
+    &:focus-visible {
+      outline: 2px solid var(--color-primary);
+      outline-offset: 2px;
+    }
+  }
+
+  // ── ERROR STATE ────────────────────────────────────────
+  &--error {
+    .vc-input__field {
+      border-color: rgba(248, 113, 113, 0.5);
+      &:focus { box-shadow: 0 0 0 3px rgba(248, 113, 113, 0.15); }
+    }
+  }
+
+  &__error {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+    font-size: var(--text-xs);
+    color: var(--color-error);
+    animation: fadeUp 200ms var(--ease-out) both;
+  }
+
+  // ── FOCUSED STATE ─────────────────────────────────────
+  &--focused .vc-input__label {
+    color: #93c5fd;
+  }
+}

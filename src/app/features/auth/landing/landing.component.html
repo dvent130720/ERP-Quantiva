@@ -1,0 +1,51 @@
+<!-- features/auth/landing/landing.component.html -->
+<vc-auth-layout>
+
+  <!-- Headline -->
+  <div class="landing-headline">
+    <h1 class="headline">
+      {{ displayedHeadline() }}<span class="cursor" [class.cursor--blink]="typewriterDone()">|</span>
+    </h1>
+    <p class="subtext">Conecta tu equipo. Mueve proyectos. Sin ruido.</p>
+  </div>
+
+  <!-- Form -->
+  <form class="landing-form" [formGroup]="form" (ngSubmit)="onContinue()" novalidate>
+    <vc-input
+      formControlName="email"
+      type="email"
+      placeholder="tu@empresa.com"
+      [error]="getEmailError()">
+    </vc-input>
+
+    <vc-button
+      type="submit"
+      label="Comenzar gratis"
+      variant="primary"
+      size="lg"
+      [fullWidth]="true">
+    </vc-button>
+  </form>
+
+  <!-- Divider -->
+  <div class="divider">
+    <span>o</span>
+  </div>
+
+  <!-- Google -->
+  <vc-button
+    label="Continuar con Google"
+    variant="google"
+    size="lg"
+    [fullWidth]="true"
+    [loading]="isLoading()"
+    (clicked)="onGoogleSignIn()">
+  </vc-button>
+
+  <!-- Login link -->
+  <p class="signin-link">
+    ¿Ya tienes cuenta?
+    <a routerLink="/auth/login">Iniciar sesión</a>
+  </p>
+
+</vc-auth-layout>
