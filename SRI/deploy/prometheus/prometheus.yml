@@ -1,0 +1,13 @@
+global:
+  scrape_interval: 15s
+
+scrape_configs:
+  - job_name: sri-api
+    static_configs:
+      - targets: ["api:8080"]
+  - job_name: sri-worker
+    static_configs:
+      - targets: ["worker:8080"]
+  - job_name: sri-email-worker
+    static_configs:
+      - targets: ["email-worker:8080"]
