@@ -1,0 +1,26 @@
+services:
+  gateway:
+    build:
+      context: ..
+      dockerfile: Gateway/docker/Dockerfile
+    container_name: external-web-api-gateway
+    ports:
+      - "8080:8080"
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      Authentication__Jwt__Authority: https://identity.quantiva.local
+      Authentication__Jwt__Audience: quantiva-gateway
+      Authentication__Jwt__RequireHttpsMetadata: "false"
+      Yarp__Clusters__auth-cluster__Destinations__destination1__Address: http://mock-backend:8080/
+    depends_on:
+      - mock-backend
+
+  mock-backend:
+    build:
+      context: ..
+      dockerfile: Gateway/samples/Mock.Backend/Dockerfile
+    container_name: gateway-mock-backend
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    ports:
+      - "5001:8080"

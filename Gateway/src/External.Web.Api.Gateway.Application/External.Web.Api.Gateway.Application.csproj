@@ -1,0 +1,5 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="..\External.Web.Api.Gateway.Domain\External.Web.Api.Gateway.Domain.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,6 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <ItemGroup>
+    <ProjectReference Include="..\External.Web.Api.Gateway.Application\External.Web.Api.Gateway.Application.csproj" />
+    <ProjectReference Include="..\External.Web.Api.Gateway.Infrastructure\External.Web.Api.Gateway.Infrastructure.csproj" />
+  </ItemGroup>
+</Project>
