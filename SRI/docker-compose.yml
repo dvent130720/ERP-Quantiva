@@ -1,0 +1,184 @@
+version: "3.9"
+
+services:
+  api:
+    build:
+      context: .
+      dockerfile: src/SriFacturacion.Api/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Production
+      PostgreSql__CadenaConexion: Host=postgres;Port=5432;Database=srifacturacion;Username=sri;Password=${POSTGRES_PASSWORD:-sri123}
+      RabbitMq__Host: rabbitmq
+      RabbitMq__Puerto: 5672
+      RabbitMq__Usuario: sri
+      RabbitMq__Clave: ${RABBITMQ_PASSWORD:-sri123}
+      Redis__CadenaConexion: redis:6379
+      Seguridad__LlaveAesBase64: ${AES_KEY_BASE64}
+      Smtp__Usuario: ${SMTP_USUARIO}
+      Smtp__Clave: ${SMTP_CLAVE}
+      Smtp__Remitente: ${SMTP_REMITENTE}
+    ports:
+      - "8080:8080"
+    volumes:
+      - certificados:/app/seguridad/certificados
+      - autorizados:/app/seguridad/autorizados
+      - logs:/app/logs
+    depends_on:
+      - postgres
+      - rabbitmq
+      - redis
+    networks: [sri-net]
+
+  worker:
+    build:
+      context: .
+      dockerfile: src/SriFacturacion.Worker/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Production
+      PostgreSql__CadenaConexion: Host=postgres;Port=5432;Database=srifacturacion;Username=sri;Password=${POSTGRES_PASSWORD:-sri123}
+      RabbitMq__Host: rabbitmq
+      RabbitMq__Puerto: 5672
+      RabbitMq__Usuario: sri
+      RabbitMq__Clave: ${RABBITMQ_PASSWORD:-sri123}
+      Redis__CadenaConexion: redis:6379
+      Seguridad__LlaveAesBase64: ${AES_KEY_BASE64}
+      Smtp__Usuario: ${SMTP_USUARIO}
+      Smtp__Clave: ${SMTP_CLAVE}
+      Smtp__Remitente: ${SMTP_REMITENTE}
+    ports:
+      - "8081:8080"
+    volumes:
+      - certificados:/app/seguridad/certificados
+      - autorizados:/app/seguridad/autorizados
+      - logs:/app/logs
+    depends_on:
+      - postgres
+      - rabbitmq
+      - redis
+    networks: [sri-net]
+
+  email-worker:
+    build:
+      context: .
+      dockerfile: src/SriEmail.Worker/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Production
+      PostgreSql__CadenaConexion: Host=postgres;Port=5432;Database=srifacturacion;Username=sri;Password=${POSTGRES_PASSWORD:-sri123}
+      RabbitMq__Host: rabbitmq
+      RabbitMq__Puerto: 5672
+      RabbitMq__Usuario: sri
+      RabbitMq__Clave: ${RABBITMQ_PASSWORD:-sri123}
+      Redis__CadenaConexion: redis:6379
+      Seguridad__LlaveAesBase64: ${AES_KEY_BASE64}
+      Smtp__Usuario: ${SMTP_USUARIO}
+      Smtp__Clave: ${SMTP_CLAVE}
+      Smtp__Remitente: ${SMTP_REMITENTE}
+    ports:
+      - "8082:8080"
+    volumes:
+      - autorizados:/app/seguridad/autorizados
+      - logs:/app/logs
+    depends_on:
+      - postgres
+      - rabbitmq
+      - redis
+    networks: [sri-net]
+
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: srifacturacion
+      POSTGRES_USER: sri
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-sri123}
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks: [sri-net]
+
+  rabbitmq:
+    image: rabbitmq:3.13-management-alpine
+    environment:
+      RABBITMQ_DEFAULT_USER: sri
+      RABBITMQ_DEFAULT_PASS: ${RABBITMQ_PASSWORD:-sri123}
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    volumes:
+      - rabbitmq_data:/var/lib/rabbitmq
+    networks: [sri-net]
+
+  redis:
+    image: redis:7-alpine
+    command: ["redis-server", "--appendonly", "yes"]
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    networks: [sri-net]
+
+  prometheus:
+    image: prom/prometheus:v2.54.1
+    command:
+      - "--config.file=/etc/prometheus/prometheus.yml"
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./deploy/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml:ro
+      - prometheus_data:/prometheus
+    depends_on:
+      - api
+      - worker
+      - email-worker
+    networks: [sri-net]
+
+  loki:
+    image: grafana/loki:3.1.1
+    command: ["-config.file=/etc/loki/local-config.yaml"]
+    ports:
+      - "3100:3100"
+    volumes:
+      - ./deploy/loki/loki-config.yml:/etc/loki/local-config.yaml:ro
+      - loki_data:/loki
+    networks: [sri-net]
+
+  promtail:
+    image: grafana/promtail:3.1.1
+    command: ["-config.file=/etc/promtail/config.yml"]
+    volumes:
+      - ./deploy/promtail/promtail-config.yml:/etc/promtail/config.yml:ro
+      - logs:/var/log/sri:ro
+    depends_on:
+      - loki
+    networks: [sri-net]
+
+  grafana:
+    image: grafana/grafana:11.1.4
+    ports:
+      - "3000:3000"
+    environment:
+      GF_SECURITY_ADMIN_USER: ${GRAFANA_USER:-admin}
+      GF_SECURITY_ADMIN_PASSWORD: ${GRAFANA_PASSWORD:-admin123}
+    volumes:
+      - grafana_data:/var/lib/grafana
+      - ./deploy/grafana/provisioning:/etc/grafana/provisioning:ro
+      - ./deploy/grafana/dashboards:/var/lib/grafana/dashboards:ro
+    depends_on:
+      - prometheus
+      - loki
+    networks: [sri-net]
+
+volumes:
+  postgres_data:
+  rabbitmq_data:
+  redis_data:
+  prometheus_data:
+  loki_data:
+  grafana_data:
+  certificados:
+  autorizados:
+  logs:
+
+networks:
+  sri-net:
+    driver: bridge
