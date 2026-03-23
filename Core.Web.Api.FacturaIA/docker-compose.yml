@@ -1,0 +1,44 @@
+version: "3.9"
+services:
+  api:
+    build:
+      context: .
+      dockerfile: src/Api/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ConnectionStrings__DefaultConnection: Host=postgres;Port=5432;Database=facturaia;Username=postgres;Password=postgres
+      Jwt__Issuer: FacturaIA
+      Jwt__Audience: FacturaIA.Clients
+      Jwt__Key: CHANGE_ME_TO_A_LONG_RANDOM_SECRET_FOR_PRODUCTION
+      Observability__LokiUrl: http://loki:3100
+    ports:
+      - "8080:8080"
+    depends_on:
+      - postgres
+      - loki
+  postgres:
+    image: postgres:16
+    environment:
+      POSTGRES_DB: facturaia
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+  loki:
+    image: grafana/loki:3.1.1
+    command: ["-config.file=/etc/loki/local-config.yaml"]
+    ports:
+      - "3100:3100"
+  grafana:
+    image: grafana/grafana:11.1.0
+    environment:
+      GF_SECURITY_ADMIN_USER: admin
+      GF_SECURITY_ADMIN_PASSWORD: admin
+    ports:
+      - "3000:3000"
+    depends_on:
+      - loki
+volumes:
+  postgres-data:
